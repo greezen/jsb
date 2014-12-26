@@ -390,9 +390,10 @@ class MasterObject
 		$y = date('Y', TIMESTAMP);
 		if (upsCtrl()->ccDSP() || is_null(upsCtrl()->ccDSP())) {
 			if (defined('N'.'ED'.'U_M'.'O'.'Y'.'O')) {
-				echo nlogic('x/c'.'op'.'y'.'s')->string();
+				//echo nlogic('x/c'.'op'.'y'.'s')->string();
 			} else {
-				echo((~$j) . $i . $p . (~$m) . $y . (~$n));
+				//echo((~$j) . $i . $p . (~$m) . $y . (~$n));
+				echo '<div style="clear:both;text-align:center;margin:0px auto;">Powered by <a href="/" target="_blank"><strong>订单在线 </strong></a><span> © 版权所有<a href="/" target="_blank">DINGDANZAIXIAN</a></span></div>';
 			}
 		}
 	}

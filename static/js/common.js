@@ -506,14 +506,12 @@ function publishSubmit(b_name,b_class,ci, i, r, topictype, roottid, is_huifu, it
 	var touid ='undefined'==typeof(touid)?'0':touid;
 	var channel_check ='undefined'==typeof(channel_check) ? 0 : channel_check;
 	var channel_must ='undefined'==typeof(channel_must) ? 0 : channel_must;
-	var contact = [];
-	$.each($('#showAddContact :input').serializeArray(), function(i, field) {
-		contact[field.name] = field.value;
-	});
+	var contact = $('#showAddContact input,#showAddContact textarea').serialize();//alert($('#showAddContact input').serializeArray());
+	
 	if(uid < 1){
 		ShowLoginDialog();
 		return false;
-	}alert(contact);return false;
+	}
 	//在这里关闭所有的弹出工具框
 	$(".sendInsert>.mleft>.menu>div>div").hide();//Modify By Ma
 	$(".insertAttachDiv,.insertImgDiv,.topic_face").hide();
@@ -688,7 +686,8 @@ function publishSubmit(b_name,b_class,ci, i, r, topictype, roottid, is_huifu, it
 			YinXiangMa_challenge:YinXiangMa_challenge,
 			YXM_level:YXM_level,
 			YXM_input_result:YXM_input_result,
-			plugindata:plugindata
+			plugindata:plugindata,
+			contact:contact
 		},
 		function (d) {
 			__PUBLISH_SUCESS_CALLBACK__ && __PUBLISH_SUCESS_CALLBACK__();
@@ -2840,14 +2839,21 @@ function topic_contact(eid,insert,getname)
 	$("#"+eid).addClass("topic_contact");
 	$("#"+eid).addClass("menu_spb");
 	var tfHTML = '<sc' + 'ript type="text/javascri' + 'pt">$(".close_1").bind({click:function(){$("#' + eid + '").hide();}}); </s' + 'cript><span class="arrow-up"></span><span class="arrow-up-in"></span><div class="menu_bqb_cb">';
-	tfHTML += '<span class="level"><input type="checkbox" name="Contact[level][]" value="1" />授权查看</span>';
-	tfHTML += '<span class="level"><input type="checkbox" name="Contact[level][]" value="1" />会员查看</span>';
-	tfHTML += '<span class="level"><input type="checkbox" name="Contact[level][]" value="1" />游客查看</span>';
+	tfHTML += '<span class="level"><input type="checkbox" name="level" value="1" />授权查看</span>';
+	tfHTML += '<span class="level"><input type="checkbox" name="level" value="2" />会员查看</span>';
+	tfHTML += '<span class="level"><input type="checkbox" name="level" value="4" />游客查看</span>';
 	tfHTML += '<div style="float:left; width:200px;"></div><div class="close_1"></div> </div>';
 	
 	
-	var contact = '<div class="contact-list"><strong>姓名：</strong><input type="text" name="Contact[uname]"/></div>';
-	contact += '<div class="contact-list"><strong>电话：</strong><input type="text" name="Contact[phone]" /></div>';
+	var contact = '<div class="contact-list"><strong class="icon uname">姓名：</strong><input type="text" name="name"/></div>';
+	contact += '<div class="contact-list"><strong class="icon uphone">电话：</strong><input type="text" name="phone" /></div>';
+	contact += '<div class="contact-list"><strong class="icon utel">手机：</strong><input type="text" name="tel" /></div>';
+	contact += '<div class="contact-list"><strong class="icon uwx">微信：</strong><input type="text" name="wx" /></div>';
+	contact += '<div class="contact-list"><strong class="icon uqq">QQ：</strong><input type="text" name="qq" /></div>';
+	contact += '<div class="contact-list"><strong class="icon uemail">邮箱：</strong><input type="text" name="email" /></div>';
+	contact += '<div class="contact-list"><strong class="icon usite">网址：</strong><input type="text" name="site" /></div>';
+	contact += '<div class="contact-list"><strong class="icon uaddr">地址：</strong><input type="text" name="address" /></div>';
+	contact += '<div class="contact-list"><strong class="icon uother">其他：</strong><textarea rows="3" name="other" /></textarea></div>';
 	tfHTML += contact;
 	$("#" + eid).html(tfHTML);
 }
@@ -5150,4 +5156,24 @@ function settopicfeature(tid,replyid,rloadtrue){
 	if(tid < 1){return false;}
 	var ajax_url = "ajax.php?mod=feature&code=modfeature&tid="+tid+"&replyid="+replyid+'&rloadtrue='+rloadtrue;
 	showDialog(handle_key, 'ajax', "微博属性管理", {"url":ajax_url}, 250);
+}
+
+function show_edit_contact(obj,tid){
+	var current = dialog.getCurrent();
+	if(current != null){
+		current.close().remove();
+	}
+	var url = 'index.php?mod=plugin&id=contact:contact&code=show';
+	var data = {tid:tid};
+	var d = dialog({
+		id:obj,
+	    content: '',
+	    title: '联系方式', 
+	});
+	
+	$.post(url, data, function(json){
+		d.content(json);
+		d.show(obj)
+	});
+	
 }

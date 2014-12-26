@@ -8,6 +8,11 @@
 <title>{$this->Config[site_name]}({$this->Config[site_domain]}){conf page_title}</title>
 <meta name="Keywords" content="{$this->Config['index_meta_keywords']},{$this->MetaKeywords},{conf site_name}{conf meta_keywords}" />
 <meta name="Description" content="{$this->Config['index_meta_description']},{$this->MetaDescription},{conf site_notice}{conf meta_description}" />
+<link rel="stylesheet" href="static/js/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="static/js/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="static/js/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="static/js/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="static/js/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link href="static/style/global.css" rel="stylesheet" type="text/css" />
 <link href="static/style/main.css" rel="stylesheet" type="text/css" />
@@ -18,6 +23,7 @@
 <!--{subtemplate "common_header_js"}-->
 <script type="text/javascript" src="static/js/min.js"></script>
 <script type="text/javascript" src="static/js/common.js"></script>
+<script type="text/javascript" src="static/js/nivo-slider/jquery.nivo.slider.js"></script>
 </head>
 {$additional_str}
 <body>
@@ -26,13 +32,25 @@ $(document).ready(function(){
 //  $("#username").focus(function(){$("#username_label").hide(); });
 //  $("#pwd").focus(function(){$("#pwd_label").hide();});
     $(".ztag").click(function(){$(".c").toggleClass("c_ok");});
+    $('#login-bg-scroll').nivoSlider({
+		effect: 'fade',
+		pauseTime: 5000,
+		directionNav: false,
+		controlNav: false,
+		pauseOnHover: true,
+	});
 });			
 </script>
   <div class="q_main">
-  
-  <div class="q_login-b" style="opacity:1">
-        <img src="static/image/qing_bg1.jpg" style="width:100%;height:100%;margin-left:0;opacity:1;visibility:visible">
-     </div>
+  <style type="text/css">
+		.nivo-main-image{width:100%;height:100% !important;}
+		.nivo-slice,.nivo-slice img{width:100%;height:100% !important;}
+	</style>
+  <div class="q_login-b" style="opacity:1" id="login-bg-scroll">
+        <img src="static/image/login_bg1.jpg" style="width:100%;height:100%;margin-left:0;opacity:1;visibility:visible">
+        <img src="static/image/login_bg2.jpg" style="width:100%;height:100%;margin-left:0;opacity:1;visibility:visible">
+        <img src="static/image/login_bg3.jpg" style="width:100%;height:100%;margin-left:0;opacity:1;visibility:visible">
+  </div>
 
 
     <div class="q_index">
@@ -115,6 +133,13 @@ $(document).ready(function(){
 
 
 <div style="text-align:center;margin:20px auto 0; position:absolute; width:100%;">
+	<a href="#">关于我们</a>
+	<a href="#">联系我们</a>
+	<a href="#">收费一览</a>
+	<a href="#">付款方式</a>
+	<a href="#">VIP申请</a>
+	<a href="#">客服咨询</a>
+	<br>
     <!--{if $this->Config['default_module']==$this->Module && $this->Code==$this->Config['default_code']}-->
     <!--{eval $link_config=jconf::get('link');}-->
     <!--{if $link_config}-->
