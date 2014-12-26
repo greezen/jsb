@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+.show-edit-contact-info{
+	z-index: 12;
+	height: 20px;
+	background: url('../../static/image/ins_icov4_c3.png') 0 -285px no-repeat;
+	width: 100%;
+	padding: 0 10px;
+}

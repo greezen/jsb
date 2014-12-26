@@ -1,0 +1,68 @@
+<style type="text/css">
+	
+</style>
+<div>
+<table cellspacing="1" width="100%" align="center" class="tableborder tl">
+	<tr>
+		<td colspan="6">
+			用户名:<input type="text" name="uid" />
+			<input type="button" value="查询" />
+		</td>
+	</tr>
+	<tr class="header">
+		<td>用户名</td>
+		<td>频道名称</td>
+		<td>授权开始时间</td>
+		<td>授权结束时间</td>
+		<td>授权到期剩余时间(天)</td>
+		<td>操作</td>
+	</tr>
+	<!--{loop $powers $pws}-->
+	<tr>
+		<td>{$pws['username']}</td>
+		<td>{$pws['ch_name']}</td>
+		<td>{eval echo date('Y-m-d',$pws['show_start_time'])}</td>
+		<td>{eval echo date('Y-m-d',$pws['show_end_time'])}</td>
+		<td>{eval echo round(($pws['show_end_time']-time())/86400,2)}</td>
+		<td><span class="authorize" rel="{$pws['ch_id']}">删除</span></td>
+	</tr>
+	<!--{/loop}-->
+	<!--{if $page_arr[html]}-->
+	<tr align="center"><td colspan="6" class="altbg1">{$page_arr[html]}</td></tr>
+	<!--{/if}-->
+	<tr>
+		<td colspan="6" class="altbg1 new-u">
+			用户名:<input type="text" name="username" />
+			期限:<input type="text" name="uval" />
+			单位:<select name="unit">
+				<option value="hour">小时</option>
+				<option value="day">天</option>
+				<option value="month">月</option>
+				<option value="year">年</option>
+			</select>
+			<input type="button" class="u-btn button" id="add-user" value="添加" />
+		</td>
+	</tr>
+</table>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('#page a').click(function(e){
+			var current = dialog.getCurrent();
+			var e = e || window.event;
+			e.preventDefault();
+			var url = $(this).attr('href');
+			var data = {};
+			$.get(url,data,function(con){
+				current.content(con);
+			});
+		});
+		$('#add-user').click(function(){
+			var data = $('.new-u input,.new-u select').serialize();
+			var url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=setting&type=addUser&ch_id={$ch_id}';
+			$.get(url,data,function(con){
+				
+			});
+		});
+	});
+</script>

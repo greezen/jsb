@@ -1,0 +1,38 @@
+<!--{if $contact_info}-->
+<ul class="show-order-contact">
+<!--{if $contact_info['name']}-->
+<li><strong>姓名：</strong>{$contact_info['name']}</li>
+<!--{/if}-->
+<!--{if $contact_info['phone']}-->
+<li><strong>电话：</strong>{$contact_info['phone']}</li>
+<!--{/if}-->
+<!--{if $contact_info['tel']}-->
+<li><strong>手机：</strong>{$contact_info['tel']}</li>
+<!--{/if}-->
+<!--{if $contact_info['wx']}-->
+<li><strong>微信：</strong>{$contact_info['wx']}</li>
+<!--{/if}-->
+<!--{if $contact_info['qq']}-->
+<li><strong>QQ：</strong>{$contact_info['qq']}</li>
+<!--{/if}-->
+<!--{if $contact_info['email']}-->
+<li><strong>邮箱：</strong>{$contact_info['email']}</li>
+<!--{/if}-->
+<!--{if $contact_info['site']}-->
+<li><strong>网址：</strong>{$contact_info['site']}</li>
+<!--{/if}-->
+<!--{if $contact_info['address']}-->
+<li><strong>地址：</strong>{$contact_info['address']}</li>
+<!--{/if}-->
+<!--{if $contact_info['other']}-->
+<li><strong>其他：</strong>{$contact_info['other']}</li>
+<!--{/if}-->
+</ul>
+<!--{else}-->
+此订单暂未添加联系信息
+<!--{/if}-->
+<style type="text/css">
+	.show-order-contact li{
+		height: 25px;
+	}
+</style>

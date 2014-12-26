@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="static/js/artDialog/css/ui-dialog.css">
+<link rel="stylesheet" href="static/style/contact.css">
+<script src="static/js/artDialog/dist/dialog-min.js"></script>
+<style type="text/css">
+	.authorize{
+		cursor: pointer;
+		color:rgb(0, 111, 203);
+	}
+</style>
+<div>
+<table cellspacing="1" width="50%" align="center" class="tableborder tl">
+	<tr class="header">
+		<td>频道名称</td>
+		<td>操作</td>
+	</tr>
+	<!--{loop $channels $chl}-->
+	<tr>
+		<td>{$chl['ch_name']}</td>
+		<td><span class="authorize" rel="{$chl['ch_id']}">授权</span></td>
+	</tr>
+	<!--{/loop}-->
+</table>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('.authorize').click(function(){
+			var current = dialog.getCurrent();
+			if(current != null){
+				current.close().remove();
+			}
+			var url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=setting&type=power';
+			var data = {ch_id:$(this).attr('rel')};
+			var d = dialog({
+				id: $(this),
+				title: '频道查看授权'
+			});
+			$.get(url, data, function(con){
+				d.content(con);
+				d.showModal();
+			});
+			
+		});
+	});
+</script>
