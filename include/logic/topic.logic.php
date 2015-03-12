@@ -1176,6 +1176,9 @@ class TopicLogic
 				}
 			}
 		}
+		if($GLOBALS['_J']['plugins']['func']['deletetopic']) {
+			hookscript('deletetopic', 'funcs', (is_array($ids) ? $ids : array($ids)), 'deletetopic');
+		}
 	}
 
 	

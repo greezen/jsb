@@ -1,0 +1,60 @@
+{template "topic_header"}
+{template "topic_left_nav.inc"}
+<link rel="stylesheet" type="text/css" href="static/style/buy.css">
+<div class="ch-buy"> 
+	<div class="appframeTitle">
+		<div class="step-info">
+			<span class="step1">选择频道</span>
+			<span class="step2">填写确认资料</span>
+			<span class="step3">选择付款方式</span>
+			<span class="step4">到账(完成)</span>
+		</div>
+	  <div><img class="step" src="static/image/step3.jpg" /></div>
+	</div>
+	<div class="remark">
+		<p>文字说明</p>
+	</div>
+	<div class="account-item">
+		<span class="a-item">收款账号信息</span>
+	</div>
+	<form action="index.php?mod=other&code=account" method="post">
+	<div class="account-list">
+		<div class="pay3">
+			<ul class="ulpay">
+				<li class="l01"><img src="static/image/icbc_ico.gif"></li>
+				<li class="fontb">中国工商银行</li>
+				<li>中国工商银行广州市分行</li>
+				<li>户　名：xxx </li>
+				<li>卡　号：6222020200005825177&nbsp;&nbsp; </li>
+			</ul>
+		</div>
+		<div class="pay3">
+			<ul class="ulpay">
+				<li class="l01"><img src="static/image/ccb_ico.gif"></li>
+				<li class="fontb">中国建设银行</li>
+				<li>中国建设银行广州市分行</li>
+				<li>户　名：xxx&nbsp; </li>
+				<li>卡　号：4367420011770746588&nbsp; </li>
+			</ul>
+		</div>
+	</div>
+	<div class="c-total a-btn">
+		<p class="c-btn">
+			<input type="hidden" name="apply" value="y" />
+			<input class="u-btn" type="button" id="back-step2" value="上一步" />
+			<input class="u-btn" type="submit" id="step3" value="提交申请" />
+		</p>
+	</div>
+	</form>
+</div>
+
+</div>
+<script type="text/javascript">
+$(function(){
+	//上一步
+	$('#back-step2').click(function(){
+		window.location.href = 'index.php?mod=other&code=verify';
+	});
+});
+</script>
+{template "topic_footer"}

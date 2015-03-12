@@ -81,6 +81,18 @@ class ModuleObject extends MasterObject
 			$this->UserGroupList();
 		} elseif ('qmd' == $this->Code) {
 			$this->Qmd();
+		} elseif ('buy' == $this->Code) {
+			$this->buy();
+		} elseif ('verify' == $this->Code) {
+			$this->buy_verify();
+		} elseif ('account' == $this->Code) {
+			$this->buy_account();
+		} elseif ('getCFL' == $this->Code) {
+			$this->getChannelFeeList();
+		} elseif ('getfee' == $this->Code) {
+			$this->getFee();
+		} elseif ('shopping' == $this->Code) {
+			$this->shopping();
 		} else {
 			$this->Main();
 		}
@@ -763,6 +775,245 @@ class ModuleObject extends MasterObject
         }
 
         header("Location: $image_file");
+	}
+	
+	//获取购物车中的商品信息
+	private function getCarList($history = false){
+		$return = array();
+		$carList = json_decode(stripslashes(jsg_getcookie('shopping_'.MEMBER_ID)),true);
+		
+		$goodsList = array();
+		$fids = array();
+		foreach ($carList as $ck=>$cv){
+			$tmp = array();
+			$pch = DB::fetch_first('SELECT `ch_name`,`ch_id` FROM '.DB::table('channel').' WHERE `ch_id`='.$ck);
+			$sql = 'SELECT c.`ch_name`,c.`picture`,f.* FROM '.DB::table('channel_fee').' f LEFT JOIN '.DB::table('channel').' c ON f.`ch_id`=c.`ch_id` WHERE f.`fid` IN('.implode(',', $cv).')';
+			$goods = DB::fetch_all($sql);
+			$tmp = $pch;
+			
+			if ($history) {
+				foreach ($goods as $gk=>$gv){
+					$goods[$gk]['feeList'] = DB::fetch_all('SELECT * FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$gv['ch_id'].' AND `is_check`>=0');
+				}//var_dump($goods);exit;
+			}
+			
+			foreach ($goods as $gk=>$gv){
+				$record = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `uid`= '.MEMBER_ID.' AND `ch_id`='.$gv['ch_id'].' AND `end_time`>'.time());
+				if ($record) {
+					$goods[$gk]['days'] = ceil(($record['end_time'] - $record['start_time'])/86400);
+				}else {
+					$goods[$gk]['days'] = 0;
+				}
+				
+			}
+			$tmp['goods'] = $goods;
+			$goodsList[$ck] = $tmp;
+			$fids = array_merge($fids, $cv);
+		}
+		$return['goodsList'] = $goodsList;
+		$return['totalPrice'] = $fee = DB::result_first('SELECT SUM(`price`) FROM '.DB::table('channel_fee').' WHERE `fid` IN('.implode(',', array_unique(array_filter($fids))).')');
+		return $return;
+	}
+	
+	//判断购物车中是否有商品
+	private function hasGoods(){
+		$hasGoods = jsg_getcookie('shopping_'.MEMBER_ID);
+		if(empty($hasGoods)){
+			$this->Messager('购物车中没有商品,请先选择商品',jurl('index.php?mod=other&code=buy'),3);
+		}
+	}
+	
+	//购买频道联系方式查看权限第一步
+	function buy(){
+		if(MEMBER_ID < 1){
+			$this->Messager("请先<a onclick='ShowLoginDialog(); return false;'>点此登录</a>或者<a onclick='ShowLoginDialog(1); return false;'>点此注册</a>一个帐号",null);
+			return false;
+		}
+		$carList = $this->getCarList(true);
+		$t = jget('t');//由订阅列表或详情页进入时的标志
+		$ch_id = jget('ch_id');
+		//var_dump($carList,$carList['goodsList'][9]['goods']);
+		if ($t == 1 && $ch_id && empty($carList['goodsList'])) {
+			$chs = array();
+			$pchid = DB::result_first('SELECT `parent_id` FROM '.DB::table('channel').' WHERE `ch_id`='.$ch_id);
+			
+			if ($pchid>0) {
+				$first_fid = DB::result_first('SELECT `fid` FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$ch_id.' ORDER BY `is_check` DESC LIMIT 1');
+				$chs[$pchid] = array($first_fid);
+				jsg_setcookie('shopping_'.MEMBER_ID, json_encode($chs),7*3600*24);
+				$carList = $this->getCarList(true);
+			}
+		}elseif ($t == 1 && $ch_id && !empty($carList['goodsList'])){
+			$chs = array();
+			$pchid = DB::result_first('SELECT `parent_id` FROM '.DB::table('channel').' WHERE `ch_id`='.$ch_id);
+				
+			if ($pchid>0) {
+				$mycar = json_decode(stripslashes(jsg_getcookie('shopping_'.MEMBER_ID)),true);
+				$first_fid = DB::result_first('SELECT `fid` FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$ch_id.' ORDER BY `is_check` DESC LIMIT 1');
+				if(isset($mycar[$pchid])){
+					$feeExist = DB::result_first('SELECT COUNT(*) num FROM '.DB::table('channel_fee').' WHERE `ch_id`= '.$ch_id.' AND `fid` IN('.implode(',', $mycar[$pchid]).')');
+					if (!$feeExist) {
+						array_push($mycar[$pchid], $first_fid);
+					}
+				}else {
+					$mycar[$pchid] = array($first_fid);
+				}
+				
+				jsg_setcookie('shopping_'.MEMBER_ID, json_encode($mycar),7*3600*24);
+				$carList = $this->getCarList(true);
+			}
+		}
+		
+		$selectedGood = array();
+		foreach ($carList['goodsList'] as $goods){
+			foreach ($goods['goods'] as $gs){
+				$selectedGood[] = $gs['ch_id'];
+			}
+		}
+		$result = DB::fetch_all('SELECT c.*,f.`price` FROM '.DB::table('channel').' c LEFT JOIN '.DB::table('channel_fee').' f ON c.`ch_id`=f.`ch_id` WHERE c.`channel_typeid`=3 AND (f.`is_check`=-1 OR c.`parent_id`=0) ORDER BY c.`ch_id` ASC');
+		$channels = array();
+		foreach ($result as $ck=>$cv){
+			if ($cv['parent_id']==0) {
+				$channels[$cv['ch_id']] = $cv;
+			}else {
+				$channels[$cv['parent_id']]['child'][] = $cv;
+			}
+		}
+		
+		include(template('other/channel_buy'));
+	}
+	
+	//购买频道联系方式查看权限第二步
+	function buy_verify(){
+		if(MEMBER_ID < 1){
+			$this->Messager("请先<a onclick='ShowLoginDialog(); return false;'>点此登录</a>或者<a onclick='ShowLoginDialog(1); return false;'>点此注册</a>一个帐号",null);
+			return false;
+		}
+		$Uinfo = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_contact').' WHERE `uid`='.MEMBER_ID);
+		
+		if (jpost('apply') !== 'apply'){
+			$this->hasGoods();
+		}
+		
+		$Info = jpost('Info');
+		if($Info){
+			if (empty($Info['name'])) {
+				$this->Messager('联系人不能为空','');
+			}elseif (empty($Info['tel'])){
+				$this->Messager('联系手机不能为空','');
+			}elseif (empty($Info['wx'])){
+				$this->Messager('微信不能为空','');
+			}
+			$Info['uid'] = MEMBER_ID;
+			$exsit = DB::result_first('SELECT COUNT(*) FROM '.DB::table('channel_buy_contact').' WHERE `uid`='.MEMBER_ID);
+			if($exsit){
+				DB::update('channel_buy_contact', $Info, '`uid`='.MEMBER_ID);
+			}else{
+				DB::insert('channel_buy_contact', $Info);
+			}
+			if (jpost('apply') === 'apply') {
+				$redirect = jurl('index.php?mod=settings&code=plugin&id=contact:apply');
+			}else {
+				$redirect = jurl('index.php?mod=other&code=account');
+			}
+			
+			$this->Messager(null,$redirect);
+		}
+		
+		$carList = $this->getCarList();
+		include(template('other/channel_buy_verify'));
+	}
+	
+	//购买频道联系方式查看权限第三步
+	function buy_account(){
+		if(MEMBER_ID < 1){
+			$this->Messager("请先<a onclick='ShowLoginDialog(); return false;'>点此登录</a>或者<a onclick='ShowLoginDialog(1); return false;'>点此注册</a>一个帐号",null);
+			return false;
+		}
+		
+		$this->hasGoods();
+		
+		if(jpost('apply')){
+			$carList = $this->getCarList();//var_dump($carList['goodsList'][0]['goods']);
+			foreach ($carList['goodsList'] as $gs){
+				foreach ($gs['goods'] as $g){
+					$tmp = array();
+					$tmp['ch_id'] = $g['ch_id'];
+					$tmp['fid'] = $g['fid'];
+					$tmp['uid'] = MEMBER_ID;
+					$tmp['ch_name'] = $g['ch_name'];
+					$tmp['price'] = $g['price'];
+					$tmp['create_time'] = time();
+					$tmp['title'] = $g['title'];
+					if ($g['give']>0) {
+						$tmp['title'] .= '(已赠送'.$g['give'].'个月)';
+					}
+					DB::insert('channel_buy_record', $tmp);
+				}
+			}
+			setcookie(jconf::get('cookie_prefix').'shopping_'.MEMBER_ID, "", 1);
+			$this->Messager('申请成功,付款后请及时联系客服',jurl('index.php?mod=other&code=buy'),10);
+		}
+		
+		include(template('other/channel_buy_account'));
+	}
+	
+	//获取频道的费率列表
+	function getChannelFeeList(){
+		$ch_id = jpost('ch_id', 'int');
+		$chName = DB::fetch_first('SELECT `ch_name`,`picture`,`parent_id`,`ch_id` FROM '.DB::table('channel').' WHERE `ch_id`='.$ch_id);
+		$feeList = DB::fetch_all('SELECT * FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$ch_id.' AND `is_check`>=0');
+		$res = array();
+		$res = $chName;
+		$res['fee_list'] = $feeList;
+		$recommendFee = DB::fetch_first('SELECT * FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$ch_id.' AND `is_check`=1');
+		if ($recommendFee) {
+			$res['price'] = $recommendFee['price'];
+			$res['fid'] = $recommendFee['fid'];
+		}else {
+			$res['price'] = 0;
+			$res['fid'] = '';
+		}
+		
+		$record = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `uid`= '.MEMBER_ID.' AND `ch_id`='.$ch_id.' AND `end_time`>'.time());
+		if ($record) {
+			$res['days'] = ceil(($record['end_time'] - $record['start_time'])/86400);
+		}else {
+			$res['days'] = 0;
+		}
+		echo json_encode($res);exit;
+	}
+	
+	//获取频道价格
+	function getFee(){
+		$fid = jpost('fid', 'int');
+		$fids = jpost('fids');
+		$type = jpost('type');
+		if($type === 'total'){
+			if (!$fids) {
+				echo '0';exit;
+			}
+			$fids = array_unique(array_filter($fids));
+			$fee = DB::result_first('SELECT SUM(`price`) FROM '.DB::table('channel_fee').' WHERE `fid` IN('.implode(',', $fids).')');
+			echo $fee;exit;
+		}else{
+			$fee = DB::fetch_first('SELECT * FROM '.DB::table('channel_fee').' WHERE `fid`='.$fid);
+		}
+		
+		echo json_encode($fee);exit;
+	}
+	
+	//购买频道
+	function shopping(){
+		$type = jget('type');
+		
+		if ($type == 'step1') {
+			unset($_COOKIE[jconf::get('cookie_prefix').'shopping_'.MEMBER_ID]);
+			$chs = jpost('chs');
+			jsg_setcookie('shopping_'.MEMBER_ID, json_encode($chs),7*3600*24);exit;
+		}elseif ($type == 'clean-all'){
+			setcookie(jconf::get('cookie_prefix').'shopping_'.MEMBER_ID, "", 1);exit;
+		}
 	}
 }
 

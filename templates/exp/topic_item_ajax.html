@@ -30,6 +30,9 @@
 			<!--{else}-->
 			<span id="topic_lists_{$val[tid]}_time" class="ut"><a href="index.php?mod=topic&code={$val[tid]}" target="_blank" title="查看">{$val[dateline]} </a></span>
             <span id="topic_lists_{$val[tid]}_view" class="ut" style="display:none;"><a href="index.php?mod=topic&code={$val[tid]}" target="_blank" title="发布时间：{$val[dateline]}">查看详情</a></span>
+            <!--{if !empty($val['contact'])}-->
+            {template contact:showIcon}
+            <!--{/if}-->
 			<!--{/if}-->
             <span class="recdimg recd_img_{$val[tid]}" ><!--{if $val[recommend] > 0}--><a href="index.php?mod=topic&code=recd"><img class="showrcduser" value="{$val[tid]}" src="images/recommend.gif"></a><!--{/if}--></span>
 			</p>

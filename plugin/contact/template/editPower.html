@@ -1,0 +1,46 @@
+<div>
+<table cellspacing="1" width="100%" align="center" class="tableborder tl edit-table">
+	<tr>
+		<td>
+		用户名:{$thePower['username']}
+		<input type="hidden" name="ch_id" value="{$thePower['ch_id']}" />
+		<input type="hidden" name="uid" value="{$thePower['uid']}" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			期限:<input type="text" name="uval"/>
+			单位:<select name="unit">
+				<!--{loop $units $uk $uv}-->
+				<option value="{$uk}" >{$uv}</option>
+				<!--{/loop}-->
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="6" class="altbg1 new-u">
+			<input type="button" class="u-btn button" id="edit-user" value="更新" />
+		</td>
+	</tr>
+</table>
+<p style="color:#D21C1C;">注:若授权未过期,在现有基础上加上新设置的时间;若已过期,则重新设置</p>
+</div>
+<script type="text/javascript">
+	$(function(){
+		
+		//编辑授权用户
+		$('#edit-user').click(function(){
+			var current = dialog.getCurrent();
+			var data = $('.edit-table input,.edit-table select').serialize();
+			var url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=setting&type=editUser';
+			$.get(url,data,function(con){
+				current.title('提示');
+				if(con == 'ok'){
+					current.content('编辑成功');
+				}else{
+					current.content(con);
+				}
+			});
+		});
+	});
+</script>

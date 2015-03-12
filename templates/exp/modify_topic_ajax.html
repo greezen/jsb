@@ -83,11 +83,14 @@ function DelMusic(musicid)
 
 
 </div>
+
+</div>
+<div style="clear:both">
+{hook/global_edittopic}
+{template contact:editContact}
+</div>
 <div class="modify_tool_right" style="margin-bottom:10px;">
 <input name="modify_{$topiclist[tid]}" type="button" class="u-btn modifyiew" id="modifySubmit" onclick="do_modifyTopic('{$topiclist[tid]}', 'contents_{$topiclist[tid]}', '{$types}', '{$handle_key}');return false;" value="提 交" title="按Ctrl+Enter直接提交"/>
-</div>
-</div>
-
 </div>
 </form>
 <!--{if $this->Config[attach_enable] && $topiclist[attachid]}-->

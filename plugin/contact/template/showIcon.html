@@ -1,0 +1,38 @@
+<style type="text/css">
+	.pl-contact a{
+		display: inline-block;
+		z-index: 12;
+		margin: 0;
+		padding: 0 6px 0 24px;
+		height: 20px;
+		background: url('templates/exp/../../static/image/c-icon-b.jpg') no-repeat;
+	}
+	
+	.pl-contact-b a{
+		display: inline-block;
+		z-index: 12;
+		margin: 0;
+		padding: 0 6px 0 24px;
+		height: 20px;
+		background: url('templates/exp/../../static/image/c-icon.jpg') no-repeat;
+	}
+	
+	.ut-b a{
+		color:#49976b !important;
+	}
+</style>
+<span id="topic_lists_{$val[tid]}_contact" class="ut pl-contact">
+<a href="index.php?mod=topic&code={$val[tid]}" target="_blank" title="联系方式"></a>
+</span>
+
+<script type="text/javascript">
+	$(function(){
+		$('#listTopicArea .feedCell').hover(function(){
+			$(this).find('.pl-contact').addClass('pl-contact-b');
+			$(this).find('.utitle span').eq(2).addClass('ut-b');
+		},function(){
+			$(this).find('.pl-contact').removeClass('pl-contact-b');
+			$(this).find('.utitle span').eq(2).removeClass('ut-b');
+		});
+	});
+</script>

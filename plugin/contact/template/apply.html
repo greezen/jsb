@@ -1,0 +1,201 @@
+<link rel="stylesheet" type="text/css" href="static/style/buy.css">
+<style type="text/css">
+	.Menulink ul a{
+		color:black;
+	}
+	
+	.subfield .sub-title{
+		border-bottom: 2px solid #DFDFDF;
+	}
+	.subfield .sub-title .st{
+		border-bottom: 2px solid #1E8C4F;
+		padding:6px;
+		font-size:16px;
+		color:#1E8C4F;
+		font-weight:bold;
+	}
+	.myapply{
+		margin: 20px auto;
+		width:160px;
+	}
+	.account-list{
+		margin:0px 22px;
+		min-height:260px;
+		border:1px solid #eee;
+		border-top:3px solid #eee;
+	}
+	
+	.need,.must{
+		margin-left: 8px;
+		color: red;
+		font-size: 14px;
+	}
+	
+	.account-item{
+		margin-top:65px;
+		margin-left:22px;
+	}
+	
+	.account-item .a-item{
+		background-color:#E9EDEE;
+		padding: 10px 8px 6px 8px;
+		font-size: 15px;
+	}
+	
+	.account-list .pay3 {
+		width: 320px;
+		height: 142px;
+		overflow: hidden;
+		float: left;
+		margin: 10px 0 0 13px;
+		display: inline;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
+		margin-left: 66px;
+		margin-top: 26px;
+	}
+	
+	.account-list li.fontb{
+		background-color:#E4E4E4;
+	}
+	
+	.account-list .pay3 .ulpay>li{
+		margin-top:6px;
+	}
+	
+	.ch-buy .a-btn{
+		margin-bottom:26px;
+	}
+	
+	.item-list ul li .detail{
+		display:inline-block;
+		float:left;
+	}
+	.item-list ul li{
+		display:inline-block;
+		width:48%;
+		margin-bottom: 36px;
+	}
+	.item-list .chimg img{
+		width:90px;
+		height:90px;
+		border-radius:45px;
+	}
+	.item-list .subinfo{
+		margin-left:10px;
+	}
+	.item-list .item-name{
+		font-size: 14px;
+		font-weight: bold;
+		margin-left: 24%;
+		margin-top: 9px;
+	}
+	.item-list .continue{
+		display:inline-block;
+		float:right;
+		background:#85C226;
+		padding:1px 12px;
+		border-radius:2px;
+		color:white;
+		cursor:pointer;
+	}
+	.item-list .doing{
+		background:#C1C1C1;
+	}
+	.item-list .titem{
+		margin-top:10px;
+		width:213px;
+	}
+	.apply-item{
+		margin-top:26px;
+	}
+	
+</style>
+<div class="Menulink">
+  <ul>
+      <a href="index.php?mod=settings&code=plugin&id=contact:user" class="{if $_GET['id']!='contact:apply'}selected{/if}">我的订阅</a>
+      <a href="index.php?mod=settings&code=plugin&id=contact:apply" class="{if $_GET['id']=='contact:apply'}selected{/if}">我的申请</a>
+  </ul>
+</div>
+<form action="index.php?mod=other&code=verify" method="post">
+<div class="subfield">
+	<div class="sub-title">
+		<span class="st">联系资料</span>
+	</div>
+		<div class="buyer-info">
+			<div class="title"><span class="must">(*必填项)</span></div>
+			<div class="info-list">
+			<!--{eval $Uinfo = $checkList['Uinfo']}-->
+				<p><strong>企业名称：</strong><input type="text" name="Info[company]" value="{$Uinfo['company']}" /></p>
+				<p><strong>联 系 人&nbsp; ：</strong><input type="text" class="required" name="Info[name]" value="{$Uinfo['name']}" /><span class="must">*</span></p>
+				<p><strong>联系地址：</strong><input type="text" name="Info[addr]" value="{$Uinfo['addr']}" /></p>
+				<p><strong>联系手机：</strong><input type="text" class="required" name="Info[tel]" value="{$Uinfo['tel']}" /><span class="must">*</span></p>
+				<p><strong>联系电话：</strong><input type="text" name="Info[phone]" value="{$Uinfo['phone']}" /></p>
+				<p><strong>微 信 号&nbsp; ：</strong><input type="text" class="required" name="Info[wx]" value="{$Uinfo['wx']}" /><span class="must">*</span></p>
+				<p><strong>Q &nbsp;Q&nbsp; 号&nbsp;&nbsp;：</strong><input type="text" name="Info[qq]" value="{$Uinfo['qq']}" /></p>
+				<p><strong>电子邮箱：</strong><input type="text" name="Info[email]" value="{$Uinfo['email']}" /></p>
+				<p><strong>其&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他：</strong><textarea name="Info[other]">{$Uinfo['other']}</textarea></p>
+			</div>
+		</div>
+</div>
+<div class="subfield">
+	<div class="sub-title">
+		<span class="st">申请中的频道</span>
+	</div>
+	<div class="item-list apply-item">
+	<ul>
+	<!--{loop $checkList['rows'] $ckl}-->
+		<li>
+			<div class="detail chimg"><img src="{if $ckl['picture']}$ckl['picture']{else}static/image/v.jpg{/if}" /><div class="item-name">{$ckl['ch_name']}</div></div>
+			<div class="detail subinfo">
+				
+				<div class="titem item-area">服务时间：{$ckl['title']}(已赠送 {$ckl['give']} 个月)</div>
+				<div class="titem item-area">申请时间：{eval echo $ckl['create_time']>0?date('Y-m-d',$ckl['create_time']):''}</div>
+				<div class="titem item-remain">应付金额：<span class="must">{$ckl['price']}</span></div>
+				<div class="titem item-remain">审核状态：<span class="must">{if $ckl['state']==0}审核中{elseif $ckl['state']==2}未通过{/if}</span><span rel="{$ckl['ch_id']}" class="continue doing">继续申请</span></div>
+			</div>
+		</li>
+	<!--{/loop}-->
+	</ul>
+<div style="position:relative;top:9px;">
+{$checkList['page']['html']}
+</div>
+
+</div>
+</div>
+<div class="myapply">
+	<input type="hidden" name="apply" value="apply" />
+	<input class="u-btn" type="submit" id="apply" value="提 交" />
+</div>
+</form>
+<script type="text/javascript">
+	$(function(){
+		$('.item-remain .doing').click(function(){
+			var ch_id = $(this).attr('rel');
+			window.open('index.php?mod=other&code=buy&t=1&ch_id='+ch_id);
+		});
+		
+		//提交
+		$('#apply').click(function(e){
+			$('.required').trigger('blur');
+			e = e || window.event;
+			var err = $('.need').length;
+			if(err > 0){
+				e.preventDefault();
+			}
+		});
+		
+		//数据验证
+		$('.required').blur(function(){
+			if($.trim($(this).val()).length<=0){
+				$(this).siblings('.need').remove();
+				$('<span class="need">必填</span>').insertAfter($(this).siblings('.must'));
+				$(this).focus();
+			}else{
+				$(this).siblings('.need').remove();
+				$(this).siblings('.must').remove();
+			}
+		});
+	});
+</script>

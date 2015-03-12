@@ -2,7 +2,7 @@
 <root>
 	<item id="Title"><![CDATA[JishiGou! Plugin]]></item>
 	<item id="Version"><![CDATA[4.7.4]]></item>
-	<item id="Time"><![CDATA[2014-12-22 17:34:51]]></item>
+	<item id="Time"><![CDATA[2015-03-12 15:21:47]]></item>
 	<item id="Data">
 		<item id="plugin">
 			<item id="available"><![CDATA[0]]></item>
@@ -11,8 +11,58 @@
 			<item id="description"><![CDATA[微博订单联系方式]]></item>
 			<item id="directory"><![CDATA[contact/]]></item>
 			<item id="copyright"><![CDATA[greezen]]></item>
-			<item id="version"><![CDATA[v1.0]]></item>
-			<item id="__modules"><![CDATA[]]></item>
+			<item id="version"><![CDATA[v2.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="modtype"><![CDATA[1]]></item>
+					<item id="mod_file"><![CDATA[contact]]></item>
+					<item id="mod_name"><![CDATA[联系方式]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+				<item id="1">
+					<item id="modtype"><![CDATA[5]]></item>
+					<item id="mod_file"><![CDATA[hook]]></item>
+					<item id="mod_name"><![CDATA[]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+				<item id="2">
+					<item id="modtype"><![CDATA[4]]></item>
+					<item id="mod_file"><![CDATA[setting]]></item>
+					<item id="mod_name"><![CDATA[费率设置]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+				<item id="3">
+					<item id="modtype"><![CDATA[4]]></item>
+					<item id="mod_file"><![CDATA[shopping]]></item>
+					<item id="mod_name"><![CDATA[认证审核]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+				<item id="4">
+					<item id="modtype"><![CDATA[2]]></item>
+					<item id="mod_file"><![CDATA[user]]></item>
+					<item id="mod_name"><![CDATA[我的订阅]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+				<item id="5">
+					<item id="modtype"><![CDATA[4]]></item>
+					<item id="mod_file"><![CDATA[member]]></item>
+					<item id="mod_name"><![CDATA[会员管理]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+				<item id="6">
+					<item id="modtype"><![CDATA[2]]></item>
+					<item id="mod_file"><![CDATA[apply]]></item>
+					<item id="mod_name"><![CDATA[我的申请]]></item>
+					<item id="mod_icon"><![CDATA[]]></item>
+					<item id="role_id"><![CDATA[0]]></item>
+				</item>
+			</item>
 		</item>
 	</item>
 	<item id="installfile"><![CDATA[install.php]]></item>

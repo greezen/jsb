@@ -1,0 +1,269 @@
+{template "topic_header"}
+{template "topic_left_nav.inc"}
+<link rel="stylesheet" type="text/css" href="static/style/buy.css">
+<div class="ch-buy"> 
+	<div class="appframeTitle">
+		<div class="step-info">
+			<span class="step1">选择频道</span>
+			<span class="step2">填写确认资料</span>
+			<span class="step3">选择付款方式</span>
+			<span class="step4">到账(完成)</span>
+		</div>
+	  <div><img class="step" src="static/image/step1.jpg" /></div>
+	</div>
+	<div class="remark">
+		<p>文字说明</p>
+	</div>
+	<div class="list">
+		<div class="ch-list">
+			<h5><strong>服务的频道</strong></h5>
+			<!--{loop $channels $chl}-->
+			<dl>
+				<dt>{$chl['ch_name']}</dt>
+				<dd class="thr"></dd>
+				<!--{loop $chl['child'] $child}-->
+				<dd class="detail">
+					<p class="ch-icon"><img src="{if $child['picture']}{$child['picture']}{else}static/image/v.jpg{/if}" /></p>
+					<p class="ch-name">{$child['ch_name']}</p>
+					<p class="ch-price">￥{eval echo $child['price']?$child['price']:0;}</p>
+					{if in_array($child['ch_id'],$selectedGood)}
+					<p class="ch-subscribed" rel="{$child['ch_id']}">+ 订 阅</p>
+					{else}
+					<p class="ch-subscribe" rel="{$child['ch_id']}">+ 订 阅</p>
+					{/if}
+				</dd>
+				<!--{/loop}-->
+			</dl>
+			<!--{/loop}-->
+		</div>
+		<div class="selected-list">
+			<h5><strong>我选择的频道</strong></h5>
+			<!--{if !$carList['goodsList']}-->
+			<div id="none-selected">您还没有选择订阅频道,赶紧行动吧!</div>
+			<!--{/if}-->
+			<div class="total-item" style="{if $carList['goodsList']}display:block;{/if}">
+				<!--{loop $carList['goodsList'] $gl}-->
+				<dl rel="{$gl['ch_id']}">
+					<dt>{$gl['ch_name']}</dt>
+					<dd class="thr"></dd>
+					<!--{loop $gl['goods'] $gs}-->
+					<div class="sl-item" rel="{$gs['ch_id']}">
+					<dd class="detail">
+						<p class="ch-icon"><img src="{if $gs['picture']}{$gs['picture']}{else}static/image/v.jpg{/if}"></p>
+						<p class="ch-name">{$gs['ch_name']}</p><p class="sl-subscribe" rel="{$gs['ch_id']}">- 取消订阅</p>
+					</dd>
+					<dd class="sl-info">
+						<p class="sl-date">服务时间：
+							<select name="fid" class="ch-fee-list">
+								<option value="0">请选择</option>
+								<!--{loop $gs['feeList'] $fl}-->
+								<option value="{$fl['fid']}" {if $gs['fid']==$fl['fid']}selected{/if}>{$fl['title']}</option>
+								<!--{/loop}-->
+							</select>
+						</p>
+						<p class="sl-ad">
+							<span class="ad1">{$gs['ad1']}</span>
+							<span class="ad2">{$gs['ad2']}</span>
+						</p>
+						<p class="sl-price">需付款：<span>￥{$gs['price']}</span></p>
+						<!--{if $gs['days']}-->
+						<p class="sl-ad">剩余时间：{$gs['days']} 天</p>
+						<!--{/if}-->
+						<input type="hidden" class="select-fid" value="{$gs['fid']}">
+					</dd>
+					</div>
+					<!--{/loop}-->
+				</dl>
+				<!--{/loop}-->
+				<p class="total-thr ttl"></p>
+				<p class="total-price">需付款：<strong style="color:red;">￥ </strong><span>{if $carList['totalPrice']}$carList['totalPrice']{else}0{/if}</span></p>
+				<p class="total-thr"></p>
+				<p><input class="u-btn sl-btn" type="submit" id="buy-step1" value="下一步" /></p>			
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+<script type="text/javascript">
+	$(function(){
+		
+		function total(){
+			var fids = [];
+			$('.select-fid').each(function(){
+				fids.push($(this).val());
+			});
+			
+			$.post('index.php?mod=other&code=getfee',{fids:fids,type:'total'},function(res){
+				if(res == false || res == null){
+					res = 0.00;
+				}
+				$('.total-price span').text(res);
+			},'json');
+			
+		}
+		
+		function subscribe(that,data){
+			$('#none-selected').hide();
+			var ch_id = that.attr('rel');
+			var pname = that.parent('dd').siblings('dt').text();
+			var item = '<div class="sl-item" rel="'+data.ch_id+'">';
+				item += '<dd class="detail">';
+				if(data.picture){
+					item += '<p class="ch-icon"><img src="'+data.picture+'" /></p>';
+				}else{
+					item += '<p class="ch-icon"><img src="static/image/v.jpg" /></p>';
+				}
+				
+				item += '<p class="ch-name">'+data.ch_name+'</p>';
+				item += '<p class="sl-subscribe" rel="'+ch_id+'">- 取消订阅</p>';
+				item += '</dd>';
+				item += '<dd class="sl-info">';
+				item += '<p class="sl-date">服务时间：';
+				item += '<select name="fid" class="ch-fee-list">';
+				item += '<option value="0">请选择</option>';
+				var check_index = -1;
+				$.each(data.fee_list,function(i,fee){
+					if(fee.is_check == 1 && check_index == -1){
+						check_index = i;
+						item += '<option value="'+fee.fid+'" selected>'+fee.title+'</option>';
+					}else{
+						item += '<option value="'+fee.fid+'">'+fee.title+'</option>';
+					}
+					
+				});
+				item += '</select>';	
+				item += '</p>';
+				if(check_index>-1){
+					item += '<p class="sl-ad"><span class="ad1">'+data.fee_list[check_index].ad1+'：</span><span class="ad2">'+data.fee_list[check_index].ad2+'</span></p>';
+				}else{
+					item += '<p class="sl-ad"><span class="ad1"></span><span class="ad2"></span></p>';
+				}
+				
+				if(data.fee_list.length>0){
+					if(check_index>-1){
+						item += '<p class="sl-price">需付款：<span>￥ '+data.fee_list[check_index].price+'</span></p>';
+					}else{
+						item += '<p class="sl-price">需付款：<span>￥ 0.00</span></p>';
+					}
+				}else{
+					return;
+				}
+				if(parseInt(data.days)>0){
+					item += '<p class="sl-ad">剩余时间：'+data.days+' 天</p>';
+				}
+				
+				item += '<input type="hidden" class="select-fid" value="'+data.fid+'">';
+				item += '</dd>';
+				item += '</div>';
+				
+				var hasPname = $('.selected-list dl dt:contains("'+pname+'")');
+				if(hasPname.length>0){
+					hasPname.parent('dl').append(item);
+				}else{
+					var pItem = '<dl rel="'+data.parent_id+'">';
+						pItem += '<dt>'+pname+'</dt>';
+						pItem += '<dd class="thr"></dd>';
+						pItem += item;
+						pItem += '</dl>';
+						$(pItem).insertBefore('.selected-list .ttl');
+				}
+				that.addClass('ch-subscribed');
+				that.unbind('click');
+				$('.total-item').show();
+				$('.total-price span').text(parseFloat($('.total-price span').text())+parseFloat(data.price));
+		}
+		
+		//订阅频道
+		$('.ch-subscribe').click(function(){
+			var that = $(this);
+			var ch_id = that.attr('rel');
+			var url = 'index.php?mod=other&code=getCFL';
+			var data = {ch_id:ch_id};
+			$.post(url, data, function(response){
+				subscribe(that,response);
+			},'json');
+			
+		});
+		
+		//取消频道订阅
+		$('.sl-subscribe').live('click',function(){
+			var ch_id = $(this).attr('rel');
+			if($(this).parents('dl').find('.sl-item').length>1){
+				$(this).parents('dl .sl-item').remove();
+			}else{
+				$(this).parents('dl').remove();
+			}
+			
+			var theItem = $('.ch-subscribe[rel='+ch_id+'],.ch-subscribed[rel='+ch_id+']');
+			theItem.removeClass('ch-subscribed');
+			theItem.addClass('ch-subscribe');
+			$(theItem).bind('click',function(){
+				var url = 'index.php?mod=other&code=getCFL';
+				var data = {ch_id:ch_id};
+				$.post(url, data, function(response){
+					subscribe(theItem,response);
+				},'json');
+			});
+			
+			total();
+			
+			if($('.selected-list dl').length<=0){
+				$('#none-selected').show();
+				$.post('index.php?mod=other&code=shopping&type=clean-all',{},function(){});
+				$('.total-item').hide();
+			}
+		});
+		
+		//选择服务时间并同时计算费率
+		$('select.ch-fee-list').live('change', function(){
+			var that = $(this);
+			var fid = $(this).val();
+			that.parents('.sl-info').find('.select-fid').val(fid);
+			
+			var url = 'index.php?mod=other&code=getfee';
+			var data = {fid:fid};
+			
+			if(fid>0){
+				$.post(url,data,function(response){
+					that.parent('p').siblings('.sl-ad').find('.ad1').text(response.ad1+"：");
+					that.parent('p').siblings('.sl-ad').find('.ad2').text(response.ad2);
+					that.parent('p').siblings('.sl-price').find('span').text(response.price);
+				},'json');	
+				total();
+			}
+			
+		});
+		
+		//下一步
+		$('#buy-step1').click(function(){
+			var data = {};
+			var flag = true;
+			//获取数据
+			$('.total-item dl').each(function(){
+				var pid = $(this).attr('rel');
+				data[pid] = [];
+				$(this).find('.sl-item').each(function(){
+					data[pid].push($(this).find('.select-fid').val());
+				});
+			});
+			$('.ch-fee-list').each(function(){
+				if($(this).val()<1){
+					$(this).next('span').remove();
+					$('<span style="color:red;margin-left:5px;">必填</span>').insertAfter(this);
+					$(this).focus();
+					flag = false;
+				}
+			});
+			
+			if(flag){
+				$.post('index.php?mod=other&code=shopping&type=step1',{chs:data},function(){
+					window.location.href='index.php?mod=other&code=verify';
+				});
+			}
+			
+		});
+		
+	});
+</script>
+{template "topic_footer"}

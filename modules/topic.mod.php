@@ -70,6 +70,7 @@ class ModuleObject extends MasterObject
 
 	function Main()
 	{
+		$userContact = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_contact').' WHERE `uid`='.MEMBER_ID);
 				$code_ary = array (
 			'myblog',
 			'myhome',

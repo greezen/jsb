@@ -1,0 +1,8 @@
+# BEGIN JishiGou dir safe protect for modules/
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options FollowSymLinks
+RewriteBase /modules/
+RewriteRule . index.html [L]
+</IfModule>
+# END JishiGou 2015-03-05 15:25:55

@@ -1,0 +1,49 @@
+<link href="static/style/contact.css" rel="stylesheet" type="text/css" />
+<div id="editContact">
+<p class="edit-contact-title">联系方式</p>
+<span class="level"><input type="checkbox" name="level" class="cnt-level1" value="1" {if $topiclist['contact'][level] >= 1}checked{/if}/>认证用户</span>
+<span class="level"><input type="checkbox" name="level" class="cnt-level2" value="2" {if $topiclist['contact'][level] >= 2}checked{/if}/>普通用户</span>
+<span class="level"><input type="checkbox" name="level" class="cnt-level3" value="4" {if $topiclist['contact'][level] >= 4}checked{/if}/>游客用户</span>
+<div class="contact-list contact-edit"><strong class="icon uname">姓名：</strong><input type="text" name="name" value="{$topiclist['contact'][name]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon uphone">电话：</strong><input type="text" name="phone" value="{$topiclist['contact'][phone]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon utel">手机：</strong><input type="text" name="tel" value="{$topiclist['contact'][tel]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon uwx">微信：</strong><input type="text" name="wx" value="{$topiclist['contact'][wx]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon uqq">Q &nbsp;Q：</strong><input type="text" name="qq" value="{$topiclist['contact'][qq]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon uemail">邮箱：</strong><input type="text" name="email" value="{$topiclist['contact'][email]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon usite">网址：</strong><input type="text" name="site" value="{$topiclist['contact'][site]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon uaddr">地址：</strong><input type="text" name="address" value="{$topiclist['contact'][address]}"/></div>
+<div class="contact-list contact-edit"><strong class="icon uother">其他：</strong><textarea rows="3" name="other">{$topiclist['contact'][other]}</textarea></div>
+</div>
+<style type="text/css">
+	.contact-edit{
+		margin-top: 6px;
+	}
+	
+	.contact-edit input,.contact-edit textarea{
+		width: 83%;
+	}
+	.edit-contact-title{
+		border-bottom: 2px solid #7789FF;
+		font-weight: bold;
+		margin: 45px 0 10px 0;
+	}
+</style>
+<script type="text/javascript">
+	$(function(){
+		$('.cnt-level2').click(function(){
+			if($(this).prop('checked')){
+				$('.cnt-level3').prop('checked', false);
+			}else {
+				$('.cnt-level2,.cnt-level3').prop('checked', false);
+			}
+		});
+		
+		$('.cnt-level3').click(function(){
+			if($(this).prop('checked')){
+				$('.cnt-level2').prop('checked', true);
+			}else {
+				$('.cnt-level2,.cnt-level3').prop('checked', false);
+			}
+		});
+	});
+</script>

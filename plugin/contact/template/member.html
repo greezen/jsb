@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="static/js/artDialog/css/ui-dialog.css">
+<link rel="stylesheet" href="static/style/contact.css">
+<script src="static/js/artDialog/dist/dialog-min.js"></script>
+<style type="text/css">
+	.authorize{
+		cursor: pointer;
+		color:rgb(0, 111, 203);
+	}
+	.tableborder{
+		margin-top:36px;
+	}
+	.uch{
+		padding:10px;
+	}
+	.uchbg{
+		background:#eee;
+	}
+	.sort{
+		margin-right:11px;
+	}
+</style>
+<div>
+<form action="admin.php?mod=plugin&code=manage&identifier=contact&pmod=member&type=search" method="post">
+<table cellspacing="1" cellpadding="4" width="100%" align="center" class="tableborder"> 
+	<tr class="header">
+		<td colspan="2">按条件检索</td> 
+	</tr> 
+	<tr class="altbg1"> 
+		<td height="30" width="150px">用户昵称：</td> 
+		<td height="30">
+		 <input type="text" name="nickname" value="" onkeyup="ajax_nickname(this,this.value);" autocomplete="off">
+		 <input type="hidden" name="ch_id" value="{$checkList['ch_id']}" /> 
+		 <button class="button" type="submit" name="do">提交</button> 
+		 </td> 
+	</tr> 
+</table>
+</form>
+
+<table cellspacing="1" width="100%" align="left" class="tableborder tl">
+	<tr>
+		<td colspan="6">
+			<span class="uch{if !$checkList['ch_id']} uchbg{/if}"><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=member&type=search">全部</a></span>
+			<!--{loop $checkList['channels'] $ch}-->
+			<span class="uch{if $checkList['ch_id']==$ch['ch_id']} uchbg{/if}"><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=member&type=search&ch_id={$ch['ch_id']}">{$ch['ch_name']}</a></span>
+			<!--{/loop}-->
+		</td>
+	</tr>
+	<tr class="header">
+		<td>频道名称</td>
+		<td>申请用户</td>
+		<td>申请时间</td>
+		<td>授权服务时间</td>
+		<td>授权剩余时间(天)</td>
+		<td>操作</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>
+		<span class="sort"><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=member&type=search&sort=uid&ch_id={$checkList['ch_id']}">最新用户↓</a></span>
+		<span class="sort"><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=member&type=search&sort=syt&ch_id={$checkList['ch_id']}">剩余时间↓</a></span>
+		</td>
+	</tr>
+	<!--{loop $checkList['rows'] $ckl}-->
+	<tr>
+		<td>{$ckl['ch_name']}</td>
+		<td>{$ckl['nickname']}</td>
+		<td>{eval echo date('Y-m-d H:i:s',$ckl['start_time'])}</td>
+		<!--{if $ckl['start_time']}-->
+		<td>{eval echo date('Y-m-d H:i:s',$ckl['start_time'])}－<span style="color:red">{eval echo date('Y-m-d H:i:s',$ckl['end_time'])}</span></td>
+		<td>{eval echo $ckl['end_time']>time()?ceil(($ckl['end_time']-$ckl['start_time'])/86400):'已到期';}</td>
+		<!--{else}-->
+		<td>未授权</td>
+		<td>-</td>
+		<!--{/if}-->
+		<td>
+			<span><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=check&uid={$ckl['uid']}">编辑</a></span>
+		</td>
+	</tr>
+	<!--{/loop}-->
+</table>
+{$checkList['page']['html']}
+</div>
+<script type="text/javascript">
+	$(function(){
+		
+	});
+</script>

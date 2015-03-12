@@ -6,3 +6,90 @@
 	width: 100%;
 	padding: 0 10px;
 }
+
+.topic_contact{
+	width: 435px;
+	padding: 0;
+	position: absolute;
+	z-index: 140;
+	left: -15px;
+	padding: 10px;
+	top: 28px;
+}
+#showAddContact .arrow-up-in,#showAddContact .arrow-up{
+	left: 27px;
+}
+.sendInsert .menu_lx{
+	z-index: 12;
+	margin: 0;
+	padding: 0 6px 0 24px;
+	height: 20px;
+	background:url('../../static/image/ins_icov4_c1.png') 0 -236px no-repeat;
+}
+.sendInsertfocus .menu_lx{
+	z-index: 12;
+	margin: 0;
+	padding: 0 6px 0 24px;
+	height: 20px;
+	background:url('../../static/image/ins_icov4_c3.png') 0 -280px no-repeat;
+}
+.menu_bq{
+	background-position: 0 -17px;
+}
+#showAddContact .contact-list input,#showAddContact .contact-list textarea{
+	width: 80%;
+	border: none;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#showAddContact .contact-list{
+	border-bottom: 1px dotted #ccc;
+}
+#showAddContact .close_1{
+	top: 10px;
+}
+#showAddContact .menu_bqb_cb .level{
+	margin-right: 16px;
+}
+.contact-list .icon{
+	background-image: url('../../static/image/lx-icon.jpg');
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding-left: 25px
+}
+
+.contact-list .uname{
+	background-position: 0 -24px;
+}
+
+.contact-list .uphone{
+	background-position: 0 -97px;
+}
+
+.contact-list .utel{
+	background-position: 0 -195px;
+}
+
+.contact-list .uwx{
+	background-position: 0 -48px;
+}
+
+.contact-list .uqq{
+	background-position: 0 -146px;
+}
+
+.contact-list .uemail{
+	background-position: 0 3px;
+}
+
+.contact-list .usite{
+	background-position: 0 -72px;
+}
+
+.contact-list .uaddr{
+	background-position: 0 -121px;
+}
+
+.contact-list .uother{
+	background-position: 0 -170px;
+}

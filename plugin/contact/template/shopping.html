@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="static/js/artDialog/css/ui-dialog.css">
+<link rel="stylesheet" href="static/style/contact.css">
+<script src="static/js/artDialog/dist/dialog-min.js"></script>
+<style type="text/css">
+	.authorize{
+		cursor: pointer;
+		color:rgb(0, 111, 203);
+	}
+	.tableborder{
+		margin-top:36px;
+	}
+</style>
+<div>
+<table cellspacing="1" cellpadding="4" width="100%" align="center" class="tableborder"> 
+	<tr class="header">
+		<td colspan="2">添加用户</td> 
+	</tr> 
+	<tr class="altbg1"> 
+		<td height="30" width="150px">用户昵称：</td> 
+		<td height="30"> 
+			<input type="text" id="addNickName" value="" onkeyup="ajax_nickname(this,this.value);" autocomplete="off">
+			<button class="button" type="submit" name="do" id="add-user-power">添加</button> 
+		</td>
+	</tr> 
+</table>
+<form action="admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=search" method="post">
+<table cellspacing="1" cellpadding="4" width="100%" align="center" class="tableborder"> 
+	<tr class="header">
+		<td colspan="2">按条件检索</td> 
+	</tr> 
+	<tr class="altbg1"> 
+		<td height="30" width="150px">用户昵称：</td> 
+		<td height="30"> <input type="text" name="nickname" value="" onkeyup="ajax_nickname(this,this.value);" autocomplete="off"> </td> 
+	</tr> 
+	<tr> 
+		<td>&nbsp;</td> 
+		<td> <button class="button" type="submit" name="do">提交</button> </td> 
+	</tr>
+</table>
+</form>
+
+<table cellspacing="1" width="100%" align="left" class="tableborder tl">
+	<tr class="header">
+		<td>频道名称</td>
+		<td>申请用户</td>
+		<td>申请时间</td>
+		<td>审核状态</td>
+		<td>操作</td>
+	</tr>
+	<!--{loop $checkList $ckl}-->
+	<tr>
+		<td>{$ckl['ch_name']}</td>
+		<td>{$ckl['nickname']}</td>
+		<td>{eval echo date('Y-m-d H:i:s',$ckl['create_time'])}</td>
+		<td>{if $type=='search'}{else}待审核{/if}</td>
+		<td>
+			<span><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=check&uid={$ckl['uid']}">编辑</a></span>
+		</td>
+	</tr>
+	<!--{/loop}-->
+</table>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('.authorize').click(function(){
+			var current = dialog.getCurrent();
+			if(current != null){
+				current.close().remove();
+			}
+			var url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=setting&type=power';
+			var data = {ch_id:$(this).attr('rel')};
+			var d = dialog({
+				id: $(this),
+				title: '频道授权查看/添加'
+			});
+			$.get(url, data, function(con){
+				d.content(con);
+				d.showModal();
+			});
+			
+		});
+		
+		$('#add-user-power').click(function(){
+			var nickname = $('#addNickName').val();
+			window.location.href = "admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=addUserPower&nickname="+nickname;
+		});
+	});
+</script>

@@ -199,7 +199,7 @@ class MasterObject
 			$this->MemberHandler->UpdateSessions();
 		}
 		if ($_GET['mod']!='index' || isset($_GET['code']) || $force_display) {
-			$this->ShowFooter();
+			//$this->ShowFooter();
 		}
 		echo $this->js_show_msg();
 	}

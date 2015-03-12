@@ -1,0 +1,108 @@
+<form action="admin.php?mod=plugin&code=manage&identifier=contact&pmod=setting&type=fee&ch_id={$ch_id}" method="post">
+<table id="ch_fee" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="7"><h3 style="font-size:14px\9;margin-left:15px;color:rgb(0, 110, 202);display:inline;">{$channel['ch_name']}</h3>￥<input type="text" name="Fee[price0]" size="5" value="{$price0}"/>单月价格</td>
+		<td><a href="javascript:void(0);" id="add-fee">添加样式</a></td>
+	</tr>
+	<tr class="header"> 
+		<td><input type="checkbox" id="del-all" class="checkbox">删</td> 
+		<td>标题</td> 
+		<td>实际服务月份</td> 
+		<td>赠送月份</td> 
+		<td>价格</td> 
+		<td>广告语1</td> 
+		<td>广告语2</td> 
+		<td>推荐</td> 
+	</tr>
+	<!--{if $feeList}-->
+	<!--{loop $feeList $fl}-->
+	<tr class="fee-list">
+		<td><input type="checkbox" name="Del[del-item][]" class="del-item checkbox" value="{$fl['fid']}"/><input type="hidden" name="Fee[fid][]" value="{$fl['fid']}"/></td>
+		<td><input type="text" name="Fee[title][]" value="{$fl['title']}" placeholder="标题"/></td>
+		<td><input type="text" name="Fee[duration][]" size="10" value="{$fl['duration']}" placeholder="实际服务月份" /> 个月</td>
+		<td>赠送 <input type="text" name="Fee[give][]" size="5" value="{$fl['give']}" placeholder="赠送月份" /> 个月</td>
+		<td>￥ <input type="text" name="Fee[price][]" size="8" value="{$fl['price']}" placeholder="价格" /></td>
+		<td><input type="text" name="Fee[ad1][]" value="{$fl['ad1']}" placeholder="广告语1" /></td>
+		<td><input type="text" name="Fee[ad2][]" value="{$fl['ad2']}" placeholder="广告语2" /></td>
+		<td><input type="checkbox" name="Fee[is-check][]" {if $fl['is_check']}checked{/if} class="is-check checkbox" /></td>
+	</tr>
+	<!--{/loop}-->
+	<!--{else}-->
+	<tr class="fee-list">
+		<td><input type="checkbox" name="Del[del-item][]" class="del-item checkbox" value="0"/></td>
+		<td><input type="text" name="Fee[title][]" placeholder="标题"/></td>
+		<td><input type="text" name="Fee[duration][]" size="10" placeholder="实际服务月份" /> 个月</td>
+		<td>赠送 <input type="text" name="Fee[give][]" size="5" placeholder="赠送月份" /> 个月</td>
+		<td>￥ <input type="text" name="Fee[price][]" size="8" placeholder="价格" /></td>
+		<td><input type="text" name="Fee[ad1][]" placeholder="广告语1" /></td>
+		<td><input type="text" name="Fee[ad2][]" placeholder="广告语2" /></td>
+		<td><input type="checkbox" name="Fee[is-check][]" class="is-check checkbox" /></td>
+	</tr>
+	<!--{/if}-->
+	<tr id="send">
+		<td colspan="4"></td>
+		<td colspan="1"><input type="submit" class="button" value="提交"/></td>
+	</tr>
+</table>
+</form>
+<link rel="stylesheet" type="text/css"  href="static/style/admincp.css" />
+<style type="text/css">
+	.fee-list{
+		line-height:28px;
+	}
+	.fee-list td{
+		padding-right:10px;
+		font-size:12px;
+	}
+	.fee-list .is-check{
+		margin-left:15px;
+	}
+	.fee-list .del-item{
+		margin-left:8px;
+	}
+	.remove{
+		cursor:pointer;
+	}
+	#ch_fee{
+		margin:10px;
+	}
+	
+	#ch_fee input{
+		height:26px\9;
+	}
+	
+</style>
+<script type="text/javascript" src="static/js/min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//添加收费项
+		$('#add-fee').click(function(){
+			var item = '<tr class="fee-list">';
+			item += '<td><input type="checkbox" name="Del[del-item][]" class="del-item checkbox" value="0"/></td>';
+			item += '<td><input type="text" name="Fee[title][]" placeholder="标题"/></td>';
+			item += '<td><input type="text" name="Fee[duration][]" size="10" placeholder="实际服务月分" /> 个月</td>';
+			item += '<td>赠送 <input type="text" name="Fee[give][]" size="5" placeholder="赠送月份" /> 个月</td>';
+			item += '<td>￥ <input type="text" name="Fee[price][]" size="8" placeholder="价格" /></td>';
+			item += '<td><input type="text" name="Fee[ad1][]" placeholder="广告语1" /></td>';
+			item += '<td><input type="text" name="Fee[ad2][]" placeholder="广告语2" /></td>';
+			item += '<td><input type="checkbox" name="Fee[is-check][]" class="is-check checkbox" /><span class="remove">x</span></td>';
+			item += '</tr>';
+			
+			$(item).insertBefore("#send");
+		});
+		
+		//删除项选择
+		$('#del-all').click(function(){
+			if($(this).is(':checked')){
+				$('.del-item').prop('checked',true);
+			}else{
+				$('.del-item').prop('checked',false);
+			}
+		});
+		
+		//删除刚添加的项
+		$('.remove').live('click',function(){
+			$(this).parents('tr').remove();
+		});
+	});
+</script>

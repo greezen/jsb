@@ -29,6 +29,7 @@
           {if $string}<span class="topic_select"><span>投票给：{$string}</span></span><br />
           {/if}
           {/if} <span>{$topic_info[content]}</span> 
+          {template contact:show}
           <!--{hook/global_item_view_extra}--> 
           <!--{if $topic_info[attachid] && $topic_info[attach_list]}-->
           <table class="attachst" style="width:560px;margin:5px 0">

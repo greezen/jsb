@@ -18,22 +18,17 @@ $(objStr1).mouseout(function(){$(objStr2).hide();});
 	<!--{if $this->Get[mod] == 'talk' &&  $val[reply_ok]}-->
 	<li><span id="answer_{$val[tid]}" class="talkreply" onclick="showMainPublishBox('answer','talk','{$talk[lid]}','{$val[tid]}','{$val[uid]}');return false;">回答</span></li><li class="o_line_l">|</li>
 	<!--{/if}-->
-	<style type="text/css">
-		.ui-dialog{
-			left: -16px;
-		}
-	</style>
-	<li>
-		<span class="show-edit-contact-info" onclick="show_edit_contact(this,{$val[tid]})" title="联系"></span>
-	</li>
-	<li class="o_line_l" style="margin-right:5px;">|</li>
 	<!--{if $val[uid]>0}-->
 	<li style="_margin-top:-1px;">
 	<span {if MEMBER_ID <1 } onclick="ShowLoginDialog();"{else} onclick="topicdig({$val[tid]},{$val[uid]},{$val[digcounts]},'{$this->Config[changeword][dig]}');return false;"{/if}>
 	<a class="topicdig_{$val[tid]} digusers" id="topicdig_{$val[tid]}" href="javascript:;" value="{$val[tid]}" rel="{$val[digcounts]}" title="{$this->Config[changeword][dig]}"><!--{if $val[digcounts]}-->({$val[digcounts]})<!--{else}-->&nbsp;<!--{/if}--></a></span></li>
 	<li class="o_line_l">|</li>
 	<!--{/if}-->
+	<!--{if (!isset($root_type)) || (isset($root_type) && in_array($root_type, get_topic_type('forward')))}-->
 	
+	<!--{else}-->
+	<!--{eval $not_allow_forward=1;}-->
+	<!--{/if}-->
 	<li>
 	<!--{if 'topic_favorite'==jget('mod') && 'me'!=$this->Code}--> 
 				<span id="favorite_{$val[tid]}" {if MEMBER_ID <1 } onclick="ShowLoginDialog();" {/if}>
@@ -56,12 +51,11 @@ $(objStr1).mouseout(function(){$(objStr2).hide();});
 			<!--{/if}-->
 		<!--#endif#-->
 		<!--{eval $__rts=($reply_list_ajax_disable ? 0 : $val[replys]);}--> 
-		<a id="topic_list_reply_{$val[tid]}_aid" href="javascript:;" {if MEMBER_ID <1 } onclick="ShowLoginDialog();" {/if}
-		onclick="replyTopic({$val[tid]},'{$talkanswerid}reply_area_{$val[tid]}','{$__rts}',{$not_allow_forward},{$allow_attach},{$allow_face},{$allow_pic},1,{$opstring});return false;">评论
+		<a id="topic_list_reply_{$val[tid]}_aid" href="javascript:;" {if MEMBER_ID <1 } onclick="ShowLoginDialog();" {/if} onclick="replyTopic({$val[tid]},'{$talkanswerid}reply_area_{$val[tid]}','{$__rts}',{$not_allow_forward},{$allow_attach},{$allow_face},{$allow_pic},1,{$opstring});return false;">回应
 		<!--{if $val[replys]}-->({$val[replys]})<!--{/if}--></a>
 		</span>
 	 <!--{else}-->
-	 <span title="设置了特殊的权限，不允许评论">评论</span>
+	 <span title="设置了特殊的权限，不允许回应">回应</span>
 	<!--{/if}-->
 	</li>
 
@@ -86,14 +80,7 @@ $(objStr1).mouseout(function(){$(objStr2).hide();});
 					<!--{/if}-->
 				<!--{/if}-->
 			<!--{/if}-->
-			
-			<!--{if true===jaccess('topic', 'do_recd') || $val[ismanager]}-->
-			<!--推荐开始 Begin-->
-			<a href="javascript:;" onclick="showTopicRecdDialog({'tid':'{$val[tid]}','tag_id':'{$tag_id}'});return false;">推荐</a>
-			<!--推荐开始 End-->
-			<!--{/if}-->
-			<!--{if (!isset($root_type)) || (isset($root_type) && in_array($root_type, get_topic_type('forward')))}-->
-			
+		
 			  <!--转发的判断 Begin-->
 			  <!--{if (in_array($val[type], get_topic_type('forward')) || $this->Module=='qun') && !($val['managetype'] == 2 || $val['managetype'] == 8)}-->
 			  <!--{eval $not_allow_forward=0;}-->
@@ -109,8 +96,11 @@ $(objStr1).mouseout(function(){$(objStr2).hide();});
 			 <!--{/if}-->
 			 <!--{/if}-->
 			 <!--转发的判断 End-->
-			<!--{else}-->
-			<!--{eval $not_allow_forward=1;}-->
+			
+			<!--{if true===jaccess('topic', 'do_recd') || $val[ismanager]}-->
+			<!--推荐开始 Begin-->
+			<a href="javascript:;" onclick="showTopicRecdDialog({'tid':'{$val[tid]}','tag_id':'{$tag_id}'});return false;">推荐</a>
+			<!--推荐开始 End-->
 			<!--{/if}-->
 			<!--{if 'admin'==MEMBER_ROLE_TYPE}-->
 				<a onclick="force_out($val[uid]);" href="javascript:void(0);">封杀</a>

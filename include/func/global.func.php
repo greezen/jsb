@@ -2788,6 +2788,15 @@ function nav_url($url, $top_nav_key = '', $side_nav_key = '') {
 	return $url;
 }
 
+function remainTime($ftime, $format = '%d 天 %h 小时 %i 分 %s 秒'){
+	$now = new DateTime();
+	$future_date = new DateTime(date('Y-m-d H:i:s', $ftime));
+	
+	$interval = $future_date->diff($now);
+	
+	return $interval->format($format);
+}
+
 if(!defined('JISHIGOU_GLOBAL_FUNCTION')) {
 	define('JISHIGOU_GLOBAL_FUNCTION', true);
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[JishiGou! Plugin]]></item>
+	<item id="Version"><![CDATA[4.7.4]]></item>
+	<item id="Time"><![CDATA[2014-12-22 17:34:51]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[0]]></item>
+			<item id="name"><![CDATA[联系方式]]></item>
+			<item id="identifier"><![CDATA[contact]]></item>
+			<item id="description"><![CDATA[微博订单联系方式]]></item>
+			<item id="directory"><![CDATA[contact/]]></item>
+			<item id="copyright"><![CDATA[greezen]]></item>
+			<item id="version"><![CDATA[v1.0]]></item>
+			<item id="__modules"><![CDATA[]]></item>
+		</item>
+	</item>
+	<item id="installfile"><![CDATA[install.php]]></item>
+	<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+</root>

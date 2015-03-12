@@ -506,7 +506,7 @@ function publishSubmit(b_name,b_class,ci, i, r, topictype, roottid, is_huifu, it
 	var touid ='undefined'==typeof(touid)?'0':touid;
 	var channel_check ='undefined'==typeof(channel_check) ? 0 : channel_check;
 	var channel_must ='undefined'==typeof(channel_must) ? 0 : channel_must;
-	var contact = $('#showAddContact input,#showAddContact textarea').serialize();//alert($('#showAddContact input').serializeArray());
+	var contact = $('#addContact input,#addContact textarea').serialize();//alert($('#showAddContact input').serializeArray());
 	
 	if(uid < 1){
 		ShowLoginDialog();
@@ -1122,6 +1122,7 @@ function do_modifyTopic(i, content, types, handle_key)
 	var itemid = 'undefined' == typeof(itemid) ? 0 : itemid;
 	var featureid = $('#featureid').val();
 	var featureid = 'undefined' == typeof(featureid) ? 0 : featureid;
+	var contact = $('#editContact input,#editContact textarea').serialize();
 	
 	var myAjax=$.post(
 	"ajax.php?mod=topic&code=do_modifytopic",
@@ -1132,7 +1133,8 @@ function do_modifyTopic(i, content, types, handle_key)
 		itemid:itemid,
 		featureid:featureid,
 		content:content,
-		types:types
+		types:types,
+		editContact:contact
 	},
 	function (d) 
 	{
@@ -1630,7 +1632,7 @@ function DreplyTopic(tid,replys,allow_attach,allow_pic,allow_face,seccode)
 	var tid = 'undefined' == typeof(tid) ? 0 : tid;
 	var replys = 'undefined' == typeof(replys) ? 0 : replys;
 	if(tid < 1){
-		show_message("抱歉，此"+__N_WEIBO__+"已经被删除，无法评论。",3);
+		show_message("抱歉，此"+__N_WEIBO__+"已经被删除，无法回应。",3);
 		return false;
 	}
 	var allow_attach = ( 'undefined'==typeof(allow_attach) ? 0 : allow_attach );
@@ -1656,9 +1658,9 @@ function DreplyTopic(tid,replys,allow_attach,allow_pic,allow_face,seccode)
 	}else{
 		psubmitHTML = '<input id="rcbtna_' + tid + '" onclick="publishSubmit(\'rcbtna_'+tid+'\',\'u-btn\',\'reply_content_' + tid + '\',\'replytid_' + tid + '\',\'vc\',\'topicReplyType_' + tid + '\',' + tid + ',\'is_huifu_' + tid + '\',\'\',\'\');" type="button" value="评 论" title="按Ctrl+Enter直接发布" class="u-btn" style="margin:0 0 0 5px"/>';
 	}
-	var fcHTML = '<div id="reply_list" class="dialog_inner" style="_overflow:hidden;"><div class="mWarp"><table><tr><td colspan="2"><div class="alt_3"> <div class="sendTitle" style="float:right;margin-right:0"><style>ul.txtNum li{ width:65px;}</style> <ul class="txtNum" style="color:#999;"> <li>还可以输入</li> <li id="wordc"><span id="wordcNum_' + tid + '" style="color:#ff0000;">' + thisTopicLength + '</span></li> <li style="width:14px;">字</li> </ul> </div>已有&nbsp;'+replys+'&nbsp;条评论。<a href="index.php?mod=topic&code='+tid+'" target="_blank">查看详细>></a></div> <div class="alt_3"> <textarea id="reply_content_' + tid + '" name="content" onkeyup="javascr' + 'ipt:checkWord(' + thisTopicLength + ',event,\'wordcNum_' + tid + '\')" class="textarea" style="width:490px;margin-bottom:5px;"></textarea></div></td> </tr> <tr> <td class="modify_tool_left">'+allow_faceHTML+'<div id="reply_image_uploadify_'  + tid + '" class="comment_p_b2 comment_p_b22"></div><div id="reply_attach_uploadify_'  + tid + '" class="comment_p_b2 comment_p_b22"></div>'+atuserHTML+'</td> <td class="modify_tool_right"><div class="rb_a1">'+type_html+psubmitHTML+'<input type="hidden" id="replytid_' + tid + '" name="replytid_' + tid + '" value="' + tid + '"/> <input type="hidden" id="is_huifu_' + tid + '" name="is_huifu_' + tid + '" value=""/></td></tr>'+yxm_popHTML+'</table></div></div><sc' + 'ript type="text/jav' + 'ascri' + 'pt"> $(document).ready(function(){'+ allow_picHTML + allow_attachHTML + '$(".menu_bqb_c").click(function(){$("#forward_' + tid + '").show();});$("#reply_atuser_'+tid+'").click(function(){$("#atuser_reply_'+tid+'").show();$(".forward_f2").hide();$(".forward_f").hide();$(".insertAttachDiv").hide();$(".modify_face").hide();$(".insertImgDiv").hide();});$(".menu_hpb_c1").click(function(){$("#atuser_reply_'+tid+'").hide();});$(".close_1").click(function(){$("#forward_' + tid + '").hide();}); initAiInput("forward_content_' + tid + '");}); $("#reply_content_' + tid + '").setCaret();$("#reply_content_' + tid + '").bind("keydown",function(event){ event = event || window.event; if(event.keyCode == 13 && event.ctrlKey){$("#rcbtna_' + tid + '").click();}});</scri' + 'pt>';
-	var fcFrameHtml = '<div class="zfbox"><div class="zfTitle" id="zfTitle_'+tid+'"><ul class="zfti"><li id="zf_m1" class="zfhover">'+__N_WEIBO__+'评论</li><sub class="menu_zf_c1" onclick="closeDialog(\''+handle_key+'\');"></sub></ul></div><div id="zfcon_zf_m_1" class="zfcon">'+fcHTML+'</div></div>';
-	var h = showDialog(handle_key, 'local', '对'+__N_WEIBO__+'发表评论', {"html":fcFrameHtml, "noTitleBar":true}, 540);
+	var fcHTML = '<div id="reply_list" class="dialog_inner" style="_overflow:hidden;"><div class="mWarp"><table><tr><td colspan="2"><div class="alt_3"> <div class="sendTitle" style="float:right;margin-right:0"><style>ul.txtNum li{ width:65px;}</style> <ul class="txtNum" style="color:#999;"> <li>还可以输入</li> <li id="wordc"><span id="wordcNum_' + tid + '" style="color:#ff0000;">' + thisTopicLength + '</span></li> <li style="width:14px;">字</li> </ul> </div>已有&nbsp;'+replys+'&nbsp;条回应。<a href="index.php?mod=topic&code='+tid+'" target="_blank">查看详细>></a></div> <div class="alt_3"> <textarea id="reply_content_' + tid + '" name="content" onkeyup="javascr' + 'ipt:checkWord(' + thisTopicLength + ',event,\'wordcNum_' + tid + '\')" class="textarea" style="width:490px;margin-bottom:5px;"></textarea></div></td> </tr> <tr> <td class="modify_tool_left">'+allow_faceHTML+'<div id="reply_image_uploadify_'  + tid + '" class="comment_p_b2 comment_p_b22"></div><div id="reply_attach_uploadify_'  + tid + '" class="comment_p_b2 comment_p_b22"></div>'+atuserHTML+'</td> <td class="modify_tool_right"><div class="rb_a1">'+type_html+psubmitHTML+'<input type="hidden" id="replytid_' + tid + '" name="replytid_' + tid + '" value="' + tid + '"/> <input type="hidden" id="is_huifu_' + tid + '" name="is_huifu_' + tid + '" value=""/></td></tr>'+yxm_popHTML+'</table></div></div><sc' + 'ript type="text/jav' + 'ascri' + 'pt"> $(document).ready(function(){'+ allow_picHTML + allow_attachHTML + '$(".menu_bqb_c").click(function(){$("#forward_' + tid + '").show();});$("#reply_atuser_'+tid+'").click(function(){$("#atuser_reply_'+tid+'").show();$(".forward_f2").hide();$(".forward_f").hide();$(".insertAttachDiv").hide();$(".modify_face").hide();$(".insertImgDiv").hide();});$(".menu_hpb_c1").click(function(){$("#atuser_reply_'+tid+'").hide();});$(".close_1").click(function(){$("#forward_' + tid + '").hide();}); initAiInput("forward_content_' + tid + '");}); $("#reply_content_' + tid + '").setCaret();$("#reply_content_' + tid + '").bind("keydown",function(event){ event = event || window.event; if(event.keyCode == 13 && event.ctrlKey){$("#rcbtna_' + tid + '").click();}});</scri' + 'pt>';
+	var fcFrameHtml = '<div class="zfbox"><div class="zfTitle" id="zfTitle_'+tid+'"><ul class="zfti"><li id="zf_m1" class="zfhover">'+__N_WEIBO__+'回应</li><sub class="menu_zf_c1" onclick="closeDialog(\''+handle_key+'\');"></sub></ul></div><div id="zfcon_zf_m_1" class="zfcon">'+fcHTML+'</div></div>';
+	var h = showDialog(handle_key, 'local', '对'+__N_WEIBO__+'发表回应', {"html":fcFrameHtml, "noTitleBar":true}, 540);
 	// 标题栏拖动绑定
 	draggable(h.dom.wrapper, $('#zfTitle_'+tid));
 }
@@ -1908,16 +1910,16 @@ function topicCommentHTML(tid,tReplys, not_allow_forward,allow_attach,allow_face
         allow_faceHTML = '<div class="menuf_bq"><b id="reply_ajax_menu_bqb_c_' + tid + '" class="reply_ajax_menu_bqb_c"><a href="javascript:viod(0);" onclick="topic_face(\'reply_face_' + tid + '\',\'reply_content_' + tid + '\');return false;">表情</a></b> <div class="forward_f2" style="margin-top:0px;" id="reply_face_' + tid + '" style="border:1px solid #BFBFBF;display:none;"></div> </div>';
     }
 	if(relate){
-		relateHTML = '<div class="comment_p_s"><input type="checkbox" name="ftopicReplyType_'+tid+'" id="ftopicReplyType_'+tid+'" value="0" onclick="set_relate('+tid+',\'ftopicReplyType_'+tid+'\');"><label for="ftopicReplyType_'+tid+'">同时把该评论作为评价或答复，并设置原微博状态为：</label><select name="ftopicReplyType_'+tid+'featureid" id="ftopicReplyType_'+tid+'featureid"></select></div>';
+		relateHTML = '<div class="comment_p_s"><input type="checkbox" name="ftopicReplyType_'+tid+'" id="ftopicReplyType_'+tid+'" value="0" onclick="set_relate('+tid+',\'ftopicReplyType_'+tid+'\');"><label for="ftopicReplyType_'+tid+'">同时把该回应作为评价或答复，并设置原微博状态为：</label><select name="ftopicReplyType_'+tid+'featureid" id="ftopicReplyType_'+tid+'featureid"></select></div>';
 	}
     if(allow_pic){
         allow_picHTML = 'imageUploadifyHTML(' + tid + ', "reply_content_' + tid + '", "reply_image_uploadify_' + tid + '"); ';
     }
 	if(seccode&&YXM_POP_Title){
-		psubmitHTML = '<input type="hidden" id="YXM_R_'+tid+'" onclick="publishSubmit(\'rcbtn_'+tid+'\',\'u-btn\',\'reply_content_' + tid + '\',\'replytid_' + tid + '\',\'vc\',\'topicReplyType_' + tid + '\',' + tid + ',\'is_huifu_' + tid + '\',\'' + appitem + '\',\'' + appitem_id + '\');$(\'#wordCheckNum_' + tid + '\').html('+thisTopicLength+');"/><input id="rcbtn_' + tid + '" onclick="YXM_pubtopic(\'reply_content_' + tid + '\',\'_reply_' + tid +'\',\'topicReplyType_' + tid + '\',\'YXM_R_'+tid+'\');return false;" type="button" value="评 论" class="u-btn" title="按Ctrl+Enter直接发布"/>';
+		psubmitHTML = '<input type="hidden" id="YXM_R_'+tid+'" onclick="publishSubmit(\'rcbtn_'+tid+'\',\'u-btn\',\'reply_content_' + tid + '\',\'replytid_' + tid + '\',\'vc\',\'topicReplyType_' + tid + '\',' + tid + ',\'is_huifu_' + tid + '\',\'' + appitem + '\',\'' + appitem_id + '\');$(\'#wordCheckNum_' + tid + '\').html('+thisTopicLength+');"/><input id="rcbtn_' + tid + '" onclick="YXM_pubtopic(\'reply_content_' + tid + '\',\'_reply_' + tid +'\',\'topicReplyType_' + tid + '\',\'YXM_R_'+tid+'\');return false;" type="button" value="回 应" class="u-btn" title="按Ctrl+Enter直接发布"/>';
 		yxm_popHTML = '<p id="yxm_pub_button_reply_'+tid+'" onclick="YXM_popBox(this,\'reply,'+tid+'\',\''+YXM_POP_Title+'\');" style="margin-left:100px;height:1px;">&nbsp;</p>';
 	}else{
-		psubmitHTML = '<input id="rcbtn_' + tid + '" onclick="publishSubmit(\'rcbtn_'+tid+'\',\'u-btn\',\'reply_content_' + tid + '\',\'replytid_' + tid + '\',\'vc\',\'topicReplyType_' + tid + '\',' + tid + ',\'is_huifu_' + tid + '\',\'' + appitem + '\',\'' + appitem_id + '\');$(\'#wordCheckNum_' + tid + '\').html('+thisTopicLength+');" type="button" class="u-btn" value="评 论" title="按Ctrl+Enter直接发布"/>';
+		psubmitHTML = '<input id="rcbtn_' + tid + '" onclick="publishSubmit(\'rcbtn_'+tid+'\',\'u-btn\',\'reply_content_' + tid + '\',\'replytid_' + tid + '\',\'vc\',\'topicReplyType_' + tid + '\',' + tid + ',\'is_huifu_' + tid + '\',\'' + appitem + '\',\'' + appitem_id + '\');$(\'#wordCheckNum_' + tid + '\').html('+thisTopicLength+');" type="button" class="u-btn" value="回 应" title="按Ctrl+Enter直接发布"/>';
 	}
 	if(item){
 		publishHtml = '<scr' + 'ipt language="Javasc' + 'ript">var tReplys = ' + tReplys + ';if(tReplys > 0){topic_view_comment_list(' + tid + ',\'' + item + '\');}</scr' + 'ipt>';
@@ -2050,7 +2052,7 @@ function get_forward_choose(tid,allow_attach,allow_pic,allow_face,options)
 	// 可以隐藏转发并评论复选框 Modify by ~ZZ~ 2011-06-30
 	var strForwarAndReply = '';
 	if (!options.noReply) {
-		strForwarAndReply = '<input name="topicForwardType_' + tid + '" type="checkbox" id="topicForwardType_' + tid + '" value="forward" onclick="select_checked(\'topicForwardType_' + tid + '\',\'forward\');"/> <label for="topicForwardType_' + tid + '" style="cursor:pointer;">同时作为评论发布</label>';
+		strForwarAndReply = '<input name="topicForwardType_' + tid + '" type="checkbox" id="topicForwardType_' + tid + '" value="forward" onclick="select_checked(\'topicForwardType_' + tid + '\',\'forward\');"/> <label for="topicForwardType_' + tid + '" style="cursor:pointer;">同时作为回应发布</label>';
 	} else {
 		strForwarAndReply = '<input name="topicForwardType_' + tid + '" type="checkbox" id="topicForwardType_' + tid + '" value="forward" onclick="onForwardSelectedListener(' + tid + ',' + strOptions + ');"/> <label for="topicForwardType_' + tid + '" style="cursor:pointer;">转发给粉丝</label>';
 	}
@@ -2839,9 +2841,9 @@ function topic_contact(eid,insert,getname)
 	$("#"+eid).addClass("topic_contact");
 	$("#"+eid).addClass("menu_spb");
 	var tfHTML = '<sc' + 'ript type="text/javascri' + 'pt">$(".close_1").bind({click:function(){$("#' + eid + '").hide();}}); </s' + 'cript><span class="arrow-up"></span><span class="arrow-up-in"></span><div class="menu_bqb_cb">';
-	tfHTML += '<span class="level"><input type="checkbox" name="level" value="1" />授权查看</span>';
-	tfHTML += '<span class="level"><input type="checkbox" name="level" value="2" />会员查看</span>';
-	tfHTML += '<span class="level"><input type="checkbox" name="level" value="4" />游客查看</span>';
+	tfHTML += '<span class="level"><input type="checkbox" class="cnt-level1" name="level" value="1" />认证用户</span>';
+	tfHTML += '<span class="level"><input type="checkbox" class="cnt-level2" name="level" value="2" />普通用户</span>';
+	tfHTML += '<span class="level"><input type="checkbox" class="cnt-level3" name="level" value="4" />游客用户</span>';
 	tfHTML += '<div style="float:left; width:200px;"></div><div class="close_1"></div> </div>';
 	
 	
@@ -2849,7 +2851,7 @@ function topic_contact(eid,insert,getname)
 	contact += '<div class="contact-list"><strong class="icon uphone">电话：</strong><input type="text" name="phone" /></div>';
 	contact += '<div class="contact-list"><strong class="icon utel">手机：</strong><input type="text" name="tel" /></div>';
 	contact += '<div class="contact-list"><strong class="icon uwx">微信：</strong><input type="text" name="wx" /></div>';
-	contact += '<div class="contact-list"><strong class="icon uqq">QQ：</strong><input type="text" name="qq" /></div>';
+	contact += '<div class="contact-list"><strong class="icon uqq">Q &nbsp;Q：</strong><input type="text" name="qq" /></div>';
 	contact += '<div class="contact-list"><strong class="icon uemail">邮箱：</strong><input type="text" name="email" /></div>';
 	contact += '<div class="contact-list"><strong class="icon usite">网址：</strong><input type="text" name="site" /></div>';
 	contact += '<div class="contact-list"><strong class="icon uaddr">地址：</strong><input type="text" name="address" /></div>';
@@ -4176,9 +4178,9 @@ function doVote(form, options)
 				if (!is_json(r)) {
 					if (options.type == 'topic') {
 						if (r != '') {
-							$('#vote_main_'+options.tid).html("投票成功，顺便评论下");
+							$('#vote_main_'+options.tid).html("投票成功，顺便回应下");
 							var handle_key = "hk_toweibo";
-							showDialog(handle_key, 'local', '评论一下', {'html':r}, 500);
+							showDialog(handle_key, 'local', '回应一下', {'html':r}, 500);
 							$('#topic_simple_close_btn'+options.tid).click(
 								function() {
 									closeDialog(handle_key);
@@ -4601,7 +4603,7 @@ function loadtopic(key,order,kill)
 	if(check_uid < 1){ShowLoginDialog();return false;}
 	var tid = 'undefined' == typeof(tid) ? 0 : tid;var uid = 'undefined' == typeof(uid) ? 0 : uid;var dig = 'undefined' == typeof(dig) ? 0 : dig;var name = 'undefined' == typeof(name) ? '赞' : name;
 	if(tid > 0 && uid > 0){
-		var myAjax = $.post('ajax.php?mod=dig&code=dig',{tid:tid,uid:uid},function (d){if('' != d){var s= d.split(',');if('not'==s[0]){show_message('您不能对自己的“'+__N_WEIBO__+'或评论”投'+name,1,'提示','msgBox','msg_alert');}else if('no'==s[0]){show_message('您已经'+name+'过，请不要重复操作',1,'提示','msgBox','msg_alert');}else if('yes'==s[0]){dig=parseInt(dig)+1;show_message('谢谢您的支持！'+s[1]);$('.topicdig_'+tid).html(name+'原文'+'('+dig+')');$('#topicdig_'+tid).html('&nbsp;('+dig+')');$('.topicdig_'+tid).attr("value",tid);$('.topicdig_'+tid).attr("rel",dig);Cache.save('dig_'+tid,null);}}if(comt && $.trim($('#reply_area_'+tid).html()).length<1){$('#topic_list_reply_'+tid+'_aid').click();}});
+		var myAjax = $.post('ajax.php?mod=dig&code=dig',{tid:tid,uid:uid},function (d){if('' != d){var s= d.split(',');if('not'==s[0]){show_message('您不能对自己的“'+__N_WEIBO__+'或回应”投'+name,1,'提示','msgBox','msg_alert');}else if('no'==s[0]){show_message('您已经'+name+'过，请不要重复操作',1,'提示','msgBox','msg_alert');}else if('yes'==s[0]){dig=parseInt(dig)+1;show_message('谢谢您的支持！'+s[1]);$('.topicdig_'+tid).html(name+'原文'+'('+dig+')');$('#topicdig_'+tid).html('&nbsp;('+dig+')');$('.topicdig_'+tid).attr("value",tid);$('.topicdig_'+tid).attr("rel",dig);Cache.save('dig_'+tid,null);}}if(comt && $.trim($('#reply_area_'+tid).html()).length<1){$('#topic_list_reply_'+tid+'_aid').click();}});
 	}
  }
 

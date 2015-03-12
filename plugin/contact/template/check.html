@@ -1,0 +1,210 @@
+<link rel="stylesheet" href="static/js/artDialog/css/ui-dialog.css">
+<link rel="stylesheet" href="static/style/admincp.css">
+<link rel="stylesheet" href="static/style/contact.css">
+<script type="text/javascript" src="static/js/min.js"></script>
+<script src="static/js/artDialog/dist/dialog-min.js"></script>
+<script src="static/js/date/WdatePicker.js" type="text/javascript"></script>
+<style type="text/css">
+	.check-detail{
+		margin:10px;
+	}
+	.check-detail input{
+		height:26px\9;
+	}
+	.check-detail .f-h{
+		position:relative\9;
+		top:-5px\9;
+	}
+	.check-detail .b-k{
+		margin-left:10px\9;
+	}
+	
+	.pass-color{
+		color:#bcbcbc;
+	}
+</style>
+<div class="check-detail">
+<form action="admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=check" method="post" enctype="multipart/form-data" name="frmInfo" id="frmInfo">
+  <table cellspacing="1" cellpadding="4" width="100%" align="center" class="check-detail">
+       <tr class="header">
+          <td height="30" colspan="3">联系资料</td>
+    	</tr>
+        <tr>
+          <td height="30" class="altbg11">用户头像:</td>
+          <td height="30" colspan="2">
+          <a href="index.php?mod={$userInfo[uid]}" target="_blank"><img height='60' width='60' src="{if $userInfo['face']}{$userInfo['face']}{else}/images/noavatar.gif{/if}"></img></a></td>
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">用户昵称:</td>
+          <td height="30" colspan="2">
+          <a href="index.php?mod={$userInfo[uid]}" target="_blank">{$userInfo['nickname']}</a></td>
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">企业名称:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[company]" size="48" value="{$userInfo['company']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">所在地区:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[addr]" size="48" value="{$userInfo['addr']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">联系人:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[name]" size="48" value="{$userInfo['name']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">联系手机:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[tel]" size="48" value="{$userInfo['tel']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">联系电话:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[phone]" size="48" value="{$userInfo['phone']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">微信号:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[wx]" size="48" value="{$userInfo['wx']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">QQ号:</td>
+          <td height="30" colspan="2">
+          <input type="text" name="U[qq]" size="48" value="{$userInfo['qq']}" />
+        </tr>
+        <tr>
+          <td height="30" class="altbg11">其它:</td>
+          <td height="30" colspan="2">
+          <textarea name="U[other]" cols="48">{$userInfo['other']}</textarea>
+        </tr>
+        <tbody>
+        </tbody>
+      </table>
+      <table cellspacing="1" cellpadding="4" width="100%" align="center" class="check-detail">
+  		<tr class="header">
+          <td height="30" class="altbg11">查看授权</td>
+           <td height="30">频道名称</td>
+           <td height="30">授权开始时间</td>
+           <td height="30">授权结束时间</td>
+           <td height="30">授权剩余时间(天)</td>
+           <td height="30">操作</td>
+        </tr>
+        <tbody>
+        <!--{loop $userChannel $ucl}-->
+          <tr>
+			<td height="30" class="altbg11"></td>
+			<td height="30">{$ucl['ch_name']}</td>
+			<td height="30">{eval echo $ucl['start_time']?date('Y-m-d H:i:s',$ucl['start_time']):''}</td>
+			<td height="30">{eval echo $ucl['end_time']?date('Y-m-d H:i:s',$ucl['end_time']):''}</td>
+			<td height="30">{eval echo $ucl['end_time']>time() ? ceil(($ucl['end_time']-$ucl['start_time'])/86400):0}天</td>
+			<td height="30">
+				<a class="power" href="javacript:;" rel="{$ucl['cr_id']}">编辑</a>
+	          	<label>
+	              <input type="checkbox" name="del[]" class="del checkbox" value="{$ucl['cr_id']}" />
+	              <font>删除</font>
+	            </label>
+			</td>
+          </tr>
+        <!--{/loop}-->
+        <tr>
+        	<td height="30" class="altbg11"><input name="A[uid]" type="hidden" class="ainfo" value="{$uid}" /></td>
+        	<td>
+        	选择频道
+        		<select name="A[ch_id]" style="width:126px;">
+        			<option value="">请选择</option>
+        			<!--{loop $channels $chs}-->
+        			<option value="{$chs['ch_id']}">{$chs['ch_name']}</option>
+        			<!--{/loop}-->
+        		</select>
+        	</td>
+        	<td>
+        		有效期至<input type="text" name="A[end_time]" value="" readonly onFocus="WdatePicker({startDate:'%y-%M-%d 00:00:00',dateFmt:'yyyy-MM-dd HH:mm',alwaysUseStartDate:true})"/>
+        		<input type="submit" class="u-btn button" id="add-power" value="确定" />
+        	</td>
+        </tr>
+        </tbody>
+ 	 </table>
+      <table cellspacing="1" cellpadding="4" width="100%" align="center" class="check-detail">
+  		<tr class="header">
+          <td height="30" class="altbg11">用户申请</td>
+          <td height="30">申请频道</td>
+          <td height="30">服务时间</td>
+          <td height="30">申请时间</td>
+          <td height="30">授权时间</td>
+          <td height="30">应付金额</td>
+          <td height="30">操作</td>
+        </tr>
+        <tbody>
+        <!--{loop $history $hs}-->
+		<tr {if $hs['state']>0}class="pass-color"{/if}>
+          <td height="30" class="altbg11"></td>
+          <td height="30">{$hs['ch_name']}</td>
+          <td height="30">{$hs['title']}</td>
+          <td height="30">{eval echo date('Y-m-d H:i:s',$hs['create_time'])}</td>
+          <td height="30">{if $hs['start_time']}{eval echo date('Y-m-d H:i:s',$hs['start_time'])}{else}未授权{/if}</td>
+          <td height="30">{$hs['price']} 元</td>
+          <td height="30">
+          {if $hs['state']<1}
+          	<label>
+              <input type="checkbox" name="unpass[]" class="unpass checkbox" value="{$hs['cr_id']}" />
+              <font color="#FF0000" class="f-h">不通过</font>
+            </label>
+            <label>
+              <input type="checkbox" name="pass[]" class="pass checkbox" value="{$hs['cr_id']}" />
+              <font color="green" class="f-h">通过</font>
+            </label>
+           {else}
+           	<label style="margin-left:53px;">&nbsp;&nbsp;&nbsp;</label>
+           	{if $hs['state']==1}
+           	<label>已通过</label>
+           	{elseif $hs['state']==2}
+           	<label>未通过</label>
+           	{elseif $hs['state']==3}
+           	<label>已通过</label>
+           	{/if}
+           {/if}
+           <label>
+              <input type="checkbox" name="del[]" class="del checkbox" value="{$hs['cr_id']}" />
+              <font class="f-h">删除</font>
+            </label>
+          </td>
+        </tr>
+        <!--{/loop}-->
+        <tr>
+            <td colspan="3">
+              <center>
+              <button name="do" value='' type="submit" class="button">提交</button>
+              <button class="button b-k" type="button" onclick="window.location.href='admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping';return false;">返回</button>
+              <input name="uid" type="hidden" id="uid" value="{$uid}" />
+              <input name="nickname" type="hidden" id="nickname" value="{$member[nickname]}" />
+              <input name="ids" type="hidden" id="ids" value="{$ids}" />
+              </center>
+            </td>
+          </tr>
+ 	 </table>
+</form>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('.power').click(function(){
+			var cr_id = $(this).attr('rel');
+			var d = dialog({
+				id: $(this),
+				title: '编辑授权时间'
+			});
+			d.content(cr_id);
+			$.post('admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=power',{cr_id:cr_id},function(response){
+				d.content(response);
+				d.show();
+			});
+			
+		});
+		
+		$('#add-power').click(function(){
+			$('#frmInfo').attr('action','admin.php?mod=plugin&code=manage&identifier=contact&pmod=shopping&type=addPower');
+			$('#frmInfo').submit();
+		});
+	});
+</script>

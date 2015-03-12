@@ -1,0 +1,348 @@
+/* CSS Document begin */
+/*购买频道页面样式*/
+	.ch-buy{
+		background-color:#fff;
+		padding-bottom: 20px;
+	}
+	
+	.ch-buy .list{
+		background-color:#F2F2F2;
+		float:left;
+		width:100%;
+	}
+	
+	.ch-buy .remark{
+		padding:10px;
+	}
+	
+	.ch-buy .step{
+		margin-left: 26%;
+		width:450px;
+	}
+	
+	.step-info {
+		margin-left: 25%;
+	}
+	.step-info span {
+		font-weight: bold;
+		margin-right: 65px;
+	}
+	
+	.ch-buy .appframeTitle{
+		height:100%;
+	}
+	
+	.ch-buy .detail{
+		width:20%;
+		margin-right:20px;
+		float:left;
+		margin-bottom:16px;
+	}
+	
+	.ch-buy .ch-icon img{
+		border-radius: 45px;
+		-webkit-border-radius: 45px;
+		-moz-border-radius: 45px;
+		width: 90px;
+		height:90px;
+	}
+	
+	.ch-buy .ch-name{
+		margin-left:32%;
+		font-weight:bold;
+		margin-top:8px;
+	}
+	
+	.ch-buy .ch-price{
+		margin-left:35%;
+		color:red;
+	}
+	
+	.ch-buy .ch-subscribe{
+		background-color: #75C4EF;
+		color: #fff;
+		width: 43px;
+		padding: 1px 5px;
+		margin-left: 30%;
+		cursor:pointer;
+	}
+	
+	.ch-buy .ch-subscribed{
+		background-color: #C1C1C1;
+		color: #fff;
+		width: 43px;
+		padding: 1px 5px;
+		margin-left: 30%;
+		cursor:pointer;
+	}
+	
+	.ch-buy .sl-subscribe{
+		background-color: #C1C1C1;
+		color: #fff;
+		width: 60px;
+		padding: 1px 5px;
+		margin-left: 24%;
+		cursor:pointer;
+	}
+	
+	.ch-buy .ch-list .thr{
+		border-bottom:1px dotted #7BC5EB;
+		display:inline-block;
+		width:80%;
+		margin-bottom:5px;
+		margin-left:8px;
+	}
+	
+	.ch-buy .selected-list .thr{
+		border-bottom:1px dotted black;
+		display:inline-block;
+		width:80%;
+		margin-bottom:5px;
+		margin-left:8px;
+	}
+	
+	.ch-buy .ch-list dl dt{
+		color:#7BC5EB;
+		display:inline-block;
+		margin-bottom:15px;
+	}
+	
+	.ch-buy .selected-list dl dt{
+		display:inline-block;
+		margin-bottom:15px;
+	}
+	.ch-buy .remark{
+		min-height:60px;
+		background-color:#ddd;
+	}
+	
+	.ch-buy .ch-list{
+		float:left;
+		padding:16px 0px 10px 20px;
+		width:48.74%;
+		background-color:#fff;
+	}
+	
+	.ch-buy dl{
+		margin-top:16px;
+		clear:both;
+	}
+	.ch-buy .selected-list{
+		float:left;
+		padding:16px 0px 10px 20px;
+		width:47%;
+		background:#F2F2F2;
+	}
+	
+	.ch-buy .sl-info p{
+		margin: 7px 0px;
+	}
+	
+	.ch-buy .sl-date{
+		font-weight:bold;
+	}
+	
+	.ch-buy .sl-date select{
+		width:45%;
+		padding:3px;
+	}
+	
+	.ch-buy .sl-price span{
+		color:red;
+	}
+	
+	.ch-buy .ad2{
+		color:green;
+	}
+	
+	.ch-buy .sl-item{
+		clear:both;
+		margin-bottom:102px;
+	}
+	
+	.ch-buy .total-thr{
+		border-bottom:1px dotted black;
+		display:inline-block;
+		width:95%;
+	}
+	
+	.ch-buy .total-price{
+		float:right;
+		margin-right:6%;
+		font-size:14px;
+	}
+	
+	.ch-buy .total-price span{
+		color:red;
+	}
+	
+	.ch-buy .sl-btn{
+		float:right;
+		margin-right:6%;
+	}
+	
+	.ch-buy .total-item{
+		display:none;
+	}
+	
+	.ch-buy #none-selected{
+		margin-top:168px;
+		text-align:center;
+	}
+	
+	/*联系方式和确认页样式*/
+	.buyer-info,.car-list{
+		padding:20px;
+	}
+	
+	.buyer-info .title,.car-list .title{
+		font-size:14px;
+		color:#1C934E;
+		font-weight:bold;
+		margin-bottom:16px;
+	}
+	
+	.buyer-info p{
+		margin-bottom:6px;
+	}
+	
+	.buyer-info p input,.buyer-info p textarea{
+		padding:5px;
+		width:39%;
+	}
+	
+	.car-list .c-title{
+		font-size:14px;
+		font-weight:bold;
+		display:inline-block;
+	}
+	
+	.car-list .s-thr{
+		width:90%;
+		display:inline-block;
+		border-bottom:1px dotted black;
+		margin-bottom:5px;
+		margin-left:6px;
+	}
+	
+	.car-list .c-img{
+		display:inline-block;
+	}
+	
+	.car-list .c-img img{
+		border-radius: 45px;
+		-webkit-border-radius: 45px;
+		-moz-border-radius: 45px;
+		width: 90px;
+		height:90px;
+	}
+	
+	.car-list .c-name{
+		font-size:13px;
+		font-weight:bold;
+		margin-left: 23%;
+		margin-top: 8px;
+	}
+	
+	.car-list .c-content{
+		width:48.5%;
+		margin-left:1%;
+		margin-top: 26px;
+		display:inline-block;
+	}
+	
+	.c-time-price {
+		display: inline-block;
+		position: relative;
+		top: -43px;
+		margin-left: 5%;
+	}
+	
+	.c-time-price p{
+		margin-bottom:5px;
+	}
+	
+	.c-time-price span.gre{
+		color:#00B046;
+	}
+	
+	.c-time-price p.c-price>span{
+		color:red;
+		font-weight:bold;
+	}
+	
+	.c-total .c-total-thr{
+		border-bottom:1px dotted #000;
+		clear:both;
+	}
+	
+	.c-total .c-total-price{
+		float:right;
+		font-size:18px;
+		margin:13px 0;
+		font-weight:bold;
+	}
+	
+	.c-total .c-total-price>span{
+		color:red;
+	}
+	
+	.c-total .c-btn{
+		margin:16px 0px;
+		margin-left:80%;
+	}
+	
+	.sl-ch-list ul{
+		margin-bottom:26px;
+	}
+	
+	/*选择付款方式页面样式*/
+	.account-list{
+		margin:0px 22px;
+		min-height:260px;
+		border:1px solid #eee;
+		border-top:3px solid #eee;
+	}
+	
+	.need,.must{
+		margin-left: 8px;
+		color: red;
+		font-size: 14px;
+	}
+	
+	.account-item{
+		margin-top:65px;
+		margin-left:22px;
+	}
+	
+	.account-item .a-item{
+		background-color:#E9EDEE;
+		padding: 10px 8px 6px 8px;
+		font-size: 15px;
+	}
+	
+	.account-list .pay3 {
+		width: 320px;
+		height: 142px;
+		overflow: hidden;
+		float: left;
+		margin: 10px 0 0 13px;
+		display: inline;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
+		margin-left: 66px;
+		margin-top: 26px;
+	}
+	
+	.account-list li.fontb{
+		background-color:#E4E4E4;
+	}
+	
+	.account-list .pay3 .ulpay>li{
+		margin-top:6px;
+	}
+	
+	.ch-buy .a-btn{
+		margin-bottom:26px;
+	}

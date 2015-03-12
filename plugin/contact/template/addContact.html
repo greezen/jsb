@@ -1,0 +1,74 @@
+<link href="static/style/contact.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="static/js/addclear.js"></script>
+<div id="addContact" style="display:none">
+<div>
+	<span class="level"><input type="checkbox" name="level" class="cnt-level1" value="1"checked disabled/><input type="hidden" name="level" value="1"/>认证用户</span>
+	<span class="level"><input type="checkbox" name="level" class="cnt-level2" value="2" />普通用户</span>
+	<span class="level"><input type="checkbox" name="level" class="cnt-level3" value="4" />游客用户</span>
+</div>
+<div class="add-contact"><span>姓名：</span><input type="text" name="name" value="{$userContact['name']}"/></div>
+<div class="add-contact"><span>电话：</span><input type="text" name="phone" value="{$userContact['phone']}"/></div>
+<div class="add-contact"><span>手机：</span><input type="text" name="tel" value="{$userContact['tel']}"/></div>
+<div class="add-contact"><span>微信：</span><input type="text" name="wx" value="{$userContact['wx']}"/></div>
+<div class="add-contact"><span>Q Q：</span><input type="text" name="qq" value="{$userContact['qq']}"/></div>
+<div class="add-contact"><span>邮箱：</span><input type="text" name="email" value="{$userContact['email']}"/></div>
+<div class="add-contact" style="width:50%"><span>地址：</span><input type="text" name="address" value="{$userContact['addr']}" style="width:85%"/></div>
+<div class="add-contact" style="width:100%"><span>其他：</span><textarea rows="1" name="other">{$userContact[other]}</textarea></div>
+</div>
+<style type="text/css">
+	.add-contact {
+		float: left;
+		width: 25%;
+		margin-top: 6px;
+	}
+	
+	.add-contact input {
+		width: 70%;
+		padding: 2px 0px;
+		padding-left:5px;
+	}
+	
+	.add-contact textarea {
+		width: 93.3333%;
+		padding: 2px 0px;
+	}
+	
+	.edit-contact-title{
+		border-bottom: 2px solid #7789FF;
+		font-weight: bold;
+		margin: 10px 0 10px 0;
+	}
+</style>
+<script type="text/javascript">
+	$(function(){
+		$('.add-contact input').addClear();
+		
+		$('#p_channel .chl').click(function(){
+			var chid = $(this).attr('rel');
+			var url = "index.php?mod=plugin&id=contact:contact&code=isOrder";
+			var data = {chid:chid};
+			$.post(url,data,function(json){
+				if(json.state == true){
+					$('#addContact').show();
+				}else{
+					$('#addContact').hide();
+				}
+			},'json');
+		});
+		$('.cnt-level2').click(function(){
+			if($(this).prop('checked')){
+				$('.cnt-level3').prop('checked', false);
+			}else {
+				$('.cnt-level2,.cnt-level3').prop('checked', false);
+			}
+		});
+		
+		$('.cnt-level3').click(function(){
+			if($(this).prop('checked')){
+				$('.cnt-level2').prop('checked', true);
+			}else {
+				$('.cnt-level2,.cnt-level3').prop('checked', false);
+			}
+		});
+	});
+</script>

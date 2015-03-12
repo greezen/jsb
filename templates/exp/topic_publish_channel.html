@@ -18,18 +18,18 @@ function c_no(){show_message('您没有权限发'+__N_WEIBO__+'到该频道',2,'
 <dl>
 <dt>
 <!--{if $val[ok]}-->
-<a onclick="c_int({$val['ch_id']},'{$val['ch_name']}',{$val['ck']});">{$val['ch_name']}</a>
+<a class="chl" rel="{$val['ch_id']}" onclick="c_int({$val['ch_id']},'{$val['ch_name']}',{$val['ck']});">{$val['ch_name']}</a>
 <!--{else}-->
-<a onclick="c_no();" class="hui" title="您所在的用户组没有权限发{$this->Config[changeword][n_weibo]}到该频道">{$val['ch_name']}</a>
+<a class="chl" rel="{$val['ch_id']}" onclick="c_no();" class="hui" title="您所在的用户组没有权限发{$this->Config[changeword][n_weibo]}到该频道">{$val['ch_name']}</a>
 <!--{/if}-->
 </dt>
 <dd>
 <!--{if $val['child']}-->
 <!--{loop $val['child'] $v}-->
 <!--{if $v[ok]}-->
-<a onclick="c_int({$v['ch_id']},'{$v['ch_name']}',{$v['ck']});">{$v['ch_name']}</a>
+<a class="chl" rel="{$v['ch_id']}" onclick="c_int({$v['ch_id']},'{$v['ch_name']}',{$v['ck']});">{$v['ch_name']}</a>
 <!--{else}-->
-<a onclick="c_no();" class="hui" title="您所在的用户组没有权限发{$this->Config[changeword][n_weibo]}到该频道">{$v['ch_name']}</a>
+<a class="chl" rel="{$v['ch_id']}" onclick="c_no();" class="hui" title="您所在的用户组没有权限发{$this->Config[changeword][n_weibo]}到该频道">{$v['ch_name']}</a>
 <!--{/if}-->
 <!--{/loop}-->
 <!--{else}-->

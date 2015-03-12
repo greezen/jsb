@@ -1,0 +1,101 @@
+{template "topic_header"}
+{template "topic_left_nav.inc"}
+<link rel="stylesheet" type="text/css" href="static/style/buy.css">
+<div class="ch-buy"> 
+	<div class="appframeTitle">
+		<div class="step-info">
+			<span class="step1">选择频道</span>
+			<span class="step2">填写确认资料</span>
+			<span class="step3">选择付款方式</span>
+			<span class="step4">到账(完成)</span>
+		</div>
+	  <div><img class="step" src="static/image/step2.jpg" /></div>
+	</div>
+	<div class="remark">
+		<p>文字说明</p>
+	</div>
+	<div class="list">
+	<form action="index.php?mod=other&code=verify" method="post">
+		<div class="buyer-info">
+			<div class="title">填写联系方式<span class="must">(*必填项)</span></div>
+			<div class="info-list">
+				<p><strong>企业名称：</strong><input type="text" name="Info[company]" value="{$Uinfo['company']}" /></p>
+				<p><strong>联 系 人&nbsp; ：</strong><input type="text" class="required" name="Info[name]" value="{$Uinfo['name']}" /><span class="must">*</span></p>
+				<p><strong>联系地址：</strong><input type="text" name="Info[addr]" value="{$Uinfo['addr']}" /></p>
+				<p><strong>联系手机：</strong><input type="text" class="required" name="Info[tel]" value="{$Uinfo['tel']}" /><span class="must">*</span></p>
+				<p><strong>联系电话：</strong><input type="text" name="Info[phone]" value="{$Uinfo['phone']}" /></p>
+				<p><strong>微 信 号&nbsp; ：</strong><input type="text" class="required" name="Info[wx]" value="{$Uinfo['wx']}" /><span class="must">*</span></p>
+				<p><strong>Q &nbsp;Q&nbsp; 号&nbsp;&nbsp;：</strong><input type="text" name="Info[qq]" value="{$Uinfo['qq']}" /></p>
+				<p><strong>电子邮箱：</strong><input type="text" name="Info[email]" value="{$Uinfo['email']}" /></p>
+				<p><strong>其&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他：</strong><textarea name="Info[other]">{$Uinfo['other']}</textarea></p>
+			</div>
+		</div>
+		<div class="car-list">
+			<div class="title">我已选择的频道</div>
+			<div class="sl-ch-list">
+				<!--{loop $carList['goodsList'] $gl}-->
+				<ul>
+					<li class="c-title">{$gl['ch_name']}</li>
+					<li class="s-thr"></li>
+					<!--{loop $gl['goods'] $gs}-->
+					<li class="c-content">
+						<span class="c-img">
+							<p><img src="{if $gs['picture']}{$gs['picture']}{else}static/image/v.jpg{/if}" /></p>
+							<p class="c-name">{$gs['ch_name']}</p>
+						</span>
+						<span class="c-time-price">
+							<p class="c-time"><strong>服务时间：</strong>{$gs['duration']}个月(已赠送<span class="gre">{$gs['give']}</span>个月)</p>
+							<p class="c-duration"><strong>计费时段：</strong><span class="gre">审核通过后开始计费</span></p>
+							<p class="c-price"><strong>需付款：</strong><span>￥ {$gs['price']}</span></p>
+						</span>
+					</li>
+					<!--{/loop}-->
+				</ul>
+				<!--{/loop}-->
+			</div>
+			<div class="c-total">
+			<p class="c-total-thr"></p>
+			<p class="c-total-price">合计需付款：<span>￥{$carList['totalPrice']}</span></p>
+			<p class="c-total-thr"></p>
+			<p class="c-btn">
+				<input class="u-btn" type="button" id="back-step1" value="上一步" />
+				<input class="u-btn" type="submit" id="step2" value="下一步" />
+			</p>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+</div>
+<script type="text/javascript">
+	$(function(){
+		//上一步
+		$('#back-step1').click(function(){
+			window.location.href = 'index.php?mod=other&code=buy';
+		});
+		
+		//下上步
+		$('#step2').click(function(e){
+			$('.required').trigger('blur');
+			e = e || window.event;
+			var err = $('.need').length;
+			if(err > 0){
+				e.preventDefault();
+			}
+		});
+		
+		//数据验证
+		$('.required').blur(function(){
+			if($.trim($(this).val()).length<=0){
+				$(this).siblings('.need').remove();
+				$('<span class="need">必填</span>').insertAfter($(this).siblings('.must'));
+				$(this).focus();
+			}else{
+				$(this).siblings('.need').remove();
+				$(this).siblings('.must').remove();
+			}
+		});
+	});
+</script>
+{template "topic_footer"}

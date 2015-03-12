@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="static/js/artDialog/css/ui-dialog.css">
 <link rel="stylesheet" href="static/style/contact.css">
+<link href="static/js/select2/select2.css" rel="stylesheet"/>
 <script src="static/js/artDialog/dist/dialog-min.js"></script>
 <style type="text/css">
 	.authorize{
@@ -16,7 +17,9 @@
 	<!--{loop $channels $chl}-->
 	<tr>
 		<td>{$chl['ch_name']}</td>
-		<td><span class="authorize" rel="{$chl['ch_id']}">授权</span></td>
+		<td>
+			<span><a href="admin.php?mod=plugin&code=manage&identifier=contact&pmod=setting&type=fee&ch_id={$chl['ch_id']}">费率</a></span>
+		</td>
 	</tr>
 	<!--{/loop}-->
 </table>
@@ -32,7 +35,7 @@
 			var data = {ch_id:$(this).attr('rel')};
 			var d = dialog({
 				id: $(this),
-				title: '频道查看授权'
+				title: '频道授权查看/添加'
 			});
 			$.get(url, data, function(con){
 				d.content(con);

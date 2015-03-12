@@ -1,38 +1,53 @@
-<!--{if $contact_info}-->
-<ul class="show-order-contact">
-<!--{if $contact_info['name']}-->
-<li><strong>姓名：</strong>{$contact_info['name']}</li>
+<!--{if $topic_info['contact'] && $topic_info['cnt_power']}-->
+<div class="show-order-contact">
+<!--{if $topic_info['contact']['name']}-->
+<p><strong>姓名：</strong>{$topic_info['contact']['name']}</p>
 <!--{/if}-->
-<!--{if $contact_info['phone']}-->
-<li><strong>电话：</strong>{$contact_info['phone']}</li>
+<!--{if $topic_info['contact']['phone']}-->
+<p><strong>电话：</strong>{$topic_info['contact']['phone']}</p>
 <!--{/if}-->
-<!--{if $contact_info['tel']}-->
-<li><strong>手机：</strong>{$contact_info['tel']}</li>
+<!--{if $topic_info['contact']['tel']}-->
+<p><strong>手机：</strong>{$topic_info['contact']['tel']}</p>
 <!--{/if}-->
-<!--{if $contact_info['wx']}-->
-<li><strong>微信：</strong>{$contact_info['wx']}</li>
+<!--{if $topic_info['contact']['wx']}-->
+<p><strong>微信：</strong>{$topic_info['contact']['wx']}</p>
 <!--{/if}-->
-<!--{if $contact_info['qq']}-->
-<li><strong>QQ：</strong>{$contact_info['qq']}</li>
+<!--{if $topic_info['contact']['qq']}-->
+<p><strong>Q &nbsp;Q：</strong>{$topic_info['contact']['qq']}</p>
 <!--{/if}-->
-<!--{if $contact_info['email']}-->
-<li><strong>邮箱：</strong>{$contact_info['email']}</li>
+<!--{if $topic_info['contact']['email']}-->
+<p><strong>邮箱：</strong>{$topic_info['contact']['email']}</p>
 <!--{/if}-->
-<!--{if $contact_info['site']}-->
-<li><strong>网址：</strong>{$contact_info['site']}</li>
+<!--{if $topic_info['contact']['site']}-->
+<p><strong>网址：</strong>{$topic_info['contact']['site']}</p>
 <!--{/if}-->
-<!--{if $contact_info['address']}-->
-<li><strong>地址：</strong>{$contact_info['address']}</li>
+<!--{if $topic_info['contact']['address']}-->
+<p><strong>地址：</strong>{$topic_info['contact']['address']}</p>
 <!--{/if}-->
-<!--{if $contact_info['other']}-->
-<li><strong>其他：</strong>{$contact_info['other']}</li>
+<!--{if $topic_info['contact']['other']}-->
+<p><strong>其他：</strong>{$topic_info['contact']['other']}</p>
 <!--{/if}-->
-</ul>
-<!--{else}-->
-此订单暂未添加联系信息
-<!--{/if}-->
+</div>
 <style type="text/css">
-	.show-order-contact li{
-		height: 25px;
+	.show-order-contact{
+		background-color: #f4f4f4;
+		padding: 16px;
+		font-size: 12px;
+		margin-top: 10px;
 	}
 </style>
+<!--{elseif !$topic_info['contact']}-->
+<!--{else}-->
+<div class="get-contact-power-info">
+此信息为发单会员私密内容，需 <a href="index.php?mod=other&code=buy&t=1&ch_id={$topic_info['item_id']}">申请内部订阅会员</a> 才能查看联系方式
+</div>
+<style type="text/css">
+	.get-contact-power-info{
+		font-size: 12px;
+		margin-top: 16px;
+		background:#eee;
+		padding:16px;
+		text-align:center;
+	}
+</style>
+<!--{/if}-->
