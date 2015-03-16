@@ -67,7 +67,7 @@
 						</p>
 						<p class="sl-price">需付款：<span>￥{$gs['price']}</span></p>
 						<!--{if $gs['days']}-->
-						<p class="sl-ad">剩余时间：{$gs['days']} 天</p>
+						<p class="sl-ad">上次申请剩余：{$gs['days']} 天(累加当前申请时间)</p>
 						<!--{/if}-->
 						<input type="hidden" class="select-fid" value="{$gs['fid']}">
 					</dd>
@@ -150,7 +150,7 @@
 					return;
 				}
 				if(parseInt(data.days)>0){
-					item += '<p class="sl-ad">剩余时间：'+data.days+' 天</p>';
+					item += '<p class="sl-ad">上次申请剩余：'+data.days+' 天(累加当前申请时间)</p>';
 				}
 				
 				item += '<input type="hidden" class="select-fid" value="'+data.fid+'">';

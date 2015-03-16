@@ -26,7 +26,7 @@ function main(){
 	$per_page_num = 20;
 	$page_url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=member';
 	$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_record').' ORDER BY `state`,`cr_id` DESC ';
-	$sql2 = 'SELECT * FROM '.DB::table('channel_buy_record').' ORDER BY `state`,`cr_id` DESC ';
+	$sql2 = 'SELECT r.*,(r.`end_time`-r.`start_time`) syt,m.`nickname` FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.`uid` = m.`uid`';
 	$count = DB::result_first($sql);
 	$return['page'] = page($count,$per_page_num,$page_url,array('return'=>'array'));
 	

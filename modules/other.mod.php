@@ -952,6 +952,20 @@ class ModuleObject extends MasterObject
 				}
 			}
 			setcookie(jconf::get('cookie_prefix').'shopping_'.MEMBER_ID, "", 1);
+			
+			//发送私信给管理员
+			load::logic('pm');
+			$PmLogic = new PmLogic();
+			$toUsers = DB::fetch_all('SELECT `nickname` FROM '.DB::table('members').' WHERE `role_type`=\'admin\'');
+			$to_user = array();
+			foreach ($toUsers as $user){
+				$to_user[] = $user['nickname'];
+			}
+			$applyUser = DB::result_first('SELECT `nickname` FROM '.DB::table('members').' WHERE `uid`='.MEMBER_ID);
+			$pminfo = array('to_user'=>$to_user,'message'=>$applyUser.' 刚提交了新的频道申请,请尽快处理.');
+			
+			$return = $PmLogic->pmSend($pminfo);
+			
 			$this->Messager('申请成功,付款后请及时联系客服',jurl('index.php?mod=other&code=buy'),10);
 		}
 		
@@ -962,7 +976,7 @@ class ModuleObject extends MasterObject
 	function getChannelFeeList(){
 		$ch_id = jpost('ch_id', 'int');
 		$chName = DB::fetch_first('SELECT `ch_name`,`picture`,`parent_id`,`ch_id` FROM '.DB::table('channel').' WHERE `ch_id`='.$ch_id);
-		$feeList = DB::fetch_all('SELECT * FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$ch_id.' AND `is_check`>=0');
+		$feeList = DB::fetch_all('SELECT * FROM '.DB::table('channel_fee').' WHERE `ch_id`='.$ch_id.' AND `is_check`>=0 ORDER BY `is_check` DESC');
 		$res = array();
 		$res = $chName;
 		$res['fee_list'] = $feeList;

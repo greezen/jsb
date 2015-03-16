@@ -24,7 +24,7 @@
 		<td>￥ <input type="text" name="Fee[price][]" size="8" value="{$fl['price']}" placeholder="价格" /></td>
 		<td><input type="text" name="Fee[ad1][]" value="{$fl['ad1']}" placeholder="广告语1" /></td>
 		<td><input type="text" name="Fee[ad2][]" value="{$fl['ad2']}" placeholder="广告语2" /></td>
-		<td><input type="checkbox" name="Fee[is-check][]" {if $fl['is_check']}checked{/if} class="is-check checkbox" /></td>
+		<td><input type="checkbox" name="Fee[is-check][]" {if $fl['is_check']}checked{/if} value="{$fl['fid']}" class="is-check checkbox" /></td>
 	</tr>
 	<!--{/loop}-->
 	<!--{else}-->
@@ -103,6 +103,12 @@
 		//删除刚添加的项
 		$('.remove').live('click',function(){
 			$(this).parents('tr').remove();
+		});
+		
+		$('.is-check').live('click',function(){
+			if($(this).prop('checked')){
+				$(this).prop('checked','true');
+			}
 		});
 	});
 </script>

@@ -71,7 +71,7 @@
 		<td>{eval echo date('Y-m-d H:i:s',$ckl['start_time'])}</td>
 		<!--{if $ckl['start_time']}-->
 		<td>{eval echo date('Y-m-d H:i:s',$ckl['start_time'])}－<span style="color:red">{eval echo date('Y-m-d H:i:s',$ckl['end_time'])}</span></td>
-		<td>{eval echo $ckl['end_time']>time()?ceil(($ckl['end_time']-$ckl['start_time'])/86400):'已到期';}</td>
+		<td>{eval echo $ckl['end_time']>time()?ceil(($ckl['end_time']-$ckl['start_time'])/86400).'天':'已到期';}</td>
 		<!--{else}-->
 		<td>未授权</td>
 		<td>-</td>

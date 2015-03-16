@@ -275,7 +275,7 @@ function fee($that){
 			$fee['price'] = $fees['price'][$i];
 			$fee['ad1'] = $fees['ad1'][$i];
 			$fee['ad2'] = $fees['ad2'][$i];
-			$fee['is_check'] = $fees['is-check'][$i]=='on'?1:0;
+			$fee['is_check'] = !empty($fees['is-check'])&&in_array($fee['fid'], $fees['is-check'])?1:0;
 			$fee['ch_id'] = $ch_id;
 			if($fee['fid']){
 				$res = DB::update('channel_fee', $fee, '`fid` = '.$fee['fid']);
