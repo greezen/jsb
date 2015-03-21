@@ -88,6 +88,13 @@ class ModuleObject extends MasterObject
 		$this->MetaDescription = $thischannels['description'] ? $thischannels['description'] : $thischannels['name'];
 				$channel_description = $thischannels['description'];
 				$channel_managers = jlogic('channel')->get_channel_manager($channel_id);
+				$publishers = DB::fetch_all('SELECT m.`uid`,m.`nickname`,m.`face` FROM '.DB::table('members').' m INNER JOIN '.DB::table('topic').' t ON m.`uid` = t.`uid` WHERE t.`item_id`='.$channel_id.' ORDER BY t.`dateline` DESC');
+				$channel_publishers = array();
+				foreach ($publishers as $pbl){
+					if (!isset($channel_publishers[$pbl['uid']])) {
+						$channel_publishers[$pbl['uid']] = $pbl;
+					}
+				}
 				$channel_nav = $thischannels['navhtml'];
 		$per_page_num = 20;
 		$where = $order = '';

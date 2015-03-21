@@ -30,11 +30,11 @@
   <!--{eval if('top' == $filter_view) $top = 'boxNavselect';elseif('mark' == $filter_view) $mark = 'boxNavselect';elseif('dig' == $filter_view) $dig = 'boxNavselect';		elseif('ldig' == $filter_view) $ldig = 'boxNavselect';else $post = 'boxNavselect';}-->
   <li class="{$post}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=post">最新发布</a></li>
   <li>|</li>
-  <li class="{$dig}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=dig">最新{$this->Config[changeword][dig]}</a></li>
+  <li class="{$dig}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=dig">最新点{$this->Config[changeword][dig]}</a></li>
   <li>|</li>
   <li class="{$mark}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=mark">最新回应</a></li>
   <li>|</li>
-  <li class="{$ldig}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=ldig">热门{$this->Config[changeword][dig]}</a></li>
+  <li class="{$ldig}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=ldig">热门点{$this->Config[changeword][dig]}</a></li>
   <li>|</li>
   <li class="{$top}"><a href="index.php?mod=channel&id={$this->Channel}&list=txt&view=top">推荐置顶</a></li>
   </ul> 
@@ -70,33 +70,48 @@
       </div> 
         </div>
       </div> 
-      <style type="text/css">.sideBar{ padding-top:20px;}.exp-wrap .sideBar{ padding-top:0;}</style>
+      <style type="text/css">
+		.sideBar{ padding-top:20px;}
+		.exp-wrap .sideBar{ padding-top:0;}
+		.ci_li .chgmanager li{float:left;margin-right:15px;}
+		.ci_li .chgmanager li .chgmangername{text-align:center;}
+      </style>
       <div class="sideBar">
 	  <div class="column channel_info">
-		<h3>{$thischannels[name]}</h3>
+		<h3>频道管理员</h3>
 		<!--{if $channel_managers}-->
-		<div class="ci_li">频道管理员：<!--{loop $channel_managers $val}--><a href="index.php?mod={$val[uid]}">{$val[nickname]}</a><!--{/loop}--></div>
-        <!--{/if}-->  
-        <div class="ci_li"><span>关注：{$thischannels[follow_num]}人</span> <span class="ciline">|</span> <span>内容：{$thischannels[topic_num]}条</span></div>        
-        <div class="ci_li">
-        <strong>{$thischannels[follow_button]}</strong>
-        </div>
+		<div class="ci_li">
+		<ul class="chgmanager">
+		<!--{loop $channel_managers $val}-->
+			<li>
+				<p><img alt="{$val['nickname']}" width="50px" height="50px" src="{$val['face']}"></p>
+				<p class="chgmangername"><a href="index.php?mod={$val[uid]}">{$val[nickname]}</a></p>
+			</li>
+		<!--{/loop}-->
 		</ul>
+		</div>
+        <!--{/if}-->  
 	  </div> 
       
 		<!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel][middle_right_top]}-->
 		<!--{eval SetADV('channel','middle_right_top');}-->
 		<!--{/if}-->
-        
- 
-	  <div class="column">
-		<h3>频道简介</h3>
-		<ul>
-		  {$channel_description}
-		</ul>
-	  </div>
      
-      
+      <div class="column channel_info">
+		<h3>最近发单员</h3>
+		<!--{if $channel_publishers}-->
+		<div class="ci_li">
+		<ul class="chgmanager">
+		<!--{loop $channel_publishers $val}-->
+			<li>
+				<p><img alt="{$val['nickname']}" width="50px" height="50px" src="{if $val['face']}$val['face']{else}./images/noavatar.gif{/if}"></p>
+				<p class="chgmangername"><a href="index.php?mod={$val[uid]}">{$val[nickname]}</a></p>
+			</li>
+		<!--{/loop}-->
+		</ul>
+		</div>
+        <!--{/if}-->  
+	  </div> 
 	  <!--{if $child_channel}-->
        <script type="text/javascript">
         $(document).ready(function () {
@@ -121,16 +136,6 @@
 	  <div class="column">
 		<h3>推荐置顶</h3>
 		<ul id="recommend_top">
-		</ul>
-	  </div>
-	  <div class="column">
-		<h3>一周{$this->Config[changeword][dig]}TOP10</h3>
-		<ul class="channelul" id="week_dig">
-		</ul>
-	  </div>
-	  <div class="column">
-		<h3>一月{$this->Config[changeword][dig]}TOP10</h3>
-		<ul class="channelul" id="month_dig">
 		</ul>
 	  </div>
 		<!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel][middle_right]}-->

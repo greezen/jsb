@@ -810,7 +810,8 @@ class ChannelLogic
 			$uids = explode(',',$info['manageid']);
 			$username = explode('|',$info['managename']);
 			foreach($uids as $k => $v){
-				$managers[] = array('uid'=>$v,'nickname'=>$username[$k]);
+				$face = DB::result_first('SELECT `face` FROM '.DB::table('members').' WHERE `uid`='.$v);
+				$managers[] = array('uid'=>$v,'nickname'=>$username[$k],'face'=>$face?$face:'./images/noavatar.gif');
 			}
 		}
 		return $managers;
