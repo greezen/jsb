@@ -1,5 +1,7 @@
-<?php
-$config["rewrite"]=array (
+<?php 
+ 
+				
+ $config['rewrite'] = array (
   'abs_path' => '/',
   'arg_separator' => '/',
   'gateway' => '',
@@ -27,5 +29,5 @@ $config["rewrite"]=array (
     ),
   ),
   'var_separator' => '-',
-);
+); 
 ?>

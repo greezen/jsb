@@ -1,0 +1,12 @@
+# BEGIN JishiGou
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options FollowSymLinks
+RewriteBase /
+RewriteCond %{REQUEST_URI}	!\.(gif|jpeg|png|jpg|bmp)$
+RewriteCond %{REQUEST_URI}  !^/(wap|mobile)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+# END JishiGou

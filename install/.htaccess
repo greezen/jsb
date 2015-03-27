@@ -1,0 +1,8 @@
+# BEGIN JishiGou dir safe protect for install/
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options FollowSymLinks
+RewriteBase /install/
+RewriteRule . index.html [L]
+</IfModule>
+# END JishiGou 2015-03-05 15:25:55

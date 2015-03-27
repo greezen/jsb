@@ -45,6 +45,7 @@ class ModuleObject extends MasterObject
 	
 	function main()
 	{
+		$startNum = 100 ;
 		$member = jsg_member_info(MEMBER_ID);
 		if(!($this->Channel_enable && $this->Config['channel_enable'])){$this->Messager("网站没有开启频道功能",null);}
 		$channel_id = jget('id','int','G');
@@ -54,6 +55,7 @@ class ModuleObject extends MasterObject
 			$channelrectopic =  jlogic('channel')->getChannelRecTopic();
 			$channellist =  jlogic('channel')->getChannelAll();
 			$userfanstop =  jlogic('channel')->getUserFansTop();
+			$userPublishTop = DB::fetch_all('SELECT * FROM '.DB::table('members').' ORDER BY `topic_count` DESC');
 			$this->Title = '频道首页';
 			$this->MetaKeywords = '频道首页';
 			$this->MetaDescription = '微博频道,频道首页';
@@ -63,6 +65,20 @@ class ModuleObject extends MasterObject
 				if(MEMBER_ID > 0) {
 			jlogic('member')->clean_new_remind('channel_new', MEMBER_ID);
 		}
+		
+		$theChannelTopicNum = DB::result_first("SELECT total_topic_num FROM ".DB::table('channel')." where recommend >0 and ch_id=".$channel_id);
+		$oldChannelTopicNums = explode(',', $_COOKIE['cookie_new_nums']);
+		$tmp = array();
+		foreach ($oldChannelTopicNums as $octn){
+			$tar = explode(':', $octn);
+			$tmp[$tar[0]] = $tar[1];
+		}
+		$oldChannelTopicNums = $tmp;
+		$newNum = 0;
+		if (isset($oldChannelTopicNums['channel_'.$channel_id])) {
+			$newNum = $theChannelTopicNum - $oldChannelTopicNums['channel_'.$channel_id];
+		}
+		
 		$cachefile = jconf::get('channel');
 		$channel_channels = is_array($cachefile['channels']) ? $cachefile['channels'] : array();
 		$channel_types = is_array($cachefile['channel_types']) ? $cachefile['channel_types'] : array();

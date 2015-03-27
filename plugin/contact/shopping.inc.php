@@ -56,7 +56,7 @@ function check($that){
 	$channels = DB::fetch_all('SELECT * FROM '.DB::table('channel'));
 	
 	$history = DB::fetch_all('SELECT r.*,f.`title` FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('channel_fee').' f ON r.`fid`=f.`fid` WHERE r.`uid`='.$uid);
-	$userChannel = DB::fetch_all('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `uid`='.$uid.' AND `state`=1');
+	$userChannel = DB::fetch_all('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `uid`='.$uid.' AND `state`IN (1,3)');
 	
 	if($pass || $unpass || $del || $U){
 		if ($U) {
@@ -72,7 +72,14 @@ function check($that){
 		}
 		
 		if ($del) {
+			$chids = DB::fetch_all('SELECT ch_id FROM '.DB::table('channel_buy_record').' WHERE cr_id IN('.implode(',', $del).')');
+			$chidar = array();
+			foreach ($chids as $ch){
+				$chidar[$ch['ch_id']] = $ch['ch_id'];
+			}
 			DB::delete('channel_buy_record', '`cr_id` IN('.implode(',', $del).')');
+			
+			follow_the_channel(implode(',', $chidar),$uid,0);
 		}
 		
 		$that->Messager('操作成功','');
@@ -84,18 +91,40 @@ function check($that){
 //修改授权时间
 function power($that){
 	$end_time = strtotime(jpost('power-time'));
-	$cr_id = jpost('cr_id','int');
-	$cr = DB::fetch_first('SELECT `start_time`,`end_time` FROM '.DB::table('channel_buy_record').' WHERE `cr_id`='.$cr_id);
+	$cr_id = $ocr_id = jpost('cr_id','int');
+	$flag = false;
+	$uid = jpost('uid','int');
+	$cr = DB::fetch_first('SELECT `ch_id`,`start_time`,`end_time` FROM '.DB::table('channel_buy_record').' WHERE `cr_id`='.$cr_id);
 	
 	if($end_time && $cr_id){
 		$data = array();
-		$data['end_time'] = $end_time;
-		$data['state'] = 1;
-		
-		if (!$cr['start_time'] || $cr['end_time']<time()) {
+		$exsitChannel = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `ch_id`='.$cr['ch_id'].' AND `state`=1');
+		if ($exsitChannel) {
+			$cr_id = $exsitChannel['cr_id'];
+			if ($exsitChannel['end_time']<time()) {
+				$data['start_time'] = time();
+				$data['end_time'] = $end_time;
+			}elseif ($cr_id == $ocr_id){
+				$data['end_time'] = $end_time;
+			}else {
+				$data['end_time'] = $exsitChannel['end_time']+($end_time-time());
+			}
+			$flag = true;
+		}else {
 			$data['start_time'] = time();
+			$data['end_time'] = $end_time;
+			$data['state'] = 1;
 		}
+
 		DB::update('channel_buy_record', $data, '`cr_id`='.$cr_id);
+		if ($flag && $cr_id != $ocr_id) {
+			DB::update('channel_buy_record', array('state'=>4), '`cr_id`='.$ocr_id);
+		}
+		$isbuddy = has_follow_channel($cr['ch_id'], $uid);
+		if (!$isbuddy) {
+			follow_the_channel($cr['ch_id'],$uid);
+		}
+		
 		$that->Messager('操作成功','');
 	}
 	
@@ -138,6 +167,23 @@ function addUserPower($that){
 		$that->Messager('操作失败','');
 	}
 	
+}
+
+function follow_the_channel($cid, $uid, $action=1){
+	$isexists = jlogic('channel')->is_exists($cid);
+	if($isexists){
+		if($action){
+			DB::query("INSERT INTO ".DB::table('buddy_channel')." (`uid`,`ch_id`) values ('".$uid."','{$cid}')");
+			DB::query("UPDATE ".DB::table('channel')." SET `buddy_numbers` = buddy_numbers+1 where `ch_id`='{$cid}'");
+		}else{
+			DB::query("DELETE FROM ".DB::table('buddy_channel')." WHERE uid = '".$uid."' AND ch_id IN ('$cid')");
+			DB::query("UPDATE ".DB::table('channel')." SET `buddy_numbers` = buddy_numbers-1 where `ch_id` IN ('{$cid}')");
+		}
+	}
+}
+
+function has_follow_channel($cid, $uid){
+	return DB::result_first("SELECT count(*) FROM ".DB::table('buddy_channel')." WHERE uid = '".$uid."' AND ch_id = '$cid'");
 }
 
 

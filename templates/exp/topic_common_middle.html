@@ -12,6 +12,29 @@
 					<!--{echo nui('jsg')->hook('topic.common.middle.tabs.first');}-->
 				<!--{/if}-->
 				<!--#endif#-->
+				
+				<!--{eval if($this->Code == 'topicnew') $topicnew= "current";}-->
+				<li class="{$topicnew}">
+					<span><a href="index.php?mod=topic&code=newrec" title="最新的{$this->Config['changeword']['n_weibo']}">最新内容</a></span><em class="navNew"></em>
+				</li>
+				
+				<!--我关注的频道 Begin-->
+				<!--{if $this->Channel_enable && $this->Config['channel_enable']}-->
+				<!--{eval if($this->Code == 'channel') $mychan= "current";}-->
+				<li class="{$mychan}">
+					<span>
+						<a href="index.php?mod=topic&code=channel" title="我订阅的频道{$this->Config['changeword']['n_weibo']}">我的订阅</a>
+					</span>
+				</li>
+				<!--{/if}-->
+				<!--我关注的频道 End-->
+				
+				<!--{eval if($this->Code == 'recd') $recd= "current";}-->
+				<li class="{$recd}">
+					<span><a href="index.php?mod=topic&code=recd" title="官方推荐的内容">官方推荐</a>
+					</span>
+				</li>
+				
 				<!--我关注的人 Begin--> 
 				<!--{eval if($this->Code == 'myhome') $myhome= "current";}-->
 				<li class="{$myhome}">
@@ -20,19 +43,25 @@
 					</span>
 				</li>
 				<!--我关注的人 End-->
-
-				<!--我关注的频道 Begin-->
-				<!--{if $this->Channel_enable && $this->Config['channel_enable']}-->
-				<!--{eval if($this->Code == 'channel') $mychan= "current";}-->
-				<li class="{$mychan}">
-					<span>
-						<a href="index.php?mod=topic&code=channel" title="我关注的频道{$this->Config['changeword']['n_weibo']}">我的频道</a>
+				
+				<!--我的收藏 Begin--> 
+				<!--{eval if($this->Module == 'topic_favorite' && empty($this->Code)) $favorite= "current";}-->
+				<li class="{$favorite}">
+					<span id="follow_menu_wp">
+						<a href="index.php?mod=topic_favorite" title="我的收藏">我的收藏</a>
 					</span>
 				</li>
-				<!--{/if}-->
-				<!--我关注的频道 End-->
-           
+				<!--我的收藏 End-->
 				
+				<!--收藏我的 Begin--> 
+				<!--{eval if($this->Module == 'topic_favorite' && $this->Code == 'me') $me= "current";}-->
+				<li class="{$me}">
+					<span id="follow_menu_wp">
+						<a href="index.php?mod=topic_favorite&code=me" title="收藏我的">收藏我的</a>
+					</span>
+				</li>
+				<!--收藏我的 End-->
+
 				<!--{if $this->Config['qun_setting']['qun_open']}-->
 				<!--我的微群 Begin-->
 				<!--{eval if($this->Code == 'qun') $qun= "current";}-->
@@ -44,22 +73,6 @@
 				<!--我的微群 End-->
 				<!--{/if}-->
 				
-				<!--{eval if($this->Module == 'topic_tag') $tag= "current w90";}-->
-				<li class="{$tag}">
-					<span><a href="index.php?mod=topic_tag" title="我关注话题相关的{$this->Config['changeword']['n_weibo']}">关注的话题</a></span>
-				</li>
-
-				<!--{eval if($this->Code == 'topicnew') $topicnew= "current";}-->
-				<li class="{$topicnew}">
-					<span><a href="index.php?mod=topic&code=topicnew" title="最新的{$this->Config['changeword']['n_weibo']}">最新内容</a></span><em class="navNew"></em>
-				</li>
-				
-				<!--{eval if($this->Code == 'recd') $recd= "current";}-->
-				<li class="{$recd}">
-					<span><a href="index.php?mod=topic&code=recd" title="官方推荐的内容">官方推荐</a>
-					</span>
-				</li>
-
 				<!--{if ($this->Config['dedecms_enable'] == 1)}-->
 				<!--{eval if($this->Code == 'cms') $cms= "current";}-->
 				<li class="{$cms}">

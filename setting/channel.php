@@ -124,14 +124,74 @@
       'channel_typeid' => '3',
       'feature' => 
       array (
-        0 => '今日订单',
-        8 => '推荐订单',
-        9 => '急需加工',
-        10 => '长期合作',
-        11 => '已经确认',
       ),
       'topic_template' => '',
       'template' => 'channel_order',
+    ),
+    10 => 
+    array (
+      'channel_type' => 'order',
+      'channel_typename' => '订单发布',
+      'parent_id' => '9',
+      'manageid' => '',
+      'channel_typeid' => '3',
+      'feature' => 
+      array (
+      ),
+      'topic_template' => '',
+      'template' => '',
+    ),
+    11 => 
+    array (
+      'channel_type' => 'order',
+      'channel_typename' => '订单发布',
+      'parent_id' => '9',
+      'manageid' => '',
+      'channel_typeid' => '3',
+      'feature' => 
+      array (
+      ),
+      'topic_template' => '',
+      'template' => '',
+    ),
+    12 => 
+    array (
+      'channel_type' => 'order',
+      'channel_typename' => '订单发布',
+      'parent_id' => '9',
+      'manageid' => '',
+      'channel_typeid' => '3',
+      'feature' => 
+      array (
+      ),
+      'topic_template' => '',
+      'template' => '',
+    ),
+    13 => 
+    array (
+      'channel_type' => 'order',
+      'channel_typename' => '订单发布',
+      'parent_id' => '0',
+      'manageid' => '',
+      'channel_typeid' => '3',
+      'feature' => 
+      array (
+      ),
+      'topic_template' => '',
+      'template' => 'channel_order',
+    ),
+    14 => 
+    array (
+      'channel_type' => 'order',
+      'channel_typename' => '订单发布',
+      'parent_id' => '13',
+      'manageid' => '',
+      'channel_typeid' => '3',
+      'feature' => 
+      array (
+      ),
+      'topic_template' => '',
+      'template' => '',
     ),
   ),
   'first' => 
@@ -168,7 +228,7 @@
       'feed' => '0',
       'recommend' => '0',
       'topic_num' => '0',
-      'total_topic_num' => '0',
+      'total_topic_num' => '1',
       'parent_id' => '0',
       'description' => '',
       'purview' => '',
@@ -192,8 +252,8 @@
       'ch_name' => '提问中心',
       'feed' => '0',
       'recommend' => '1',
-      'topic_num' => '1',
-      'total_topic_num' => '1',
+      'topic_num' => '2',
+      'total_topic_num' => '2',
       'parent_id' => '0',
       'description' => '',
       'purview' => '',
@@ -217,8 +277,8 @@
       'ch_name' => '建议中心',
       'feed' => '0',
       'recommend' => '1',
-      'topic_num' => '0',
-      'total_topic_num' => '0',
+      'topic_num' => '1',
+      'total_topic_num' => '1',
       'parent_id' => '0',
       'description' => '',
       'purview' => '',
@@ -241,11 +301,11 @@
       'ch_id' => '9',
       'ch_name' => '测试频道',
       'feed' => '0',
-      'recommend' => '0',
-      'topic_num' => '13',
-      'total_topic_num' => '13',
+      'recommend' => '1',
+      'topic_num' => '29',
+      'total_topic_num' => '33',
       'parent_id' => '0',
-      'description' => '',
+      'description' => 'adwe名称字符必须是字母、数字、下划线，且首字符必须是字母，末字符不得是下划线的*.html类型文件，留空则使用该频道类型名称字符必须是字母、数字、下划线，且首字符必须是字母，末字符不得是下划线的',
       'purview' => '',
       'purpostview' => '',
       'verify' => '0',
@@ -254,8 +314,33 @@
       'display_list' => 'txt',
       'display_view' => 'post',
       'in_home' => '0',
+      'picture' => './images/channel/0/66/9.png',
+      'buddy_numbers' => '0',
+      'manageid' => '',
+      'managename' => '',
+      'channel_typeid' => '3',
+      'topictype' => '0',
+    ),
+    13 => 
+    array (
+      'ch_id' => '13',
+      'ch_name' => '网络订单',
+      'feed' => '0',
+      'recommend' => '0',
+      'topic_num' => '0',
+      'total_topic_num' => '2',
+      'parent_id' => '0',
+      'description' => '',
+      'purview' => '',
+      'purpostview' => '',
+      'verify' => '0',
+      'filter' => '',
+      'display_order' => '0',
+      'display_list' => '',
+      'display_view' => '',
+      'in_home' => '0',
       'picture' => '',
-      'buddy_numbers' => '1',
+      'buddy_numbers' => '0',
       'manageid' => '',
       'managename' => '',
       'channel_typeid' => '3',
@@ -320,8 +405,8 @@
       'ch_name' => '新人报到',
       'feed' => '0',
       'recommend' => '0',
-      'topic_num' => '0',
-      'total_topic_num' => '0',
+      'topic_num' => '1',
+      'total_topic_num' => '1',
       'parent_id' => '2',
       'description' => '',
       'purview' => '',
@@ -364,11 +449,112 @@
       'channel_typeid' => '0',
       'topictype' => '0',
     ),
+    10 => 
+    array (
+      'ch_id' => '10',
+      'ch_name' => '零售店',
+      'feed' => '0',
+      'recommend' => '0',
+      'topic_num' => '0',
+      'total_topic_num' => '0',
+      'parent_id' => '9',
+      'description' => '普通模型即系统默认的对微博进行归类）普通模型即系统默认的对微博进行归类）普通模型即系统默认的对微博进行归类）',
+      'purview' => '',
+      'purpostview' => '',
+      'verify' => '0',
+      'filter' => '',
+      'display_order' => '0',
+      'display_list' => 'txt',
+      'display_view' => 'post',
+      'in_home' => '0',
+      'picture' => './images/channel/f/19/10.png',
+      'buddy_numbers' => '1',
+      'manageid' => '',
+      'managename' => '',
+      'channel_typeid' => '3',
+      'topictype' => '0',
+    ),
+    11 => 
+    array (
+      'ch_id' => '11',
+      'ch_name' => '贴牌公司',
+      'feed' => '0',
+      'recommend' => '0',
+      'topic_num' => '2',
+      'total_topic_num' => '2',
+      'parent_id' => '9',
+      'description' => '',
+      'purview' => '',
+      'purpostview' => '',
+      'verify' => '0',
+      'filter' => '',
+      'display_order' => '0',
+      'display_list' => 'txt',
+      'display_view' => 'post',
+      'in_home' => '0',
+      'picture' => './images/channel/4/93/11.png',
+      'buddy_numbers' => '1',
+      'manageid' => '',
+      'managename' => '',
+      'channel_typeid' => '3',
+      'topictype' => '0',
+    ),
+    12 => 
+    array (
+      'ch_id' => '12',
+      'ch_name' => '批发档口',
+      'feed' => '0',
+      'recommend' => '0',
+      'topic_num' => '2',
+      'total_topic_num' => '2',
+      'parent_id' => '9',
+      'description' => '',
+      'purview' => '',
+      'purpostview' => '',
+      'verify' => '0',
+      'filter' => '',
+      'display_order' => '0',
+      'display_list' => '',
+      'display_view' => '',
+      'in_home' => '0',
+      'picture' => '',
+      'buddy_numbers' => '0',
+      'manageid' => '',
+      'managename' => '',
+      'channel_typeid' => '3',
+      'topictype' => '0',
+    ),
+    14 => 
+    array (
+      'ch_id' => '14',
+      'ch_name' => '写字楼',
+      'feed' => '0',
+      'recommend' => '0',
+      'topic_num' => '2',
+      'total_topic_num' => '2',
+      'parent_id' => '13',
+      'description' => '名称字符必须是字母、数字、下划线，且首字符必须是字母，末字符不得是下划线的*.html类型文件，留空则使用该频道',
+      'purview' => '',
+      'purpostview' => '',
+      'verify' => '0',
+      'filter' => '',
+      'display_order' => '0',
+      'display_list' => 'txt',
+      'display_view' => 'post',
+      'in_home' => '0',
+      'picture' => './images/channel/6/17/14.png',
+      'buddy_numbers' => '0',
+      'manageid' => '',
+      'managename' => '',
+      'channel_typeid' => '3',
+      'topictype' => '0',
+    ),
   ),
   'recommends' => 
   array (
     7 => '提问中心',
     8 => '建议中心',
+    9 => '测试频道',
   ),
   'feeds' => 
   array (
@@ -410,6 +596,21 @@
     array (
       'id' => '9',
       'name' => '测试频道',
+      'child' => 
+      array (
+        10 => '零售店',
+        11 => '贴牌公司',
+        12 => '批发档口',
+      ),
+    ),
+    13 => 
+    array (
+      'id' => '13',
+      'name' => '网络订单',
+      'child' => 
+      array (
+        14 => '写字楼',
+      ),
     ),
   ),
   'channels' => 
@@ -453,6 +654,30 @@
     9 => 
     array (
       9 => '9',
+      10 => '10',
+      11 => '11',
+      12 => '12',
+    ),
+    10 => 
+    array (
+      10 => '10',
+    ),
+    11 => 
+    array (
+      11 => '11',
+    ),
+    12 => 
+    array (
+      12 => '12',
+    ),
+    13 => 
+    array (
+      13 => '13',
+      14 => '14',
+    ),
+    14 => 
+    array (
+      14 => '14',
     ),
   ),
 ); 

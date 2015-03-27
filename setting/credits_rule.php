@@ -181,5 +181,21 @@
     'cycletype' => '4',
     'extcredits2' => '1',
   ),
+  '_C-1928894587' => 
+  array (
+    'rid' => '28',
+    'rulename' => '发到指定频道',
+    'action' => '_C-1928894587',
+    'cycletype' => '4',
+    'extcredits2' => '-2',
+    'related' => '测试频道',
+  ),
+  '_V' => 
+  array (
+    'rid' => '30',
+    'rulename' => '查看订单联系方式',
+    'action' => '_V',
+    'extcredits2' => '-2',
+  ),
 ); 
 ?>

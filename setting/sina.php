@@ -1,9 +1,9 @@
 <?php 
- /* save by 2 127.0.0.1 2013-04-22 09:56:58 */
+ 
 				
  $config['sina'] = array (
   'enable' => 1,
-  'oauth2_enable' => 0,
+  'oauth2_enable' => 1,
   'app_key' => '3015840342',
   'app_secret' => '484175eda3cf0da583d7e7231c405988',
   'reg_pwd_display' => 1,

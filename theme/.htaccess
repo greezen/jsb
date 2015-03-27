@@ -1,0 +1,8 @@
+# BEGIN JishiGou dir safe protect for theme/
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options FollowSymLinks
+RewriteBase /theme/
+RewriteRule ^.*\.(php|php3|php4|asp|aspx|jsp|cgi)$ index.html [NC,L]
+</IfModule>
+# END JishiGou 2015-03-05 15:25:55

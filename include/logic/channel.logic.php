@@ -558,6 +558,8 @@ class ChannelLogic
 			$channel_buddy = follow_channel($channel['ch_id'],in_array($channel['ch_id'],$my_channels_key));
 									$return['description'] = $channel['description'];
 			$return['name'] = $channel['ch_name'];
+			$return['publisher'] = DB::result_first('SELECT COUNT(*) FROM '.DB::table('topic').' WHERE `uid`='.MEMBER_ID.' AND `item_id`='.$ch_id.' GROUP BY `uid`');
+			$return['picture'] = $channel['picture']?$channel['picture']:'./static/image/v.jpg';
 			$return['list'] = $channel['display_list'];
 			$return['view'] = $channel['display_view'];
 			$return['follow_num'] = '<font class="follow_num_'.$channel['ch_id'].'">'.$channel['buddy_numbers'].'</font>';
@@ -612,7 +614,7 @@ class ChannelLogic
 		$channles = array();
 		$my_channels = $this->mychannel();
 		$my_channels_key = array_keys($my_channels);
-		$query = DB::query("SELECT ch_id,ch_name,topic_num,total_topic_num,parent_id,buddy_numbers,picture FROM ".DB::table('channel')." ORDER BY parent_id ASC,display_order ASC");
+		$query = DB::query("SELECT ch_id,ch_name,topic_num,total_topic_num,parent_id,buddy_numbers,picture,description FROM ".DB::table('channel')." ORDER BY parent_id ASC,display_order ASC");
 		while ($value = DB::fetch($query)) {
 			$parent_id = $value['parent_id'];
 			$value['picture'] = $value['picture'] ? $value['picture'] : './images/channelimg.gif';
@@ -620,6 +622,19 @@ class ChannelLogic
 			if($value['total_topic_num'] > $value['topic_num']){
 				$value['topic_num'] = $value['total_topic_num'];
 			}
+			
+			$oldChannelTopicNums = explode(',', $_COOKIE['cookie_new_nums']);
+			$tmp = array();
+			foreach ($oldChannelTopicNums as $octn){
+				$tar = explode(':', $octn);
+				$tmp[$tar[0]] = $tar[1];
+			}
+			$oldChannelTopicNums = $tmp;
+			$newNum = 0;
+			if (isset($oldChannelTopicNums['channel_'.$value['ch_id']])) {
+				$newNum = $value['total_topic_num'] - $oldChannelTopicNums['channel_'.$value['ch_id']];
+			}
+			$value['new_num'] = $newNum;
 			unset($value['total_topic_num']);
 			$value['channel_buddy'] = follow_channel($value['ch_id'],in_array($value['ch_id'],$my_channels_key));
 			if ($parent_id == 0) {
@@ -627,7 +642,7 @@ class ChannelLogic
 			} else {
 				$channles[$parent_id]['child'][$value['ch_id']] = $value;
 			}
-		}
+		}//var_dump($channles[9]['child']);exit;
 		return $channles;
 	}
 

@@ -6,16 +6,41 @@
 <!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel][header]}-->
 <div class="a-h"><!--{eval SetADV('channel','header');}--></div>
 <!--{/if}-->
-<style>.main{ padding-top:100px;}.exp-wrap .main{ padding-top:0;}</style>
+<style>
+	.main{ padding-top:100px;}
+	.exp-wrap .main{ padding-top:0;}
+	.channelTop .chitem{float:left;margin-right:20px;}
+	.channelTop .chsubscribe{float:right;margin-right:-7px;}
+	.chdetail .chtitle h2{font-size:16px;font-weight:bold;display:inline-block;}
+	.chdetail .chtitle .new-topic-num{background:#D82719;color:white;padding:0px 4px;margin-left:6px;}
+	.chdetail .chdata div{color:#7FC3EB;margin-right:26px;display:inline-block}
+	.chdetail .chdesc{font-size:14px;}
+	.chdetail{width:75%}
+	.chitem .chsub{background:#AACCEF;color:white;padding:0px 15px;margin-top:9px;}
+	.chitem .chsub a{color:white;}
+	.chdata .topic-num{background:url('../../static/image/ch.jpg') no-repeat;width:19px;display:inline-block;height:16px;}
+	.chdata .publisher-num{background:url('../../static/image/ch.jpg') no-repeat;background-position-x:-18px;width:19px;display:inline-block;height:16px;}
+	.chremain{background:#F8F8F8;border:1px solid #E1E1E1;padding:26px;text-align:center;margin-top:20px;font-size:14px;}
+</style>
 <div class="main">
 <!--频道导航-->
+<div class="channelTop n-hd" style="padding:10px 28px 10px 10px;">
+<div class="chitem chimg"><img src="{$thischannels['picture']}" width="90px" height="90px" /></div>
+<div class="chitem chdetail">
+	<div class="chtitle"><h2>{$thischannels['name']}</h2>{if $newNum}<span class="new-topic-num">{$newNum}</span>{/if}</div>
+	<div class="chdata"><div><span class="topic-num"></span><span class="num-txt">  {eval echo $startNum+$thischannels['topic_num']}</span></div><div><span class="publisher-num"></span><span class="num-txt">  {eval echo $startNum+$thischannels['publisher']}</span></div></div>
+	<div class="chdesc">{$thischannels['description']}</div>
+</div>
+<div class="chitem chsubscribe">
+	<div class="chindex"><a href="index.php?mod=channel">频道首页>></a></div>
+	<div class="chsub"><a href="index.php?mod=other&code=buy&t=1&ch_id={$channel_id}" target="_blank">+ 订 阅</a></div>
+</div>
+</div>
 <div class="channelTop n-hd">
 <div class="channelnav">
-<div class="navLeft">{$channel_nav}</div>
 <div class="list_title"> 
   <a class="listmod "href="index.php?mod=channel&id={$this->Channel}&list=txt"></a>
   <a class="picmod" href="index.php?mod=channel&id={$this->Channel}&list=pic"></a>
-</div>
 </div>
 <div class="channelsubnav">
 <!--{if $featurelist}-->
@@ -40,6 +65,8 @@
   </ul> 
 <!--{/if}-->
 </div>
+</div>
+
 </div>
 <!--频道导航-->
 
@@ -68,6 +95,9 @@
           <!--{/if}-->
         </div>
       </div> 
+		<div class="chremain">
+			下列  {eval echo $startNum+$thischannels['topic_num']} 条订单信息已过期或已确定厂家，无需查看
+		</div>
         </div>
       </div> 
       <style type="text/css">

@@ -1,5 +1,16 @@
 {template "topic_header"}
 <link href="static/style/channel.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	.ch-img,.ch-info{float:left}
+	.ch-info{margin-left:9px;width:116px;word-break:break-all;}
+	.ch-img .ch-sub{background:#AACCEF;color:white;padding:0px 15px;margin-top:9px;}
+	.ch-img .ch-sub a{color:white;}
+	.ch-info .topic-num{background:url('../../static/image/ch.jpg') no-repeat;width:19px;display:inline-block;height:16px;}
+	.ch-info .publisher-num{background:url('../../static/image/ch.jpg') no-repeat;background-position-x:-18px;width:19px;display:inline-block;height:16px;}
+	.ch-info p{ margin-bottom:1px;}
+	.ch-info .title em{background:#D82719;color:white;padding:0px 4px;margin-left:6px;font-size:12px;}
+	.sideul li{width:auto !important;}
+</style>
 <!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel_home][header]}-->
 <div class="a-h"><!--{eval SetADV('channel_home','header');}--></div>
 <!--{/if}-->
@@ -9,7 +20,9 @@ $(document).ready(function(){get_month_dig();get_week_dig();});
 function get_week_dig(){channel_right_show_ajax('week_dig','0','0','8');}
 function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 </script>
-
+<div class="plaze_header_nav">
+{jwidget channel.header.nav}
+</div>
 {template "topic_left_nav.inc"}
 
 <div class="main">
@@ -44,7 +57,20 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 <!--{if $val['child']}-->
     <ul>
 	<!--{loop $val['child'] $v}-->
-	<li><div class="img"><a href="index.php?mod=channel&id={$v['ch_id']}"><img src="$v['picture']"/></a></div><div class="info"><p class="title"><a href="index.php?mod=channel&id={$v['ch_id']}">{$v['ch_name']}</a></p><p class="em">{$this->Config[changeword][n_weibo]}：{$v['topic_num']} 条</p><p class="em">关注：<font class="follow_num_{$v['ch_id']}">{$v['buddy_numbers']}</font> 人</p><span class="follow_c_{$v['ch_id']}">{$v['channel_buddy']}</span></div></li>
+	<li style="height:100%;margin-bottom:30px;">
+		<div class="ch-img">
+			<p><a href="index.php?mod=channel&id={$v['ch_id']}"><img style="width:90px;height:90px" src="$v['picture']"/></a></p>
+			<p class="ch-sub"><a href="index.php?mod=other&code=buy&t=1&ch_id={$v['ch_id']}">+ 订 阅</a></p>
+		</div>
+		<div class="ch-info">
+			<p class="title"><a href="index.php?mod=channel&id={$v['ch_id']}">{$v['ch_name']}</a>{if $v['new_num']}<em>{$v['new_num']}</em>{/if}</p>
+			<p>
+			<span class="topic-num"></span><span class="num-txt">{eval echo $startNum+$v['topic_num']}</span>
+			<span class="publisher-num"></span><span class="num-txt follow_num_{$v['ch_id']}">{eval echo $startNum+$val['buddy_numbers']}</span>
+			</p>
+			<p><span>{eval echo cutstr($v['description'],35,'...')}</span></p>
+		</div>
+	</li>
 	<!--{/loop}-->
     </ul>
 <!--{/if}-->
@@ -63,23 +89,23 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 <!--{/if}-->
 
 <div class="column">
-<h3>最受关注榜</h3>
+<h3>发单成员活跃榜</h3>
 <ul class="sideul sideuserList ">
-<!--{if $userfanstop}-->
-<!--{loop $userfanstop $val}-->
-<li> <a href="index.php?mod={$val[username]}" target="_blank"><img onerror="javascript:faceError(this);" src="{$val[face]}" class="manface" onmouseover="get_user_choose({$val[uid]},'_user',{$val[uid]})" onmouseout="clear_user_choose()"></a> <b><a href="index.php?mod={$val[username]}" target="_blank">{$val[nickname]}</a></b> <div id="user_{$val[uid]}_user"></div> <div id="alert_follower_menu_{$val[uid]}"></div> <div id="global_select_{$val[uid]}" class="alertBox"></div> <div id="get_remark_{$val[uid]}"></div> <div id="button_{$val[uid]}" onclick="get_group_choose({$val[uid]});"></div> <div id="Pmsend_to_user_area"></div></li>
+<!--{if $userPublishTop}-->
+<!--{loop $userPublishTop $val}-->
+<li> 
+<div class="utinfo">
+<p><a href="index.php?mod={$val[username]}" target="_blank"><img onerror="javascript:faceError(this);" src="{$val[face]}" class="manface" onmouseover="get_user_choose({$val[uid]},'_user',{$val[uid]})" onmouseout="clear_user_choose()"></a></p>
+<p><a href="index.php?mod={$val[username]}" target="_blank">{$val[nickname]}</a></p>
+</div> 
+<div id="user_{$val[uid]}_user"></div> 
+<div id="alert_follower_menu_{$val[uid]}"></div> 
+<div id="global_select_{$val[uid]}" class="alertBox"></div> 
+<div id="get_remark_{$val[uid]}"></div> <div id="button_{$val[uid]}" onclick="get_group_choose({$val[uid]});"></div> 
+<div id="Pmsend_to_user_area"></div>
+</li>
 <!--{/loop}-->
 <!--{/if}-->
-</ul>
-</div>
-<div class="column">
-<h3>一周热{$this->Config[changeword][dig]}</h3>
-<ul class="channelul" id="week_dig">
-</ul>
-</div>
-<div class="column">
-<h3>一月热{$this->Config[changeword][dig]}</h3>
-<ul class="channelul" id="month_dig">
 </ul>
 </div>
 <!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel_home][middle_right]}-->
