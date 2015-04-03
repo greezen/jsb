@@ -1,4 +1,4 @@
-<?php /* 2015-03-27 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?><style type="text/css"> <?php if($this->Config['theme_text_color']) { ?>
+<?php /* 2015-04-01 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?><style type="text/css"> <?php if($this->Config['theme_text_color']) { ?>
 body{ color:<?php echo $this->Config['theme_text_color']; ?>; }
 <?php } ?> <?php if($this->Config['theme_bg_color']) { ?>
 body{ background-color:<?php echo $this->Config['theme_bg_color']; ?>; }

@@ -1,4 +1,4 @@
-<?php /* 2015-03-27 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?><script type="text/javascript">
+<?php /* 2015-04-01 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?><script type="text/javascript">
 $(document).ready(function(){
 $("#m_avatar2").mouseover(function(){$(".avatar2_tips").show();});
 $("#m_avatar2").mouseout(function(){$(".avatar2_tips").hide();});

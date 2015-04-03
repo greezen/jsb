@@ -7266,3 +7266,2389 @@
 
 1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427457978' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427457978 |  | 
 
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680269' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680269 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-30 09:51:08 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680269' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680269 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-30 09:51:07 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680269' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680269 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427680270' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427680270 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681527' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681527 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-30 10:12:07 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681527' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681527 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681527' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681527 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681527' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681527 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681527' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681527 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681527' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681527 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681528' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681528 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-30 10:17:31 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427681851' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427681851 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-30 10:35:33 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427682933' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427682933 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 11:06:50 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427684811' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427684811 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427686155',`tid`='68' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => '载玩儿',
+  'topictype' => '',
+  'r' => 'newrec',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '10',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 11:29:15 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 11:29:20 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686160' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686160 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686161' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686161 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686161' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686161 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427686161' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427686161 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427686190',`tid`='69' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => '直十上',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '11',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 11:29:50 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696099' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696099 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:14:58 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696099' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696099 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696100' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696100 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696129',`tid`='70' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'asdf awer asdert gh',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '11',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:15:28 127.0.0.1] 
+
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696184',`tid`='71' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'hhhfgrrrrr',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '11',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:16:24 127.0.0.1] 
+
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696289',`tid`='72' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'vbcvbnvnbfghfg',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '11',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:18:09 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696292' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696292 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:18:12 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696292' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696292 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696292' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696292 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696292' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696292 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696292' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696292 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696293' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696293 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696304',`tid`='73' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'fghjfghjtytyr455',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '12',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:18:24 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:18:28 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696309' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696309 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696342',`tid`='74' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'sdfgsdfgsdf',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '14',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:19:02 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:19:05 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696345' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696345 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696406',`tid`='75' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'sdfggggggggggggs',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '14',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:20:06 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:21:21 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696481' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696481 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:21:45 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696506' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696506 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:22:13 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696533' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696533 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='0',`create_time`='1427696540',`tid`='78' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'gdfgfhjghj',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => '',
+  'item_id' => '',
+  'from' => '',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=0',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:22:20 127.0.0.1] 
+
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696552',`tid`='79' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'fghfghffghjhjhjghj',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '10',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:22:31 127.0.0.1] 
+
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696707',`tid`='80' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'asdasdasd',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '10',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:25:07 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:25:09 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696709' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696709 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696710' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696710 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696710' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696710 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696710' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696710 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696719',`tid`='81' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'dasdasd',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '11',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:25:18 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:25:46 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696746' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696746 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696747' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696747 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696747' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696747 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696747' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696747 |  | 
+
+1054 | Unknown column 'flag' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`flag`='911',`create_time`='1427696786',`tid`='82' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'zxcvfd',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '11',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&flag=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:26:26 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:27:51 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427696871' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427696871 |  | 
+
+1054 | Unknown column 'isorder' in 'field list' | INSERT INTO jishigou_order_contact SET `level`='1',`name`='add',`phone`='15989589733',`tel`='18888188691',`wx`='wwxis',`qq`='8865410294',`email`='886514295@qq.com',`address`='地球村,中国镇adsdfw',`other`='aiowjlkdjf轻裘肥马玩儿票\'的是容貌有;家得因目劳动服务公司\'',`isorder`='911',`create_time`='1427696883',`tid`='83' |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'do_add',
+  'act' => 'reply',
+)
+
+[_POST]array (
+  'totid' => '0',
+  'syn_to_sina' => '0',
+  'syn_to_qqwb' => '0',
+  'syn_to_kaixin' => '0',
+  'syn_to_renren' => '0',
+  'imageid' => '',
+  'attachid' => '',
+  'videoid' => '0',
+  'longtextid' => '0',
+  'content' => 'sdfg',
+  'topictype' => '',
+  'r' => 'myhome',
+  'roottid' => '',
+  'is_huifu' => '',
+  'item' => 'channel',
+  'item_id' => '12',
+  'from' => 'channel',
+  'xiami_id' => '',
+  'touid' => '',
+  'relateid' => '0',
+  'featureid' => '0',
+  'verify' => '0',
+  'anonymous' => '',
+  'is_reward' => '0',
+  'contact' => 'level=1&name=add&phone=15989589733&tel=18888188691&wx=wwxis&qq=8865410294&email=886514295%40qq.com&address=%E5%9C%B0%E7%90%83%E6%9D%91%2C%E4%B8%AD%E5%9B%BD%E9%95%87adsdfw&other=aiowjlkdjf%E8%BD%BB%E8%A3%98%E8%82%A5%E9%A9%AC%E7%8E%A9%E5%84%BF%E7%A5%A8\\\'%E7%9A%84%E6%98%AF%E5%AE%B9%E8%B2%8C%E6%9C%89%3B%E5%AE%B6%E5%BE%97%E5%9B%A0%E7%9B%AE%E5%8A%B3%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%8F%B8\\\'&isorder=911',
+  'mod' => 'topic',
+  'code' => 'do_add',
+)
+[2015-03-30 14:28:03 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-30 14:33:16 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427697196' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427697196 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:34:42 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:34:43 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:36:07 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:38:18 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:39:01 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:40:06 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 14:40:10 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-30 15:37:40 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701060' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701060 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427701061' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427701061 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+  't' => '1',
+  'ch_id' => '10',
+)
+[2015-03-30 20:15:33 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 20:15:55 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 20:19:07 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-30 20:25:03 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765323' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765323 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-31 09:28:40 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765324' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765324 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427765325' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427765325 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+  't' => '1',
+  'ch_id' => '10',
+)
+[2015-03-31 09:48:10 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-31 09:48:39 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782306' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782306 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => '',
+)
+[2015-03-31 14:11:45 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782306' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782306 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427782307' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427782307 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+  't' => '1',
+  'ch_id' => '14',
+)
+[2015-03-31 14:14:29 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 | SELECT SUM(`price`) FROM jishigou_channel_fee WHERE `fid` IN() |  | 
+[_GET]array (
+  'mod' => 'other',
+  'code' => 'buy',
+)
+[2015-03-31 14:14:47 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+[_GET]array (
+  'mod' => 'topic',
+  'code' => 'myhome',
+)
+[2015-03-31 16:05:30 127.0.0.1] 
+
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+
+1064 | You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `uid`=1 AND `end_time`>=1427789131' at line 1 | SELECT COUNT(*) num FROM jishigou_channel_buy_record WHERE `ch_id`= AND `uid`=1 AND `end_time`>=1427789131 |  | 
+

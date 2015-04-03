@@ -3,7 +3,7 @@
 {template "topic_index_slide"}
 <!--{hook/global_index_common_top}-->
  <div class="contentWrap">
-	 <!--{if in_array($this->Code,array('myhome','qun','recd','other','bbs','cms','department','channel','nedu','topicnew')) || $this->Get[gid] !='' || in_array($this->Module, array('topic_tag'))}-->
+	 <!--{if in_array($this->Code,array('myhome','qun','recd','other','bbs','cms','department','channel','nedu','topicnew', 'newrec')) || $this->Get[gid] !='' || in_array($this->Module, array('topic_tag','topic_favorite'))}-->
 	<div class="topicNav">
 		<div class="nfTagB">
 			<ul> 
@@ -15,7 +15,7 @@
 				
 				<!--{eval if($this->Code == 'topicnew') $topicnew= "current";}-->
 				<li class="{$topicnew}">
-					<span><a href="index.php?mod=topic&code=newrec" title="最新的{$this->Config['changeword']['n_weibo']}">最新内容</a></span><em class="navNew"></em>
+					<span><a href="index.php?mod=topic&code=topicnew" title="最新的{$this->Config['changeword']['n_weibo']}">最新内容</a></span><em class="navNew"></em>
 				</li>
 				
 				<!--我关注的频道 Begin-->
@@ -283,7 +283,7 @@
 		<!--{eval $pagehtml_not = true;}-->
 		<!--{subtemplate topic_list_ajax}-->
 		<!--微博列表 End-->
-		<div id="ajaxtopic"></div>
+		<div id="ajaxtopics"></div>
 		<!--{hook/global_index_common_topic_bottom}-->
 		<div id="pageinfo"></div>
 		<div id="pagehtml">

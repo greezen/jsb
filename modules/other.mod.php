@@ -829,10 +829,13 @@ class ModuleObject extends MasterObject
 			$this->Messager("请先<a onclick='ShowLoginDialog(); return false;'>点此登录</a>或者<a onclick='ShowLoginDialog(1); return false;'>点此注册</a>一个帐号",null);
 			return false;
 		}
-		$carList = $this->getCarList(true);
+		
 		$t = jget('t');//由订阅列表或详情页进入时的标志
 		$ch_id = jget('ch_id');
-		//var_dump($carList,$carList['goodsList'][9]['goods']);
+		$this->canBuy($ch_id);
+		$carList = $this->getCarList(true);
+		
+		
 		if ($t == 1 && $ch_id && empty($carList['goodsList'])) {
 			$chs = array();
 			$pchid = DB::result_first('SELECT `parent_id` FROM '.DB::table('channel').' WHERE `ch_id`='.$ch_id);
@@ -1027,6 +1030,20 @@ class ModuleObject extends MasterObject
 			jsg_setcookie('shopping_'.MEMBER_ID, json_encode($chs),7*3600*24);exit;
 		}elseif ($type == 'clean-all'){
 			setcookie(jconf::get('cookie_prefix').'shopping_'.MEMBER_ID, "", 1);exit;
+		}
+	}
+	
+	private function canBuy($ch_id){
+		//判断是否为订单模型频道
+		$isOrderModel = DB::result_first('SELECT COUNT(*) num FROM '.DB::table('channel').' WHERE `channel_typeid` = 3 AND `ch_id`='.$ch_id);
+		if ($ch_id && !$isOrderModel) {
+			$this->Messager('此频道不是订单模型');
+		}
+		
+		//判断是否已设置费率
+		$isSetFee = DB::result_first('SELECT COUNT(*) num FROM '.DB::table('channel_fee').' WHERE `is_check`=-1 AND `ch_id`='.$ch_id);
+		if ($ch_id && !$isSetFee) {
+			$this->Messager('此频道暂时不能购买,如有需要请联系客服');
 		}
 	}
 }

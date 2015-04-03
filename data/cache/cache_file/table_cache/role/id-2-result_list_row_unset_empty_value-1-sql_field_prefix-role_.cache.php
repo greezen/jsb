@@ -1,7 +1,7 @@
 <?php if(!defined('IN_JISHIGOU')) { exit('invalid request'); } 
 $cache = array (
   'key' => 'table_cache/role/id-2-result_list_row_unset_empty_value-1-sql_field_prefix-role_',
-  'dateline' => 1427180956,
+  'dateline' => 1427718220,
   'val' => 
   array (
     'life' => 2592000,

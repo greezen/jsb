@@ -1,4 +1,4 @@
-<?php /* 2015-03-27 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?>    
+<?php /* 2015-04-01 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?>    
 <?php if(in_array($this->Code,array('myhome','tag','qun','recd','other','bbs','cms','department','channel','topicnew', 'index', '')) || $this->Get['gid'] !=''||(defined('NEDU_MOYO') &&($this->Get['nedu']=='course'||$this->Code=='nedu'))) { ?> <div class="slide"> <script language="Javascript">
 function listTopic( s , lh ) {	
 var s = 'undefined' == typeof(s) ? 0 : s;

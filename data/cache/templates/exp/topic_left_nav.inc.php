@@ -1,4 +1,4 @@
-<?php /* 2015-03-27 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?> 
+<?php /* 2015-04-01 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?> 
 <?php $_costr = LEFTNAV=='none' ? '打开' : '关闭';$_cocss = LEFTNAV=='none' ? ' fb-open" style="left:-130px;' : '' ?> <div id="topic_index_left_ajax_list" class="fixedLeft<?php echo $_cocss; ?>" style="_height:950px;"> <div id="leftNav" class="leftNav"> <?php if($my_member || $member) { ?> <?php $_mymember = $my_member ? $my_member : $member ?> <?php } ?> <?php $top_nav_key=jget('top_nav');
 if(empty($top_nav_key) || in_array($top_nav_key, array('mall', )) || empty($GLOBALS['_J']['config']['navigation'][$top_nav_key]['list']))
 $top_nav_key='index';

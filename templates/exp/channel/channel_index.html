@@ -63,10 +63,10 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 			<p class="ch-sub"><a href="index.php?mod=other&code=buy&t=1&ch_id={$v['ch_id']}">+ 订 阅</a></p>
 		</div>
 		<div class="ch-info">
-			<p class="title"><a href="index.php?mod=channel&id={$v['ch_id']}">{$v['ch_name']}</a>{if $v['new_num']}<em>{$v['new_num']}</em>{/if}</p>
+			<p class="title"><a href="index.php?mod=channel&id={$v['ch_id']}">{$v['ch_name']}</a>{if $v['new_num']>0}<em>{$v['new_num']}</em>{/if}</p>
 			<p>
 			<span class="topic-num"></span><span class="num-txt">{eval echo $startNum+$v['topic_num']}</span>
-			<span class="publisher-num"></span><span class="num-txt follow_num_{$v['ch_id']}">{eval echo $startNum+$val['buddy_numbers']}</span>
+			<span class="publisher-num"></span><span class="num-txt follow_num_{$v['ch_id']}">{eval echo $startNum+$v['buddy_numbers']}</span>
 			</p>
 			<p><span>{eval echo cutstr($v['description'],35,'...')}</span></p>
 		</div>

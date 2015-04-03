@@ -1,7 +1,7 @@
 <?php if(!defined('IN_JISHIGOU')) { exit('invalid request'); } 
 $cache = array (
   'key' => 'table/role_action',
-  'dateline' => 1427180956,
+  'dateline' => 1427718220,
   'val' => 
   array (
     'life' => 2592000,

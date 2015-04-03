@@ -1,7 +1,7 @@
 <?php if(!defined('IN_JISHIGOU')) { exit('invalid request'); } 
 $cache = array (
   'key' => 'table_stauts/buddy_follow_2',
-  'dateline' => 1427181028,
+  'dateline' => 1427765320,
   'val' => 
   array (
     'life' => 864000,

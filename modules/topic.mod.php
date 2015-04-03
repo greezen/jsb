@@ -112,7 +112,7 @@ class ModuleObject extends MasterObject
 				if($this->Config['topic_home_page']) {
 					$this->Messager(null, $this->Config['topic_home_page']);
 				} else {
-					$this->Code = 'myhome';
+					$this->Code = 'topicnew';
 				}
 			} else {
 				$this->Messager("请先<a onclick='ShowLoginDialog(); return false;'>点此登录</a>或者<a onclick='ShowLoginDialog(1); return false;'>点此注册</a>一个帐号",null);

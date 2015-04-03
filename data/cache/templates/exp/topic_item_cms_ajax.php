@@ -1,4 +1,4 @@
-<?php /* 2015-03-27 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?><style type="text/css">
+<?php /* 2015-04-01 in jishigou invalid request template */ if(!defined("IN_JISHIGOU")) exit("invalid request"); hookscriptoutput(); ?><style type="text/css">
 .feedCell{ width:100%; float:left;}
 </style> <?php if($val['uid']) { ?> <style type="text/css">
 .relayFloor .feedCell .wb_l_face .avatar{ width:25px; height:25px;box-shadow:none;}

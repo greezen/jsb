@@ -102,7 +102,7 @@
 			<td height="30">
 				<a class="power" href="javacript:;" rel="{$ucl['cr_id']}">编辑</a>
 	          	<label>
-	              <input type="checkbox" name="del[]" class="del checkbox" value="{$ucl['cr_id']}" />
+	              <input type="checkbox" name="del_h[]" class="del checkbox" value="{$ucl['cr_id']}" />
 	              <font>删除</font>
 	            </label>
 			</td>
@@ -121,6 +121,7 @@
         	</td>
         	<td>
         		有效期至<input type="text" name="A[end_time]" value="" readonly onFocus="WdatePicker({startDate:'%y-%M-%d 00:00:00',dateFmt:'yyyy-MM-dd HH:mm',alwaysUseStartDate:true})"/>
+        		<input type="hidden" name="A[uid]" value="{$userInfo[uid]}" />
         		<input type="submit" class="u-btn button" id="add-power" value="确定" />
         	</td>
         </tr>

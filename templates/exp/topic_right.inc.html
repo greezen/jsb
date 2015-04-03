@@ -88,7 +88,17 @@
   </div>
 <!--{/if}-->
 <!--官方推荐-->
-
+<!--新闻公告start-->
+	<script language="javascript">$(document).ready(function(){get_channel_announce_news(8);});</script>
+	<div class="column" id="channel_news_list"></div>
+	<script>
+function get_channel_announce_news(num){
+	var num = 'undefined' == typeof(num) ? 5 : num;
+	var myAjax=$.post("ajax.php?mod=dig&code=cnews",{num:num},function(d){$('#channel_news_list').html(evalscript(d));});
+	return false;
+}
+</script>
+	<!--新闻公告end-->
 <!--最新内容-->
 <!--{if $params[code] == 'topicnew'}-->
 <link href="static/style/channel.css" rel="stylesheet" type="text/css" />

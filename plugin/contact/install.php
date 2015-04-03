@@ -68,6 +68,23 @@ CREATE TABLE `jishigou_order_contact` (
   `level` tinyint(255) NOT NULL DEFAULT '0' COMMENT '信息可查看的级别(1=>授权查看,2=>会员查看,3=>游客查看)',
   PRIMARY KEY (`ct_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8
+		
+DROP TABLE IF EXISTS {jishigou}channel_buy_history;
+CREATE TABLE `jishigou_channel_buy_history` (
+  `cbh_id` int(11) NOT NULL AUTO_INCREMENT,
+  `cr_id` int(11) NOT NULL DEFAULT '0' COMMENT 'channel_buy_record表中的cr_id',
+  `ch_id` int(11) NOT NULL DEFAULT '0' COMMENT '频道ID',
+  `uid` int(11) NOT NULL DEFAULT '0' COMMENT '用户ID',
+  `fid` int(11) NOT NULL DEFAULT '0' COMMENT '频道费率ID(channel_fee)',
+  `ch_name` varchar(128) NOT NULL DEFAULT '' COMMENT '频道名称',
+  `price` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '频道价格',
+  `title` varchar(128) NOT NULL DEFAULT '' COMMENT '费率说明',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '申请时间',
+  `start_time` int(11) NOT NULL DEFAULT '0' COMMENT '服务开始时间',
+  `end_time` int(11) NOT NULL DEFAULT '0' COMMENT '服务结束时间',
+  `state` tinyint(4) NOT NULL DEFAULT '0' COMMENT '订单状态(0=>审核中,1=>已通过,2=>未通过,3=>已通过未设置时间)',
+  PRIMARY KEY (`cbh_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
 
 DROP TABLE IF EXISTS {jishigou}order_contact_power;
 EOF;

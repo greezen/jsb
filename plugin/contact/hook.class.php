@@ -35,9 +35,9 @@ class plugin_contact{
 				}
 			}		
 		}
-		
 		//微博发布成功后写入订单联系信息
-		if($value['step']=='post' && count($contacts) > 1){
+		if($contacts['flag']==911 && $value['step']=='post' && count($contacts) > 1){
+			unset($contacts['flag']);
 			$contacts['create_time'] = time();
 			$contacts['tid'] = $value['param'][0];
 			$contactId = DB::insert('order_contact', $contacts, true);	

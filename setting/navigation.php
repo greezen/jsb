@@ -1,8 +1,8 @@
-<?php
- /* save by 1 127.0.0.1 2013-12-25 14:52:12 */
-
+<?php 
+ 
+				
  $config['navigation'] = array (
-  'index' =>
+  'index' => 
   array (
     'name' => '交流分享',
     'value' => 'index',
@@ -14,9 +14,9 @@
     'icon' => './images/icon/index.jpg',
     'url' => 'index.php?mod=topic&code=topicnew&orderby=post',
     'system' => 1,
-    'list' =>
+    'list' => 
     array (
-      'my' =>
+      'my' => 
       array (
         'name' => '我的',
         'value' => 'my',
@@ -28,22 +28,22 @@
         'icon' => '',
         'url' => 'index.php?mod=topic&code=myhome',
         'system' => 1,
-        'list' =>
+        'list' => 
         array (
-          'my_home' =>
+          'my_home' => 
           array (
             'name' => '我的首页',
-            'value' => 'my_home',
+            'value' => 'new_rec',
             'order' => '900',
             'enable' => 1,
             'display_in_top' => '1',
             'display_in_side' => '1',
             'target' => '_parent',
             'icon' => './images/icon/index_my_my_home.jpg',
-            'url' => 'index.php?mod=topic&code=myhome',
+            'url' => 'index.php?mod=topic&code=topicnew',
             'system' => 1,
           ),
-          'comment_my' =>
+          'comment_my' => 
           array (
             'name' => '评论我的',
             'value' => 'comment_my',
@@ -56,7 +56,7 @@
             'system' => '1',
             'icon' => './images/icon/index_my_comment_my.jpg',
           ),
-          'my_pm' =>
+          'my_pm' => 
           array (
             'name' => '我的私信',
             'value' => 'my_pm',
@@ -69,7 +69,7 @@
             'system' => '1',
             'icon' => './images/icon/index_my_my_pm.jpg',
           ),
-          'at_my' =>
+          'at_my' => 
           array (
             'name' => '@提到我',
             'value' => 'at_my',
@@ -82,7 +82,7 @@
             'system' => '1',
             'icon' => './images/icon/index_my_at_my.jpg',
           ),
-          'my_qun' =>
+          'my_qun' => 
           array (
             'name' => '我的微群',
             'value' => 'my_qun',
@@ -95,20 +95,7 @@
             'url' => 'index.php?mod=topic&code=qun',
             'system' => 1,
           ),
-          'my_favorite' =>
-          array (
-            'name' => '我的收藏',
-            'value' => 'my_favorite',
-            'enable' => '1',
-            'display_in_top' => '1',
-            'display_in_side' => '0',
-            'order' => '100',
-            'url' => 'index.php?mod=topic_favorite',
-            'target' => '_parent',
-            'system' => '1',
-            'icon' => './images/icon/index_my_my_favorite.jpg',
-          ),
-          'my_tag_topic' =>
+          'my_tag_topic' => 
           array (
             'name' => '我的话题',
             'value' => 'my_tag_topic',
@@ -121,7 +108,7 @@
             'system' => '1',
             'icon' => './images/icon/index_my_my_tag_topic.jpg',
           ),
-          'my_index' =>
+          'my_index' => 
           array (
             'name' => '个人主页',
             'value' => 'my_index',
@@ -134,20 +121,20 @@
             'system' => '1',
             'icon' => './images/icon/index_my_my_index.jpg',
           ),
-          'favorite_my' =>
+          'my_favorite' => 
           array (
-            'name' => '收藏我的',
-            'value' => 'favorite_my',
+            'name' => '我的收藏',
+            'value' => 'my_favorite',
             'enable' => '1',
             'display_in_top' => '1',
             'display_in_side' => '0',
-            'order' => '0',
-            'url' => 'index.php?mod=topic_favorite&code=me',
+            'order' => '100',
+            'url' => 'index.php?mod=topic_favorite',
             'target' => '_parent',
             'system' => '1',
-            'icon' => './images/icon/index_my_favorite_my.jpg',
+            'icon' => './images/icon/index_my_my_favorite.jpg',
           ),
-          'dig_my' =>
+          'dig_my' => 
           array (
             'name' => '赞我的',
             'value' => 'dig_my',
@@ -160,7 +147,7 @@
             'system' => '1',
             'icon' => './images/icon/index_my_dig_my.jpg',
           ),
-          'my_album' =>
+          'my_album' => 
           array (
             'name' => '我的相册',
             'value' => 'my_album',
@@ -172,9 +159,22 @@
             'target' => '_parent',
             'system' => '1',
           ),
+          'favorite_my' => 
+          array (
+            'name' => '收藏我的',
+            'value' => 'favorite_my',
+            'enable' => '1',
+            'display_in_top' => '1',
+            'display_in_side' => '0',
+            'order' => '0',
+            'url' => 'index.php?mod=topic_favorite&code=me',
+            'target' => '_parent',
+            'system' => '1',
+            'icon' => './images/icon/index_my_favorite_my.jpg',
+          ),
         ),
       ),
-      'channel' =>
+      'channel' => 
       array (
         'name' => '频道',
         'value' => 'channel',
@@ -186,7 +186,7 @@
         'target' => '_parent',
         'system' => '1',
       ),
-      'kankan' =>
+      'kankan' => 
       array (
         'name' => '随便看看',
         'value' => 'kankan',
@@ -197,9 +197,9 @@
         'url' => 'index.php?mod=plaza',
         'target' => '_parent',
         'system' => '1',
-        'list' =>
+        'list' => 
         array (
-          'plaza' =>
+          'plaza' => 
           array (
             'name' => '广场',
             'value' => 'plaza',
@@ -211,7 +211,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'plaza_new_pic' =>
+          'plaza_new_pic' => 
           array (
             'name' => '图片墙',
             'value' => 'plaza_new_pic',
@@ -223,7 +223,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-		  'cms' =>
+          'cms' => 
           array (
             'name' => '资讯',
             'value' => 'cms',
@@ -239,7 +239,7 @@
       ),
     ),
   ),
-  'mall' =>
+  'mall' => 
   array (
     'name' => '积分商城',
     'value' => 'mall',
@@ -252,7 +252,7 @@
     'url' => 'index.php?mod=mall',
     'system' => 1,
   ),
-  'app' =>
+  'app' => 
   array (
     'name' => '应用',
     'value' => 'app',
@@ -261,9 +261,9 @@
     'url' => 'index.php?mod=qun',
     'target' => '_parent',
     'system' => '1',
-    'list' =>
+    'list' => 
     array (
-      'app_interact' =>
+      'app_interact' => 
       array (
         'name' => '互动',
         'value' => 'app_interact',
@@ -273,9 +273,9 @@
         'url' => '',
         'target' => '_parent',
         'system' => '1',
-        'list' =>
+        'list' => 
         array (
-          'qun' =>
+          'qun' => 
           array (
             'name' => '微群',
             'value' => 'qun',
@@ -287,7 +287,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'vote' =>
+          'vote' => 
           array (
             'name' => '投票',
             'value' => 'vote',
@@ -299,7 +299,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'event' =>
+          'event' => 
           array (
             'name' => '活动',
             'value' => 'event',
@@ -311,7 +311,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'live' =>
+          'live' => 
           array (
             'name' => '微直播',
             'value' => 'live',
@@ -323,7 +323,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'talk' =>
+          'talk' => 
           array (
             'name' => '微访谈',
             'value' => 'talk',
@@ -335,7 +335,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'reward' =>
+          'reward' => 
           array (
             'name' => '有奖转发',
             'value' => 'reward',
@@ -349,7 +349,7 @@
           ),
         ),
       ),
-      'app_tools' =>
+      'app_tools' => 
       array (
         'name' => '工具',
         'value' => 'app_tools',
@@ -359,9 +359,9 @@
         'url' => '',
         'target' => '_parent',
         'system' => '1',
-        'list' =>
+        'list' => 
         array (
-          'attach' =>
+          'attach' => 
           array (
             'name' => '附件文档',
             'value' => 'attach',
@@ -373,7 +373,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'medal' =>
+          'medal' => 
           array (
             'name' => '勋章',
             'value' => 'medal',
@@ -385,7 +385,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'wall' =>
+          'wall' => 
           array (
             'name' => '上墙',
             'value' => 'wall',
@@ -397,7 +397,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'qmd' =>
+          'qmd' => 
           array (
             'name' => '图片签名档',
             'value' => 'qmd',
@@ -409,7 +409,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'weibo_show' =>
+          'weibo_show' => 
           array (
             'name' => '微博秀',
             'value' => 'weibo_show',
@@ -425,7 +425,7 @@
       ),
     ),
   ),
-  'profile' =>
+  'profile' => 
   array (
     'name' => '找人',
     'value' => 'profile',
@@ -434,9 +434,9 @@
     'url' => 'index.php?mod=profile&code=search',
     'target' => '_parent',
     'system' => '1',
-    'list' =>
+    'list' => 
     array (
-      'relation' =>
+      'relation' => 
       array (
         'name' => '关系',
         'value' => 'relation',
@@ -447,9 +447,9 @@
         'url' => '',
         'target' => '_parent',
         'system' => '1',
-        'list' =>
+        'list' => 
         array (
-          'my_follow' =>
+          'my_follow' => 
           array (
             'name' => '关注的人',
             'value' => 'my_follow',
@@ -461,7 +461,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'my_fans' =>
+          'my_fans' => 
           array (
             'name' => '我的粉丝',
             'value' => 'my_fans',
@@ -473,7 +473,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'my_blacklist' =>
+          'my_blacklist' => 
           array (
             'name' => '黑名单',
             'value' => 'my_blacklist',
@@ -487,7 +487,7 @@
           ),
         ),
       ),
-      'find' =>
+      'find' => 
       array (
         'name' => '发现',
         'value' => 'find',
@@ -498,9 +498,9 @@
         'url' => '',
         'target' => '_parent',
         'system' => '1',
-        'list' =>
+        'list' => 
         array (
-          'samecity' =>
+          'samecity' => 
           array (
             'name' => '同城用户',
             'value' => 'samecity',
@@ -512,7 +512,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'maybe_friend' =>
+          'maybe_friend' => 
           array (
             'name' => '同兴趣',
             'value' => 'maybe_friend',
@@ -524,7 +524,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'usertag' =>
+          'usertag' => 
           array (
             'name' => '同类人',
             'value' => 'usertag',
@@ -536,7 +536,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'profile_role' =>
+          'profile_role' => 
           array (
             'name' => '同分组',
             'value' => 'profile_role',
@@ -548,7 +548,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'invite' =>
+          'invite' => 
           array (
             'name' => '邀请好友',
             'value' => 'invite',
@@ -562,7 +562,7 @@
           ),
         ),
       ),
-      'recommend' =>
+      'recommend' => 
       array (
         'name' => '推荐',
         'value' => 'recommend',
@@ -573,9 +573,9 @@
         'url' => '',
         'target' => '_parent',
         'system' => '1',
-        'list' =>
+        'list' => 
         array (
-          'top_member' =>
+          'top_member' => 
           array (
             'name' => '达人榜',
             'value' => 'top_member',
@@ -587,7 +587,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'recommend_member' =>
+          'recommend_member' => 
           array (
             'name' => '推荐用户',
             'value' => 'recommend_member',
@@ -599,7 +599,7 @@
             'target' => '_parent',
             'system' => '1',
           ),
-          'recommend_people' =>
+          'recommend_people' => 
           array (
             'name' => '名人堂',
             'value' => 'recommend_people',
@@ -615,5 +615,5 @@
       ),
     ),
   ),
-);
+); 
 ?>

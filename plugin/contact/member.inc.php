@@ -25,13 +25,13 @@ function main(){
 	$return = array();
 	$per_page_num = 20;
 	$page_url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=member';
-	$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_record').' ORDER BY `state`,`cr_id` DESC ';
-	$sql2 = 'SELECT r.*,(r.`end_time`-r.`start_time`) syt,m.`nickname` FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.`uid` = m.`uid`';
+	$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_history').' WHERE `state`=1 ORDER BY `state`,`cr_id` DESC ';
+	$sql2 = 'SELECT r.*,(r.`end_time`-r.`start_time`) syt,m.`nickname` FROM '.DB::table('channel_buy_history').' r LEFT JOIN '.DB::table('members').' m ON r.`uid` = m.`uid` WHERE r.`state`=1';
 	$count = DB::result_first($sql);
 	$return['page'] = page($count,$per_page_num,$page_url,array('return'=>'array'));
 	
 	$return['rows'] = DB::fetch_all($sql2.$return['page']['limit']);
-	$return['channels'] = DB::fetch_all('SELECT * FROM '.DB::table('channel').' WHERE `channel_typeid`=3');
+	$return['channels'] = DB::fetch_all('SELECT * FROM '.DB::table('channel').' WHERE `parent_id`>0 AND `channel_typeid`=3');
 	return $return;
 }
 
@@ -50,23 +50,13 @@ function search(){
 	
 	$per_page_num = 20;
 	$page_url = 'admin.php?mod=plugin&code=manage&identifier=contact&pmod=member';
-	$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_record');
-	$sql2 = 'SELECT r.*,(r.`end_time`-r.`start_time`) syt,m.`nickname` FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.`uid` = m.`uid`';
+	$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_history').' WHERE `state`=1';
+	$sql2 = 'SELECT r.*,(r.`end_time`-r.`start_time`) syt,m.`nickname` FROM '.DB::table('channel_buy_history').' r LEFT JOIN '.DB::table('members').' m ON r.`uid` = m.`uid` WHERE r.`state`=1';
 	
 	if (!empty($condition)) {
-		$sql .= ' WHERE ';
-		$sql2 .= ' WHERE ';
-		$i = 0;
 		foreach ($condition as $ck=>$cv){
-			
-			if ($i>0) {
-				$sql .= ' AND '.$ck.' = '.$cv;
-				$sql2 .= ' AND r.'.$ck.' = '.$cv;
-			}else{
-				$sql .= ' '.$ck.' = '.$cv;
-				$sql2 .= ' r.'.$ck.' = '.$cv;
-			}
-			$i++;
+			$sql .= ' AND '.$ck.' = '.$cv;
+			$sql2 .= ' AND r.'.$ck.' = '.$cv;
 		}
 	}
 	
@@ -84,7 +74,7 @@ function search(){
 	$return['page'] = page($count,$per_page_num,$page_url,array('return'=>'array'));
 	
 	$return['rows'] = DB::fetch_all($sql2.$return['page']['limit']);
-	$return['channels'] = DB::fetch_all('SELECT * FROM '.DB::table('channel').' WHERE `channel_typeid`=3');
+	$return['channels'] = DB::fetch_all('SELECT * FROM '.DB::table('channel').' WHERE `parent_id`>0 AND `channel_typeid`=3');
 	return $return;
 }
 

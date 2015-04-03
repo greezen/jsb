@@ -80,7 +80,6 @@
 	.item-list .chimg img{
 		width:90px;
 		height:90px;
-		border-radius:45px;
 	}
 	.item-list .subinfo{
 		margin-left:10px;
@@ -146,6 +145,18 @@
 	<div class="item-list apply-item">
 	<ul>
 	<!--{loop $checkList['rows'] $ckl}-->
+		<li>
+			<div class="detail chimg"><img src="{if $ckl['picture']}$ckl['picture']{else}static/image/v.jpg{/if}" /><div class="item-name">{$ckl['ch_name']}</div></div>
+			<div class="detail subinfo">
+				
+				<div class="titem item-area">服务时间：{$ckl['title']}(已赠送 {$ckl['give']} 个月)</div>
+				<div class="titem item-area">申请时间：{eval echo $ckl['create_time']>0?date('Y-m-d',$ckl['create_time']):''}</div>
+				<div class="titem item-remain">应付金额：<span class="must">{$ckl['price']}</span></div>
+				<div class="titem item-remain">审核状态：<span class="must">{if $ckl['state']==0}审核中{elseif $ckl['state']==2}未通过{/if}</span><span rel="{$ckl['ch_id']}" class="continue doing">继续申请</span></div>
+			</div>
+		</li>
+	<!--{/loop}-->
+	<!--{loop $checkList['checking'] $ckl}-->
 		<li>
 			<div class="detail chimg"><img src="{if $ckl['picture']}$ckl['picture']{else}static/image/v.jpg{/if}" /><div class="item-name">{$ckl['ch_name']}</div></div>
 			<div class="detail subinfo">

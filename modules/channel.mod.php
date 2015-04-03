@@ -53,7 +53,7 @@ class ModuleObject extends MasterObject
 			$formchannel = true;
 			$channeltoptopic =  jlogic('channel')->getChannelTopTopic();
 			$channelrectopic =  jlogic('channel')->getChannelRecTopic();
-			$channellist =  jlogic('channel')->getChannelAll();
+			$channellist =  jlogic('channel')->getChannelAll();//var_dump($channellist[13]['child']);exit;
 			$userfanstop =  jlogic('channel')->getUserFansTop();
 			$userPublishTop = DB::fetch_all('SELECT * FROM '.DB::table('members').' ORDER BY `topic_count` DESC');
 			$this->Title = '频道首页';

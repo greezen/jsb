@@ -170,7 +170,18 @@
   'qun_attach_enable' => 1,
   'qun_setting' => 
   array (
-    'qun_open' => '1',
+    'qun_open' => '0',
+    'new_qun' => '0',
+    'tc_qun' => '0',
+    'qun_topic_to_weibo' => '0',
+    'img_size' => 0,
+    'member_num' => 0,
+    'admin_num' => 0,
+    'qun_ploy' => 
+    array (
+      'avatar' => NULL,
+      'vip' => NULL,
+    ),
   ),
   'reg_email_forbid' => '',
   'reg_email_verify' => '0',
@@ -198,7 +209,7 @@
   'reply_mode_normal' => 0,
   'reward_open' => 1,
   'rewrite_enable' => 0,
-  'robot_enable' => 0,
+  'robot_enable' => 1,
   'safe_key' => 'x3K1VBwZX9sGgm3EyfMwzA0pdxXZGz93r30CIcjWsoZAcuYEmmppGq7xZlcn98VQ',
   'same_city' => '1',
   'seccode_comment' => 1,

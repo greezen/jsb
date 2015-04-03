@@ -1,7 +1,7 @@
 <?php if(!defined('IN_JISHIGOU')) { exit('invalid request'); } 
 $cache = array (
   'key' => 'role_action/uploadattach-0',
-  'dateline' => 1427189183,
+  'dateline' => 1427765320,
   'val' => 
   array (
     'life' => 2592000,

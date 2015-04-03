@@ -1,7 +1,7 @@
 <?php if(!defined('IN_JISHIGOU')) { exit('invalid request'); } 
 $cache = array (
   'key' => 'table_stauts/cache_14',
-  'dateline' => 1427180967,
+  'dateline' => 1427765320,
   'val' => 
   array (
     'life' => 864000,
@@ -19,7 +19,7 @@ $cache = array (
       'Data_free' => '0',
       'Auto_increment' => NULL,
       'Create_time' => '2015-03-24 15:07:04',
-      'Update_time' => '2015-03-24 15:07:29',
+      'Update_time' => '2015-03-30 20:27:34',
       'Check_time' => NULL,
       'Collation' => 'utf8_general_ci',
       'Checksum' => NULL,

@@ -1,3 +1,371 @@
-<?php // This file is protected by copyright law & provided under license. Copyright(C) 2005-2099 www.cenwor.com, All rights reserved.
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=11016;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMjYzKTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0lhb1g2a0ExZE9jemZTRlUwS21ZUlBMdHIzRWw0cXBXZU1zalRDSjd4REJ3Mmd1Yis4SGk1dlZuUXlHWi9oOU49JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-O6hUfXaUfXaUfXviq1OW4JP+lAkj3me7tvhAmR8ktv/7zod7dsQTY5hUf6/+YiI+zsd7ds+xO6hUYiI+fXaUfoeTY5/+Y5/+f6/+coKUYiaUYiI+f6/xO6/+fXaUf6/+fo+TY5/+f6/+fXI+cm+7mLkbLX3w0YkTYVSG3CSAPYazlPCmR6854jSklXK84kqCYtSBP6ScSnM6074H3nPsciMdEYPVPJyKpRqEzVeyYj57zoqa0TS6KR31m6Ccm58SYTh0RPOYPkPLPvM3LJksrVKC3JqxELDwlAvulna847S5qt3np1CGfX6Hfi0vSj4QFm2bOHTDcmTZ3JS2lnSCcoKUfXI+YiaUfXIDFVPVrL+xO6hUfXaUfXaUfoTZX0DD3seM3APJELyC3oe7mRyWmTCYm6C1YvR7cmTSo72SoJPQEt0xOVCuqJk2EL0e4JP8qLPiqo4DF+5cW05crV8M4nfeYLhTqL8CYVOB3LS5dAPQqAPu31feYLkiqAPHYVOB3LS5X0DZX0DJqLyjqACblsaSlVKvlAPUrJDCrn0xOASblJ3D3HTSo72SosK5EACizYySrtS53tOUrJDCrn0xOASblJ3D3HTZX0xTqAMD4H59KtMCrnP53meDF+5cW05c37PurnKDlVQeKtMCrnP53meDX0DZX0DiqVC5rVexO1KxEtfgUTSb3ARDX0DZX0DjrtSCdoqTlvhM3A07Fe5crVki3mI7rLKTOixSo72SosK5EACizYy6l5kT3oeDF+5cr7OCrL2ZX0DhX0DjrtSCdoqT3L8CqAR7Fe5crVki3mI73AP2OixSo72SosK5EACizYy63L8CqARxcY2SoJOH3LkwF+5cW05crVki3mI73LKDqo4GX0DjrtSCdoqjlVv+EL8COixSoJSM4VReOVvb3ACJpm4GX0DZX0xTqAMD4H59KAhSlVKD37TxcY2SoJOH3LkwF+5cW05crVki3mI7qJCCqH4GX0DjrtSCdoqiEAhnOixSo72SosK5EACizYyYEAhncoTZX0Ds4JPMEi2So75SoJSM4VReOV8D4n07Fe5cp+5cO1KxEtfgUTKbYACiqoeDF+5cr7OCrL2ZX0DhX0DjrtSCdoqjlVvg3Ly5OixSo72SosK5EACizYyXlVvg3Ly5coTZX0Ds4JPMEi2So75SoJSM4VReOV3MqJhHEtKCOixSo72SosK5EACizYyArt3b4JC53meDF+5cr7OCrL2ZX0DhX0DjrtSCdoqTEL47Fe5cp+5cO1KxEtfgUJKD3HeDF+5cr7OCrL2ZX0DhX0DjrtSCdoqD4VKD3H4GX0DZX0xTqAMD4H59EtSTEL4xcY2SoJOH3LkwF+5cW05crVki3mI7ltCTEL47Fe5cp+5cO1KxEtfgUJvy3AC7coTZX0Ds4JPMEi2So75SoJSM4VReOVKD3VvCOixSo72SosK5EACizYyTELqg3meDF+5cr7OCrL2ZX0DhX0DjrtSCdoq74Jhv4o4GX0DZX0xTqAMD4H593nObqta5lnaDrHeDF+5cr7OCrL2ZX0DhX0DT3L3MqL85dXxSo72SosK5EACizYySrLCucoTZX0Ds4JPMEi2So75So75So75SoJ3vlJS5ELhud6vMELQxc05cp+5crtaDtVhvq1avqoe7qAh+ELfertaDdACidAhwOHTZX0DhX0DJqLyjqACblsa6l5kT3oeDd12SosKjlVy53Ly5dX5eq1ODlmeTqAMD4H59mLy+qtKiLHqjlVy53Ly5Ov5DF+5cELrxdmKjlVy53Ly5cmaZX0DM4ACW3tOHlndxOVSbl7KCl70eEtfe3Lv+q1T7zX6+SoTZX0DhX0xTqAh5EL0eUmagrtexfo+xELy5cmITqAMD4H59mLy+qtKiLHq5lnKD3oqqcY2SosKJ4JhgdX5edJk+EmdZX0xTEtKClmIhdoK5EACizYyOl7avq1SlOVC53L57tY2SosKDqAPgtVCTdX5efX2SoJCJcoKDqAPgdorJELyWrtOHrtTxOAC53L52rtOHrtTxOnkvls42OVSxrLyu3L+7zoqjlVv+rLyyOH+DcmTep+5cOAC53LvWEL0eUmagrtexfo+xELy5cmITqAMD4H59mLy+qtKiLHqDqAPgtVCTOv5DF+5cEJ3vlJfxOVk+4o4DF+5cELrx3Jk24VReUY5ecAk+4khjEAPjEHeTEtKClm+TEtKClPhD3oTDcmaZX0xTEtKClPhD3oIhdXIZX0DhX0DD3seTEtKClmIhUmI7rVMMlJyClo4Dp+5cOASMlCh+qLOWqAh+ELfeUmaBlAh7ELfxOVSxrLyu3L+7cm59rVkutnavrCh5lnaDrHeTEtKClPhD3oTZX0DD3sIxdmKjrLyW41PstnKb4ACjcmaZX0xTEtKClmIhdo47F+5cOAC53LvWEL0eUmI+F+5cW05cW05cW05cELrxOVSbltaMl7T7UY5eOAC53L5Dp+5cOAC53LvWEL0eUmITK58U0TkfRv27t5x7tP27lLPgrJPHOvvlOVSbltaMl7CD3oqqF+5cW05cELrxOAC53LvWEL0eUX6Dd12SosKDqAPgdX5eOH4ZX0DhX0xTq1C+3mIhdoqJEtOiqo4ZX0xTtnKy4AReUmI7rVhg4Akupm4hUmITEtKClmINOVSbltaMl7T7Fsa54JCgc1S547KblAhn3tdxO1KxEtfgUTCu41P54v27q1C+3mqqcmTZX0DD3seTEtKClPhD3oI9foIJOJCutVkH4JkycoKWq1C+3m8M47OMpme74tPuOH+7rVhg4Akupm42cmTDd12SosK5ptaCdX5eOkh5ptaCF+5cWLP24VPD3sIxO1KbqACTdXQ+dorJELyWrtOHrtTxOkh5ptaCzAkH4JkycoqslnKxOH+73JhHqVkH3o42cmTDd12SosK5ptaCdX5eOkh5ptaCF+5cWLP24VPD3sMDlChM47OMpmeTtnKy4AR2rtOHrtTxOnOC4A8yOH+DcmTep+5cO1Ky4AReUmI74JP+l1T7F+5cWLP24VRep+5cO1Ky4AReUmI73JCH4n07F+5cW05cO1IeUmaM47OMpmeDF+5cELrxOkhAmR8kRv274ACjOv5Dd12SosK+LHq+ELSW3JCClA07tmIhdoq+ELf7F+5cWLP24VRep+5cO1alOnaDrvhv4J+7tmIhdoK5EACizYyOl7avq1SlOnaDrvhv4J+7tY2So75SosKDlLk73LCTdX5efX2SoJCJcoK+cmaZX0xT4JP54HIhdAD2lVqDrHe7ELvM3VR7cm59qta2lVkTcoK+cY2SoJCJco6T4JP54v273tOHlnd7tmTep+5cOACgrLqCEL0eUmagrtexfo+xELy5cmIT4JP54v27EL07tmTZX0DhX0DhX0xT3Ak5rtfeUmaM47OMpmeSosqjlVy53Ly5Oi59OASbl7KCl702X0x7qAh5EL07UYQTqAh5EL02X0x737Oblm4hUsKJ4JhgzI5cOnKy4AR7UYQTq1C+3m+SosqvEL07UYySKRvoKPOWmR02X0x7EtKClm4hUseTEtKClmINOAC53L5eFsI7rtaDOHT2X0x7EtKClPhD3o4hUseTEtKClPhD3oI9foINOAC53LvWEL0eFsITqAMD4H59rta+LHqD3oqqcm+SosqDlLk73LCTOi59OACgrLqCEL02X0x7rLybl7CglnPiOi59coK5EACizYyOl7avq1SlOVkulVyylLhv4HqqdX/8dXxefoT2cY2SosKM3AKW4JPiqL85dX5eO1KxEtfgUCKb4ACjYAh7ELfgUTkT3oeT3Ak5rtfDF+5cELrxEtSWrtOHrtTxOAkT3khH3tSvl10DdorJrVhvl70xOAkT3khH3tSvl10DcmaZX0DM4ACWlnP541P5coK5EACizYyWqAh+ELfxOAkT3khH3tSvl1KlOnKD3oqqcmTZX0Dh3L8i3maZX0DM4ACW3tOHlndxcoKM3AKW4JPiqL85dX/TrLKTtnOC4nP2qoIGdoWjeOXDeOw77GtjeO1CMxtCww7Cjy1CudUCDz1xgcR7cm+8fXRDF+5cW05cW05c37PurnKDlVQeKAP23tKCcoTSo72SosKD3oIhdAvMpoe+zoMDl70DdoK5EACizYyOl7avq1SlOVCTOv5DF+5cELrxdmKD3oTep+5crtaDtVPH4JhHcoqD3oaD4HaClta5pm42fYIHcY2So75SosK5lnaDrHIhdoK5EACizYyWqAh+ELfxOACTcY2SoJCJco6TqAh+ELfDd12SoJk+EPhC47Ob4se7EL0eEtfeELyVrL8D3o42fYIicY2So75SoJCJco6xO1Kb4ACjLHqvEL07tY5hO1KxEtfgU7Pi3tOlOnPD3oqqd18/OVkTlLCuOi5hO1KxEtfgU7Pi3tOlOnOblAPWq1C+3mqqcmTep+5crtaDtVPH4JhHcoqD3oaD4HaDl73MlACTOH+8fXfDF+5cW05cO1OCq1PHlsIhdoK5EACizYyRlnaDr58b3VCjzYy63L8CqAPRl5ObpoeTEL0DF+5cELrxO1OCq1PHlsTep+5crtaDtVPH4JhHcoKH3tKv4JQ2fYIVcY2So75SoJk+EPhbqtK+qt0xOVKClAP53maD4HabEH4DF+5cW05c37PurnKDlVQeKAhSlVKD37TxcmaZX0xTEL0eUmagrtexfo+xELy5cmITqAMD4H59mLy+qtKiLHqD3oqqcY2SoJCJco6TEL0Dd12SoJk+EPhC47Ob4se7EL0eEtfe3Lv+q1T7zX6+fsTZX0DhX0xTrVhuqAPuqoIhd1KHEL5x4nKHEtaWqAk74HeTqAMD4H59mLy+qtKiLHqjlVy53Ly5Ov5DcY2SoJCJco6TrVhuqAPuqoTep+5crtaDtVPH4JhHcoqjlVy53Ly5dACidAPg41KyOH+8fX0DF+5cW05cO1Kb4ACjdX5eO1KxEtfgUCh5lnaDrHeTEL0DF+5cELrxdmK5lnaDrHTep+5crtaDtVPH4JhHcoqD3oaD4HaDl73MlACTOH+8fXfDF+5cW05cELrxOVkTlLCuOH6hdoK5EACizYyv4VPHLHqHlV8CtnKy4AR7tmTep+5cELrxO1Kb4ACjLHqvEL07tmIMUmITqAMD4H59qtSC4C27qLCTOv5Dd12SoJk+EPhC47Ob4se7LLhvdAKbdAybqoaxrt3Cd1aC4JvD4nSDlVQeqA/e3LKDqo42fY6vcY2So75SoJCJcoK5lnaDrv274JP+l1CiOv5eUjIeW1+TqAh+ELSlOV3b47qM4JKiOv5eUjIDd12SoJk+EPhC47Ob4se7mAkidAOC3LQerVhglLPuq1felnde3JhHqVkH3ACu3H+erVkutoq5dAPTEt07zX68SsTZX0DhX0DD3seTqAMD4H590Vhu3JC7LHq5lnaDrvhglVKD37CWqACg3mqqdorJcoeTqAh+ELSlOVkT31KDlLR7tmINO1Kb4ACjLHqM3AK5ELvCOv5eFsITqAh+ELSlOVKMqAP2ELyCOv5Ddo2xO1KxEtfgUTSblJ3D3v27qAh+ELSWlLhTEL3ytnKDlLR7tmIBdXr+cmTeUkKOYRPYP6kSRoTep+5crtaDtVPH4JhHcoqo3tCblJ0erVkudAPTEt0eqACg3m42fY6ncY2So75So75SosK5EACizYyRlnaDr58b3VCjzYySlVKD37TxOACTzoKjlVy53Ly5cY2SoJk+EPhbqtK+qt0xOVvb3ACJpmaD4HabEH4DF+5cW05c37PurnKDlVQeRVMbqHeDd12SosKD3oIhdAvMpoe+zoMDl70DdoK5EACizYyOl7avq1SlOVCTOv5DF+5cELrxdmKD3oTep+5crtaDtVPH4JhHcoqD3oaD4HaClta5pm42fYIHcY2So75SosK5lnaDrHIhdoK5EACizYyWqAh+ELfxOACTcY2SoJCJco6TqAh+ELfDd12SoJk+EPhC47Ob4se7EL0eEtfeELyVrL8D3o42fYIicY2So75SosKVELPntnOCq1feUmaBlAh7ELfxOnKb4ACjOHTgUJSx3LSwtn3D3t4xOACTcY2SoJCJcoKVELPntnOCq1SlOVPH4JhHOv5Dd12SoJk+EPhC47Ob4se7EL0eEtfeELyVrL8D3o42fYIicY2So75SoJCJcoK5lnaDrv27lAhu3nKCp1KD3oqqdXQ+cmaZX0xTqAh+ELfeUmaBlAh7ELfxOV8blJq53tM5OHTgUJqCqkhDlJ3bcoK5lnaDrv27qACTOv5DF+5cW05crtaDtVhvq1avqoeTqAh+ELfDF+5cW05c37PurnKDlVQeKAhfEtS5coTep+5cO1KxEtfgUCh5lnaDrvh2EtS5coTZX0DhX0DJqLyjqACblsaXlVvg3Ly5coTSo72SosKD3oIhdAvMpoe+zoMDl70DdoK5EACizYyOl7avq1SlOVCTOv5DF+5cELrxdmKD3oTSo72SoJk+EPhC47Ob4se7EL0eEtfe3Lv+q1T7zX6+fsTZX0DhX0xTqAh+ELfeUmITqAMD4H59PAh+ELSflVqDrH59KVP5coKD3oTZX0DD3seMO1Kb4ACjc05cp+5crtaDtVPH4JhHcoqD3oaD4HaDl73MlACTOH+8fXfDF+5cW05cO1OCq1PHlsIhdAkH4JkycoTZX0DD3seTqAh+ELSlOnOC4A8y4HqqdXQ+cmaZX0xT4JP5qtOudX5eO1KxEtfgUCh+rLqCcoK5lnaDrv274JP+l1CiOv5DF+5cO1IeUmaM47OMpmeSosqi4L8WlACgEt07UYQsd12T4JP5qtOuLHqb3J3i3t07tt52d12T4JP5qtOuLHqjlnPuqoqqWmIszI5ccY2SosK+LHqi4L8WlnOT3td7tmIhdoe73AC7Oi5hdoK5EACizYyOl7avq1SlOVhH3APHr7T7tmINOHaelAkiqAKD3nKDlLPed6KkR5feOixeOHae3Ak53L8DlJPed6KkR5feOHTZX0xTqACT4HIhdAD5rLO23me7qAh+ELSW4JP2rtKDlVQ7cm593VP5tnKD31fxO1Kb4ACjLHq5EL07tm+T4oTZX0DD3seTqACT4HTep+5cO1S8lkhnEAPH3mIhdodeqVMC4JRer1KD3AIeELQecoduEJCg4A8b3ARxO1KD31fDzsdDdAhH3APHdAOyd12T4k274nk2tVhH3APHOvvhdA8DlLC5d12T4JP5qtOuLHqjlnPuqoqqWmIsF+5cO1OCq1PHlC27rVhglLPuq1f7tmIhdoK5EACizYyWqAh+ELfxO1S8lkhnEAPH3mTZX0DhX0DhX0DM4ACWlnP541P5coKH3tKv4JQDF+5cW05c37PurnKDlVQeKJkVlnODqARxcmaZX0xTEL0eUmagrtexfo+xELy5cmITqAMD4H59mLy+qtKiLHqD3oqqcY2SoJCJco6TEL0Dd12SoJk+EPhC47Ob4se7EL0eEtfe3Lv+q1T7zX6+fsTZX0DhX0xTqAh+ELfeUmITqAMD4H59tnKb4ACjcoKD3oTZX0DD3seMO1Kb4ACjcmaZX0DM4ACW3tOHlndxOVCTdACidACuqJk2EL07zX6+fHTZX0DhX0xTrLS5dX5ecACutVkH4JkycoK5EACizYyOl7avq1SlOVkjqoqqzAkH4JkycoqjEAPjEH42OVkT3o42OVKClAP53m4DcmINO1KxEtfgUTCu41P54v27rLS5Ov5eFsI7rVMCrV27cY2SosKH3t0eUmaBlAh7ELfxOnKb4ACjtV3MqJhHEtKCOHTgUJkjqoMSKRvoKPOWmR02OACTzoKMrn0DF+5cO1OCqoIhdoe7rVMCrV27UY5TrLS5dX/xO1OCqoINfmIGdXIDdXxefmTZX0DM4ACWlnP541P5coKH3t0DF+5cW05c37PurnKDlVQeEtSTEL4xcmaZX0xTqACTdX5elLkQcXI2cACuqoTeO1KxEtfgUTCu41P54v27qACTOv5DF+5cELrxdmK5EL0Dd12SoJk+EPhC47Ob4se7qACTdACidAPg41KyOH+8fXI8cY2So75SosK5lnaDrHIhdoK5EACizYyWqAh+ELfxO1KD3oTZX0DD3seMO1Kb4ACjcmaZX0DM4ACW3tOHlndxOnKD3oaD4HaDl73MlACTOH+8fXIHcY2So75SosKjlnPuqoIhd6KoFjDH3tSvl1KW3JCH4n0xdCSkY6PXPoaXYvPFPoeBcmaARThSdoduK6dGF7KMrJ8Ccoq5lnaDrvhTEL47cmQsdkqdKPOkd1KD3X57pHK5ELKhOHaaYT0eqLCTdX5eOHduYRPS0TPmt5C6zsd7dsTZX0DM4ACWlnP541P5cAkH4JkycoqTELqjlnPuq1f7UYQTqAh+ELSlOVKD3VSbqLy54HqqzoqD4VKD3H4hUsKjlnPuqoTDF+5cW05c37PurnKDlVQe3AC7coTep+5cO1KD3oIhdAvMpoe+zoMDl70DdoK5EACizYyOl7avq1SlOnKD3oqqcYgD3seMO1KD3oTep+5crtaDtVPH4JhHcoq5EL0eEtfe3Lv+q1T7zX6+fX6DF+5cW05cO1Kb4ACjdX5eO1KxEtfgUCh5lnaDrHeTqACTcY2SoJCJco6TqAh+ELfDd12SoJk+EPhC47Ob4se7qACTdACidACuqJk2EL07zX6+fXdDF+5cW05cOASbqLy5dX5eK6dGF7OC4nP2qkhJEtOiqoesR5PfKRSRd6SUPRyRcoxDd63mY55edsy60jxGqAkslARxOnKb4ACjtVKD3H4DzsdeP5MkRTReqACTUmqZO1KD3157d6kFKoavEL0eUmI7dsySKRvoKPOWmR0uds4scY2SoJCJcoKjlnPuqoI9foCZX0DM4ACW3tOHlndxOnCbqmaxrt3CdAKD3VPTd1KxEtfeqAh+ELf7zX6+fXfDF+5cW05cO1PD3oIhdoK5lnaDrv27qLCTOv5ZX0DD3seTqLCTdX5hd6vkYROkRChOKoCZX0DM4ACW3tOHlndxOnCbqmaTlHauln0e4APgEtSiELhud1KbdAKD3HaylnPHd1Kb4ACjOH+8fXI5cY2So75SoJD5rLO23me7qAh+ELSWlLhH3m4DzYyv4AKMqAPW3AC7qLCT4HeTqACTcYg60jxG4tPC47Txd7P+3Ak53maedsy60jxGqAkslARxOVvClLOC47f7cmQsroai3t0erAKD3VSbqLy5roIhdAKD3VSbqLy5do2efm8e3AC7tVyCqVIeUmaTELqWlJPndo2efmanEAPH3maeqLCTrX57pHKvELKhOHdDF+5cOAkHpmIhdAkH4Jkycoq5EL07UYQTqACTzoqvEL07UYySKRvoKPOWmR02OnKbqLCTOi59O1PD3o+73Ak53L8DlJR7UYy5ELvCcoTDF+5cK6dGFJCu4VPHqoe7qAh+ELSW3AC7OH+TrtOyz1KHqLRDF+5cE7KMrJ8Ccoq5lnaDrH4DzYyv4AKMqAPW3AC7rVhvl7KicoK5EL0DF+5cqtaTrtKCtVSH3LKDq1SWr7CWrLS5ELhucoq5lnaDrvhTEL47z6vkYROkRChOKoTZX0Dv4AKMqAPWrnOC3AC54vhspPhMrnKDlVQxOVvytVKD3H42O1PD3oTZX0DM4ACWlnP541P5cX6DF+5cW05c37PurnKDlVQeltCTEL4xcmaZX0xTqLCTdX5elLkQcXI2cACuqoTeO1KxEtfgUTCu41P54v27qLCTOv5DFHKvEL0eUmITqLCTdX/TqLCTdXxeYRPS0TPmt5C6F+5cO1S8lkhnEAPH3tfeUmaM47OMpmeDF+5cO1KD31feUmaM47OMpme+cY2SosK8qLPHpmIhd6KoFjD8qLPHpmes4VP23LS5d1KD3oaJ4JhgdoduK6dGF7KMrJ8Ccoq5lnaDrvhTEL47cmQsd1qx3tOCd1PD3oIhdo4TqLCTOHab4JKC4saspmaeELKedAKC4VfscY2So7qxEL8CcoKHln4eUma60jxG3JP5rVexO1kv3tOycmTep+5cO1KD31SlO1Obqv27qACTOvvqdX5eO1Obqv27qACTOv5ZX0DhX0xT4nk2tnqx3tOC4vgqdX5edJa5ELKed6CFcoduEJCg4A8b3ARxO1KD31fDzsdDdj2SosK5EACizYyWqAh+ELSWlACiqoe7lJPnOH+T4nk2tnqx3tOC4HTZX0DhX0DJqLyjqACblsaTELqg3meDd12SosKvEL0eUmagrtexfo+xELy5cmIxO1KxEtfgUTCu41P54v27qLCTOv5eUHK5EACizYyOl7avq1SlOnPD3oqqdXxeO1KxEtfgU7Pi3tOlOnPD3oqqcmTZX0DBlAh7ELfxOVvClLOC4s4DzYyjlAPMlChu3tqW4JPgELyTcoqTELqWlJPnOH+TqLCTcY2SosK5ELKidX5ertOHrtTxfoTZX0xT4tPC47TeUma60jxG4tPC47Txd7SClAPjqoa6mPSRmRyXPoa5EL0e37OblmIszTKoFjD5rLO23me7qAh+ELSW3AC7OHTudsanEAPH3ma5lnPD3oIhdo4TqLCTOHab4JKC4saspmaeELKedAKC4VfscY2So7qxEL8CcoKHln4eUma60jxG3JP5rVexO1kv3tOycmTep+5cO1KD31SlO1Obqv27qACTOvvqdX5eO1Obqv27qACTOv5ZX0DhX0xT4nk2tnqx3tOC4vgqdX5edJa5ELKed6CFcoduEJCg4A8b3ARxO1KD31fDzsdDdj2SosK5EACizYyWqAh+ELSWlACiqoe7lJPnOH+T4nk2tnqx3tOC4HTZX0DhX0DJqLyjqACblsa74Jhv41Kb4ACjcoTep+5cO1PD3oIhdAvMpoe+zoMDl70DdoeTqAMD4H59mLy+qtKiLHqvEL07tmINO1KxEtfgUTCu41P54v27qLCTOv5eFsITqAMD4H59qtSC4C27qLCTOv5DcY2SosK7EL0eUmagrtexfo+xELy5cmK5EACizYyOl7avq1SlOVqD3oqqcY2SosKvELKidX5ertOHrtTxfoTZX0DD3seT3VCTcmaZX0xTqLCT4HIhdAD5rLO23me7r7PT31CW3Jh2lAhntVqHlnP+tnOClAk5ELhuOHTgUJqCqkhgpPh74Jhv4khvELKicoKvEL02OAqD3oTZX0xT4nk2tnqx3tOC4vgqdX5edJavELKed6CFcoduEJCg4A8b3ARxO1PD31fDzsdDdj2SosK5EACizYyWqAh+ELSWlACiqoe7lJPnOH+T4nk2tnqx3tOC4HTZX0Dh3L8i3t2SoJk+EPhC47Ob4se73nObqtIeEL0eEtfeELyVrL8D3o42fYI+SmTZX0DhX0DhX0DhX0x=
+<?php 
+
+
+if(!defined('IN_JISHIGOU'))
+{
+	exit('invalid request');
+}
+class ModuleObject extends MasterObject
+{
+	function ModuleObject($config)
+	{
+		$this->MasterObject($config);
+		$this->Execute();
+	}
+	function Execute()
+	{
+		switch($this->Code)
+		{
+			case 'do_add':
+			case 'add':
+				{
+					$this->DoAdd();
+					break;
+				}
+			case 'delete':
+			case 'del':
+				{
+					$this->Delete();
+					break;
+				}
+			case 'edit':
+			case 'compile':
+			case 'modify':
+				{
+					$this->DoModify();
+					break;
+				}
+			case 'view':
+			case 'show':
+				{
+					$this->Show();
+					break;
+				}
+			case 'list':
+				{
+					$this->DoList();
+					break;
+				}
+			case 'comment':
+				{
+					$this->Comment();
+					break;
+				}
+			case 'favorite':
+				{
+					$this->Favorite();
+					break;
+				}
+			case 'dig':
+				{
+					$this->dig();
+					break;
+				}
+			case 'isdig':
+				{
+					$this->isdig();
+					break;
+				}
+			case 'mydig':
+				{
+					$this->mydig();
+					break;
+				}
+			case 'digme':
+				{
+					$this->digme();
+					break;
+				}
+			case 'group':
+				{
+					$this->grouptopic();
+					break;
+				}
+			case 'upload':
+				{
+					$this->ImgUpload();
+					break;
+				}
+			default :
+				{
+					$this->Main();
+					break;
+				}
+		}
+	}
+	function Main()
+	{
+		api_output('topic api is ok');
+	}
+	function DoAdd() {
+		$content = trim($this->Inputs['content']);
+		$imgId = $this->Inputs['img_id'];
+		if(!$content) {
+			api_error('content is empty',104);
+		}
+		$totid = max(0,(int) $this->Inputs['totid']);
+		$from = "api";
+		$item = $this->Inputs['item'];
+		$item_id = 0;
+		if($item &&in_array($item,array('qun','channel','company',))) {
+			$item_id = max(0,(int) $this->Inputs['item_id']);
+			jfunc('app');
+			if(false == (app_check($item,$item_id))) {
+				$item_id = 0;
+			}
+			if($item == 'channel'){
+				$can_pub_topic = jlogic('channel')->can_pub_topic($item_id);
+				if (!$can_pub_topic) {
+					$item = '';
+					$item_id = 0;
+				}
+			}
+		}
+		if('company'== $item){
+			$item_id = $GLOBALS['_J']['member']['companyid'];
+		}
+		if($item_id <1) {
+			$item = '';
+		}
+		$type = 'first';
+		$_type = 'company'== $item ?'company': trim(strtolower($this->Inputs['type']));
+		if($item_id >0 &&in_array($_type,array('qun','company',))) {
+			$type = $_type;
+		}elseif ($totid >0 &&in_array($_type,array('both','forward',))) {
+			$type = $_type;
+		}elseif(in_array($_type,array('reply',))) {
+			$type = 'reply';
+		}else {
+			$type = 'first';
+		}
+		$p = array();
+		if($_FILES['pic']) {
+			$p['pic_field'] = 'pic';
+		}else {
+			$p['pic_urls'] = explode('|', $this->Inputs['pic_url']);
+		}
+		$imageid = array();
+		if($p) {
+			if ($imgId) {
+				$imageid = explode(',', $imgId);
+			}else {
+				foreach ($p['pic_urls'] as $v){
+					$tmp = array();
+					$tmp['pic_url'] = $v;
+					$rets = jlogic('image')->upload($tmp);
+					if(!$rets['error']) {
+						$imageid[] = max(0,(int) $rets['id']);
+					}
+				}
+			}
+		}
+		$datas = array(
+				'content'=>$content,
+				'totid'=>$totid,
+				'from'=>$from,
+				'type'=>$type,
+				'uid'=>MEMBER_ID,
+				'item'=>($item ?$item : 'api'),
+				'item_id'=>($item_id >0 ?$item_id : $this->app['id']),
+				'imageid'=>implode(',', $imageid),
+				'anonymous'=>($this->Inputs['anonymous'] ?1 : 0),);
+		$add_result = $this->TopicLogic->Add($datas);
+		if(is_array($add_result) &&count($add_result)) {
+			api_output($this->_topic($add_result['tid']));
+		}else {
+			api_error(($add_result ?$add_result : '【通知】内容发布失败'),105);
+		}
+	}
+	
+	function ImgUpload(){
+		$imageid = 0;
+		$p['pic_field'] = 'pic';
+		$rets = jlogic('image')->upload($p);
+		if(!$rets['error']) {
+			$imageid = max(0,(int) $rets['id']);
+		}
+		echo json_encode($rets);exit;
+	}
+	
+	function Delete()
+	{
+		$id = max(0,(int) $this->Inputs['id']);
+		if(!$id) {
+			api_error('id is empty',102);
+		}
+		$topic = $this->_topic($id);
+		if(!$topic) {
+			api_error('id is invalid',103);
+		}
+		if(!($topic['uid']==$this->user['uid'] ||'admin'==$this->user['role_type'])) {
+			api_error('id is invalid',103);
+		}
+		$return = $this->TopicLogic->DeleteToBox($id);
+		if($return) {
+			api_error($return,106);
+		}
+		api_output('delete is ok');
+	}
+	function DoModify() {
+		$id = max(0,(int) $this->Inputs['id']);
+		if(!$id) {
+			api_error('id is empty',102);
+		}
+		$content = trim(strip_tags($this->Inputs['content']));
+		if(!$content) {
+			api_error('content is empty',104);
+		}
+		$topic = $this->_topic($id);
+		if(!$topic) {
+			api_error('id is invalid',103);
+		}
+		if('admin'!= $this->user['role_type']) {
+			if($topic['uid'] != $this->user['uid']) {
+				api_error('You do not have permission to edit',115);
+			}
+			if($topic['replys'] >0 ||$topic['forwards'] >0) {
+				api_error('Has been comments or forwarding, can\'t edit',116);
+			}
+			if($this->Config['topic_modify_time'] &&(($topic['addtime'] ?$topic['addtime'] : $topic['dateline']) +($this->Config['topic_modify_time'] * 60)) <TIMESTAMP) {
+				api_error('Beyond can edit time',117);
+			}
+		}
+		$this->TopicLogic->Modify($id,$content);
+		api_output('modify is ok');
+	}
+	function Show() {
+		$id = max(0,(int) $this->Inputs['id']);
+		if(!$id) {
+			api_error('id is empty',102);
+		}
+		$topic = $this->_topic($id);
+		if(!$topic) {
+			api_error('id is invalid',103);
+		}
+		$view_rets = jlogic('topic')->check_view($id);
+		if($view_rets['error']) {
+			api_error('id is invalid',103);
+		}
+		if($topic['longtextid'] >0) {
+			$topic = jlogic('longtext')->get_info($topic['tid']);
+		}
+		api_output($topic);
+	}
+	function DoList() {
+		$this->_topic_list();
+	}
+	function Comment()
+	{
+		$id = max(0,(int) $this->Inputs['id']);
+		if(!$id)
+		{
+			api_error('id is empty',102);
+		}
+		$topic = $this->TopicLogic->Get($id);
+		if(!$topic)
+		{
+			api_error('id is invalid',103);
+		}
+		$return = array();
+		if($topic['replys'] >0) {
+			$return = $this->_page($topic['replys']);
+			$p = array(
+					'sql_limit'=>" {$return['offset']}, {$return['count']} ",
+			);
+			$p['sql_order'] = ('dig'== $this->Inputs['orderby'] ?' `lastdigtime` DESC ': ' `dateline` DESC ');
+			$tids = jtable('topic_relation')->get_tids($topic['tid'],$p);
+			if($tids) {
+				$sql_where = " where `tid` in (".jimplode($tids).") order by {$p['sql_order']} limit {$return['count']} ";
+				$return['comments'] = $this->_topic($sql_where);
+			}
+		}
+		api_output($return);
+	}
+	function Favorite() {
+		$id = max(0,(int) $this->Inputs['id']);
+		if(!$id) {
+			api_error('id is empty',102);
+		}
+		$topic = $this->_topic($id);
+		if(!$topic) {
+			api_error('id is invalid',103);
+		}
+		$act = (in_array($this->Inputs['act'],array('check','add','delete')) ?$this->Inputs['act'] : 'check');
+		$ret = jlogic('topic_favorite')->act(MEMBER_ID,$id,$act);
+		$ret = ('check'==$act ?($ret ?1 : 0) : 1);
+		api_output($ret);
+	}
+	function isdig() {
+		$tid = max(0,(int) $this->Inputs['tid']);
+		if(!$tid) {
+			api_error('tid is empty',1001);
+		}
+		$topic = $this->_topic($tid);
+		if(!$topic) {
+			api_error('tid is invalid',1002);
+		}
+		$count = DB::result_first("SELECT COUNT(*) FROM ".DB::table('topic_dig')." WHERE tid='{$tid}' AND uid = '".MEMBER_ID."'");
+		api_output(array('digcounts'=>$topic['digcounts'],'isdig'=>$count));
+	}
+	function dig() {
+		$tid = max(0,(int) $this->Inputs['tid']);if(!$tid) {
+			api_error('tid is empty',1001);
+		}
+		$topic = $this->_topic($tid);
+		if(!$topic) {
+			api_error('tid is invalid',1002);
+		}
+		$count = DB::result_first("SELECT COUNT(*) FROM ".DB::table('topic_dig')." WHERE tid='{$tid}' AND uid = '".MEMBER_ID."'");
+		if($count >0){
+			api_error('you have diged this topic',1003);
+		}
+		$uid = $topic['uid'];
+		if($uid == MEMBER_ID){
+			api_error('you do not pemission to dig your topic',1004);
+		}
+		jtable('topic_more')->update_diguids($tid);DB::query("update `".DB::table('members')."` set `digcount` = digcount + 1,`dig_new` = dig_new + 1 where `uid`='{$uid}'");
+		$ary = array('tid'=>$tid,'uid'=>MEMBER_ID,'touid'=>$uid,'dateline'=>time());
+		DB::insert('topic_dig',$ary,true);
+		jtable('topic')->update_digcounts($tid);
+		update_credits_by_action('topic_dig',MEMBER_ID);
+		update_credits_by_action('my_dig',$uid);
+		api_output(1);
+	}
+	function mydig() {
+		$uid = max(0,(int) $this->Inputs['uid']);$uid = $uid ?$uid : MEMBER_ID;
+		$sql_wheres = array();
+		$tids = array(0);
+		$query = DB::query("select tid from ".DB::table('topic_dig')." where uid = '$uid' order by `id` desc");
+		while($row = DB::fetch($query)) {
+			$tids[$row['tid']] = $row['tid'];
+		}
+		$sql_wheres[] = "`tid` IN(".jimplode($tids).")";
+		$this->_topic_list('new',$sql_wheres);
+	}
+	function digme() {
+		$uid = max(0,(int) ($this->Inputs['uid'] ?$this->Inputs['uid'] : $this->user['uid']));
+		jlogic('member')->clean_new_remind('dig_new',$uid);
+		$tids = array(0);
+		$query = DB::query("select DISTINCT tid from ".DB::table('topic_dig')." where touid = '$uid' order by `id` desc");
+		while($row = DB::fetch($query)) {
+			$tids[$row['tid']] = $row['tid'];
+		}
+		$sql_wheres[] = "`tid` IN(".jimplode($tids).")";
+		$this->_topic_list('new',$sql_wheres);
+	}
+	function grouptopic() {
+		$uid = max(0,(int) ($this->Inputs['uid'] ?$this->Inputs['uid'] : $this->user['uid']));
+		$gid = max(0,(int)$this->Inputs['gid']);
+		$uids = array(0);
+		if($gid) {
+			$uids = jtable('buddy_follow_group_relation')->get_my_group_uids($uid,$gid);
+			$sql_wheres[] = "`uid` IN(".jimplode($uids).")";
+			$this->_topic_list('new',$sql_wheres);
+		}else{
+			api_error('group id is invalid',1005);
+		}
+	}
+}
+
+
+?>
