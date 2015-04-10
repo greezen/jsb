@@ -1,0 +1,167 @@
+<link rel="stylesheet" type="text/css" href="static/style/buy.css">
+<style type="text/css">
+	.Menulink ul a{
+		color:black;
+	}
+	
+	.subfield .sub-title{
+		border-bottom: 2px solid #DFDFDF;
+	}
+	.subfield .sub-title .st{
+		border-bottom: 2px solid #1E8C4F;
+		padding:6px;
+		font-size:16px;
+		color:#1E8C4F;
+		font-weight:bold;
+	}
+	.myapply{
+		margin: 20px auto;
+		width:160px;
+	}
+	.account-list{
+		margin:0px 22px;
+		min-height:260px;
+		border:1px solid #eee;
+		border-top:3px solid #eee;
+	}
+	
+	.need,.must{
+		margin-left: 8px;
+		color: #ff3333;
+		font-size: 14px;
+	}
+	
+	.account-item{
+		margin-top:65px;
+		margin-left:22px;
+	}
+	
+	.account-item .a-item{
+		background-color:#E9EDEE;
+		padding: 10px 8px 6px 8px;
+		font-size: 15px;
+	}
+	
+	.account-list .pay3 {
+		width: 320px;
+		height: 142px;
+		overflow: hidden;
+		float: left;
+		margin: 10px 0 0 13px;
+		display: inline;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
+		margin-left: 66px;
+		margin-top: 26px;
+	}
+	
+	.account-list li.fontb{
+		background-color:#E4E4E4;
+	}
+	
+	.account-list .pay3 .ulpay>li{
+		margin-top:6px;
+	}
+	
+	.ch-buy .a-btn{
+		margin-bottom:26px;
+	}
+	
+	.item-list ul li .detail{
+		display:inline-block;
+		float:left;
+	}
+	.item-list ul li{
+		display:inline-block;
+		width:48%;
+		margin-bottom: 36px;
+	}
+	.item-list .chimg img{
+		width:90px;
+		height:90px;
+	}
+	.item-list .subinfo{
+		margin-left:10px;
+	}
+	.item-list .item-name{
+		font-size: 14px;
+		font-weight: bold;
+		margin-left: 24%;
+		margin-top: 9px;
+	}
+	.item-list .continue{
+		display:inline-block;
+		float:right;
+		background:#85C226;
+		padding:1px 12px;
+		border-radius:2px;
+		color:white;
+		cursor:pointer;
+	}
+	.item-list .doing{
+		background:#C1C1C1;
+	}
+	.item-list .titem{
+		margin-top:10px;
+		width:213px;
+	}
+	.apply-item{
+		margin-top:26px;
+	}
+	
+	.msg{
+		color:#5cb85c;
+		margin-left: 8px;
+		font-size: 14px;
+	}
+</style>
+<div class="Menulink">
+  <ul>
+      <a href="index.php?mod=settings&code=plugin&id=contact:user" class="{if $_GET['id']=='contact:user'}selected{/if}">我的订阅</a>
+      <a href="index.php?mod=settings&code=plugin&id=contact:apply" class="{if $_GET['id']=='contact:apply'}selected{/if}">我的申请</a>
+      <a href="index.php?mod=settings&code=plugin&id=contact:publisher" class="{if $_GET['id']=='contact:publisher'}selected{/if}">设置联系方式</a>
+  </ul>
+</div>
+<form action="index.php?mod=settings&code=plugin&id=contact:publisher&type=set" method="post">
+<div class="subfield">
+		<div class="buyer-info">
+			<div class="title"><span class="msg">设置您发布信息的联系方式，方便每次发布订单显示同一联系方式，注：发布框修改不会修改这里的内容</span></div>
+			<div class="info-list">
+			<!--{eval $Uinfo = $checkList['Uinfo']}-->
+				<p><strong>联 系 人&nbsp; ：</strong><input type="text" class="required" name="Info[name]" value="{$Uinfo['name']}" /></p>
+				<p><strong>联系地址：</strong><input type="text" name="Info[addr]" value="{$Uinfo['addr']}" /></p>
+				<p><strong>联系手机：</strong><input type="text" class="required" name="Info[tel]" value="{$Uinfo['tel']}" /></p>
+				<p><strong>联系电话：</strong><input type="text" name="Info[phone]" value="{$Uinfo['phone']}" /></p>
+				<p><strong>微 信 号&nbsp; ：</strong><input type="text" class="required" name="Info[wx]" value="{$Uinfo['wx']}" /></p>
+				<p><strong>Q &nbsp;Q&nbsp; 号&nbsp;&nbsp;：</strong><input type="text" name="Info[qq]" value="{$Uinfo['qq']}" /></p>
+				<p><strong>电子邮箱：</strong><input type="text" name="Info[email]" value="{$Uinfo['email']}" /></p>
+				<p><strong>其&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他：</strong><textarea name="Info[other]">{$Uinfo['other']}</textarea></p>
+			</div>
+		</div>
+</div>
+
+<div class="myapply">
+	<input type="hidden" name="apply" value="apply" />
+	<input class="u-btn" type="submit" id="apply" value="提 交" />
+</div>
+</form>
+<script type="text/javascript">
+	$(function(){
+		$('.item-remain .doing').click(function(){
+			var ch_id = $(this).attr('rel');
+			window.open('index.php?mod=other&code=buy&t=1&ch_id='+ch_id);
+		});
+		
+		//提交
+		$('#apply').click(function(e){
+			$('.required').trigger('blur');
+			e = e || window.event;
+			var err = $('.need').length;
+			if(err > 0){
+				e.preventDefault();
+			}
+		});
+		
+	});
+</script>
