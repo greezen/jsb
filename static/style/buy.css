@@ -45,22 +45,26 @@
 	}
 	
 	.ch-buy .ch-name{
-		margin-left:26%;
+		text-align:center;
 		font-weight:bold;
 		margin-top:8px;
 	}
 	
+	.ch-buy .ch-name a{
+		color:#333;
+		text-decoration:none;
+	}
+	
 	.ch-buy .ch-price{
-		margin-left:18%;
-		color:red;
+		text-align:center;
+		color:#ff3333;
 	}
 	
 	.ch-buy .ch-subscribe{
-		background-color: #75C4EF;
+		background-color: #28a0f4 ;
 		color: #fff;
 		width: 43px;
-		padding: 1px 5px;
-		margin-left: 20%;
+		padding: 1px 23px;
 		cursor:pointer;
 	}
 	
@@ -68,8 +72,7 @@
 		background-color: #C1C1C1;
 		color: #fff;
 		width: 43px;
-		padding: 1px 5px;
-		margin-left: 30%;
+		padding: 1px 23px;
 		cursor:pointer;
 	}
 	
@@ -77,8 +80,7 @@
 		background-color: #C1C1C1;
 		color: #fff;
 		width: 60px;
-		padding: 1px 5px;
-		margin-left: 14%;
+		padding: 1px 15px;
 		cursor:pointer;
 	}
 	
@@ -145,7 +147,7 @@
 	}
 	
 	.ch-buy .sl-price span{
-		color:red;
+		color:#ff3333;
 	}
 	
 	.ch-buy .ad2{
@@ -170,7 +172,7 @@
 	}
 	
 	.ch-buy .total-price span{
-		color:red;
+		color:#ff3333;
 	}
 	
 	.ch-buy .sl-btn{
@@ -188,13 +190,28 @@
 	}
 	
 	/*联系方式和确认页样式*/
+	.tbl-contact{
+		margin:0px;
+	}
+	.tbl-contact input{
+		font-size:12px;
+		width:120px;
+	}
+	
+	.tbl-contact tr td{
+		padding:3px;
+	}
+	.tbl-contact tr th{
+		font-weight:bold;
+		padding-left:6px;
+	}
 	.buyer-info,.car-list{
 		padding:20px;
 	}
 	
 	.buyer-info .title,.car-list .title{
 		font-size:14px;
-		color:#1C934E;
+		color:#5cb85c;
 		font-weight:bold;
 		margin-bottom:16px;
 	}
@@ -257,11 +274,11 @@
 	}
 	
 	.c-time-price span.gre{
-		color:#00B046;
+		color:#5cb85c;
 	}
 	
 	.c-time-price p.c-price>span{
-		color:red;
+		color:#ff3333;
 		font-weight:bold;
 	}
 	
@@ -278,7 +295,7 @@
 	}
 	
 	.c-total .c-total-price>span{
-		color:red;
+		color:#ff3333;
 	}
 	
 	.c-total .c-btn{
@@ -300,7 +317,7 @@
 	
 	.need,.must{
 		margin-left: 8px;
-		color: red;
+		color: #ff3333;
 		font-size: 14px;
 	}
 	

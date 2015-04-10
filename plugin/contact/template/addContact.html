@@ -5,12 +5,13 @@
 	<span class="level"><input type="checkbox" name="level" class="cnt-level1" value="1"checked disabled/><input type="hidden" name="level" value="1"/>认证用户</span>
 	<span class="level"><input type="checkbox" name="level" class="cnt-level2" value="2" />普通用户</span>
 	<span class="level"><input type="checkbox" name="level" class="cnt-level3" value="4" />游客用户</span>
+	<span class="set-publisher"><a href="index.php?mod=settings&code=plugin&id=contact:publisher">设置联系方式</a></span>
 </div>
 <div class="add-contact"><span>姓名：</span><input type="text" name="name" value="{$userContact['name']}"/></div>
 <div class="add-contact"><span>电话：</span><input type="text" name="phone" value="{$userContact['phone']}"/></div>
 <div class="add-contact"><span>手机：</span><input type="text" name="tel" value="{$userContact['tel']}"/></div>
 <div class="add-contact"><span>微信：</span><input type="text" name="wx" value="{$userContact['wx']}"/></div>
-<div class="add-contact"><span>Q Q：</span><input type="text" name="qq" value="{$userContact['qq']}"/></div>
+<div class="add-contact"><span>Q &nbsp;Q：</span><input type="text" name="qq" value="{$userContact['qq']}"/></div>
 <div class="add-contact"><span>邮箱：</span><input type="text" name="email" value="{$userContact['email']}"/></div>
 <div class="add-contact" style="width:50%"><span>地址：</span><input type="text" name="address" value="{$userContact['addr']}" style="width:85%"/></div>
 <div class="add-contact" style="width:100%"><span>其他：</span><textarea rows="1" name="other">{$userContact[other]}</textarea></div>
@@ -38,6 +39,12 @@
 		border-bottom: 2px solid #7789FF;
 		font-weight: bold;
 		margin: 10px 0 10px 0;
+	}
+	.set-publisher{
+		float:right;
+	}
+	.set-publisher a{
+		color:#999;
 	}
 </style>
 <script type="text/javascript">

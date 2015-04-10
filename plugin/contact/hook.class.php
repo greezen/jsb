@@ -9,6 +9,7 @@
 if(!defined('IN_JISHIGOU')) {
     exit('invalid request');
 }
+define(ORDER_MODEL_ID, 0);
 class plugin_contact{
 
 	/**
@@ -47,7 +48,7 @@ class plugin_contact{
 	function printtopic(&$topic){
 		$contact = DB::fetch_first('SELECT * FROM '.DB::table('order_contact').' WHERE `tid`='.$topic['tid']);
 		$topic['contact'] = $contact;
-		$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_record').' WHERE `ch_id`='.$topic['item_id'].' AND `uid`='.MEMBER_ID.' AND `end_time`>='.time();
+		$sql = 'SELECT COUNT(*) num FROM '.DB::table('channel_buy_history').' WHERE `ch_id`='.$topic['item_id'].' AND `uid`='.MEMBER_ID.' AND `end_time`>='.time();
 		$cnt_pwr = DB::result_first($sql);
 		$level = DB::result_first('SELECT `level` FROM '.DB::table('order_contact').' WHERE `tid`='.$topic['tid']);
 		

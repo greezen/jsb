@@ -18,17 +18,29 @@
 	<form action="index.php?mod=other&code=verify" method="post">
 		<div class="buyer-info">
 			<div class="title">填写联系方式<span class="must">(*必填项)</span></div>
-			<div class="info-list">
-				<p><strong>企业名称：</strong><input type="text" name="Info[company]" value="{$Uinfo['company']}" /></p>
-				<p><strong>联 系 人&nbsp; ：</strong><input type="text" class="required" name="Info[name]" value="{$Uinfo['name']}" /><span class="must">*</span></p>
-				<p><strong>联系地址：</strong><input type="text" name="Info[addr]" value="{$Uinfo['addr']}" /></p>
-				<p><strong>联系手机：</strong><input type="text" class="required" name="Info[tel]" value="{$Uinfo['tel']}" /><span class="must">*</span></p>
-				<p><strong>联系电话：</strong><input type="text" name="Info[phone]" value="{$Uinfo['phone']}" /></p>
-				<p><strong>微 信 号&nbsp; ：</strong><input type="text" class="required" name="Info[wx]" value="{$Uinfo['wx']}" /><span class="must">*</span></p>
-				<p><strong>Q &nbsp;Q&nbsp; 号&nbsp;&nbsp;：</strong><input type="text" name="Info[qq]" value="{$Uinfo['qq']}" /></p>
-				<p><strong>电子邮箱：</strong><input type="text" name="Info[email]" value="{$Uinfo['email']}" /></p>
-				<p><strong>其&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他：</strong><textarea name="Info[other]">{$Uinfo['other']}</textarea></p>
-			</div>
+			<table class="tbl-contact">
+				<tr>
+					<th>联 系 人：</th>
+					<td><input type="text" class="required" name="Info[name]" value="{$Uinfo['name']}" /><span class="must">*</span></td>
+					<td colspan="6">姓名加职位 如：张三(老板)</td>
+				</tr>
+				<tr>
+					<th>联系手机：</th>
+					<td><input type="text" class="required" name="Info[tel]" value="{$Uinfo['tel']}" /><span class="must">*</span></td>
+					<th>联系电话：</th>
+					<td><input type="text" name="Info[phone]" value="{$Uinfo['phone']}" /></td>
+					<th>微 信 号 ：</th>
+					<td><input type="text" class="required" name="Info[wx]" value="{$Uinfo['wx']}" /><span class="must">*</span></td>
+					<th>Q Q号：</th>
+					<td><input type="text" name="Info[qq]" value="{$Uinfo['qq']}" /></td>
+				</tr>
+				<tr>
+					<th>企业名称：</th>
+					<td colspan="3"><input type="text" name="Info[company]" value="{$Uinfo['company']}" style="width:343px;" /></td>
+					<th>联系地址：</th>
+					<td colspan="3"><input type="text" name="Info[addr]" value="{$Uinfo['addr']}" style="width:324px;" /></td>
+				</tr>
+			</table>
 		</div>
 		<div class="car-list">
 			<div class="title">我已选择的频道</div>

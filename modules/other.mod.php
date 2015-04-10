@@ -798,7 +798,7 @@ class ModuleObject extends MasterObject
 			}
 			
 			foreach ($goods as $gk=>$gv){
-				$record = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `uid`= '.MEMBER_ID.' AND `ch_id`='.$gv['ch_id'].' AND `end_time`>'.time());
+				$record = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_history').' WHERE `uid`= '.MEMBER_ID.' AND `ch_id`='.$gv['ch_id'].' AND `end_time`>'.time());
 				if ($record) {
 					$goods[$gk]['days'] = ceil(($record['end_time'] - $record['start_time'])/86400);
 				}else {
@@ -873,7 +873,7 @@ class ModuleObject extends MasterObject
 				$selectedGood[] = $gs['ch_id'];
 			}
 		}
-		$result = DB::fetch_all('SELECT c.*,f.`price` FROM '.DB::table('channel').' c LEFT JOIN '.DB::table('channel_fee').' f ON c.`ch_id`=f.`ch_id` WHERE c.`channel_typeid`=3 AND (f.`is_check`=-1 OR c.`parent_id`=0) ORDER BY c.`ch_id` ASC');
+		$result = DB::fetch_all('SELECT c.*,f.`price` FROM '.DB::table('channel').' c LEFT JOIN '.DB::table('channel_fee').' f ON c.`ch_id`=f.`ch_id` WHERE c.`channel_typeid`='.ORDER_MODEL_ID.' AND (f.`is_check`=-1 OR c.`parent_id`=0) ORDER BY c.`ch_id` ASC');
 		$channels = array();
 		foreach ($result as $ck=>$cv){
 			if ($cv['parent_id']==0) {
@@ -992,7 +992,7 @@ class ModuleObject extends MasterObject
 			$res['fid'] = '';
 		}
 		
-		$record = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_record').' WHERE `uid`= '.MEMBER_ID.' AND `ch_id`='.$ch_id.' AND `end_time`>'.time());
+		$record = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_history').' WHERE `uid`= '.MEMBER_ID.' AND `ch_id`='.$ch_id.' AND `end_time`>'.time());
 		if ($record) {
 			$res['days'] = ceil(($record['end_time'] - $record['start_time'])/86400);
 		}else {
@@ -1035,7 +1035,7 @@ class ModuleObject extends MasterObject
 	
 	private function canBuy($ch_id){
 		//判断是否为订单模型频道
-		$isOrderModel = DB::result_first('SELECT COUNT(*) num FROM '.DB::table('channel').' WHERE `channel_typeid` = 3 AND `ch_id`='.$ch_id);
+		$isOrderModel = DB::result_first('SELECT COUNT(*) num FROM '.DB::table('channel').' WHERE `channel_typeid` = '.ORDER_MODEL_ID.' AND `ch_id`='.$ch_id);
 		if ($ch_id && !$isOrderModel) {
 			$this->Messager('此频道不是订单模型');
 		}

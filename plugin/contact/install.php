@@ -85,6 +85,22 @@ CREATE TABLE `jishigou_channel_buy_history` (
   `state` tinyint(4) NOT NULL DEFAULT '0' COMMENT '订单状态(0=>审核中,1=>已通过,2=>未通过,3=>已通过未设置时间)',
   PRIMARY KEY (`cbh_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
+		
+DROP TABLE IF EXISTS {jishigou}publisher_contact;
+CREATE TABLE `jishigou_publisher_contact` (
+  `ct_id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) NOT NULL,
+  `company` varchar(64) NOT NULL,
+  `name` varchar(32) NOT NULL,
+  `addr` varchar(255) NOT NULL,
+  `tel` char(11) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `wx` varchar(64) NOT NULL,
+  `qq` varchar(32) NOT NULL,
+  `email` varchar(128) NOT NULL,
+  `other` varchar(512) NOT NULL DEFAULT '',
+  PRIMARY KEY (`ct_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='记录用户设置的发布订单默认联系方式'
 
 DROP TABLE IF EXISTS {jishigou}order_contact_power;
 EOF;

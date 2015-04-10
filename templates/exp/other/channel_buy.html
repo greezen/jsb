@@ -24,7 +24,7 @@
 				<!--{loop $chl['child'] $child}-->
 				<dd class="detail">
 					<p class="ch-icon"><img src="{if $child['picture']}{$child['picture']}{else}static/image/v.jpg{/if}" /></p>
-					<p class="ch-name">{$child['ch_name']}</p>
+					<p class="ch-name"><a href="index.php?mod=channel&id={$child['ch_id']}">{$child['ch_name']}</a></p>
 					<p class="ch-price">￥{eval echo $child['price']?$child['price']:0;}</p>
 					{if in_array($child['ch_id'],$selectedGood)}
 					<p class="ch-subscribed" rel="{$child['ch_id']}">+ 订 阅</p>
@@ -50,7 +50,7 @@
 					<div class="sl-item" rel="{$gs['ch_id']}">
 					<dd class="detail">
 						<p class="ch-icon"><img src="{if $gs['picture']}{$gs['picture']}{else}static/image/v.jpg{/if}"></p>
-						<p class="ch-name">{$gs['ch_name']}</p><p class="sl-subscribe" rel="{$gs['ch_id']}">- 取消订阅</p>
+						<p class="ch-name"><a href="index.php?mod=channel&id={$child['ch_id']}">{$gs['ch_name']}</a></p><p class="sl-subscribe" rel="{$gs['ch_id']}">- 取消订阅</p>
 					</dd>
 					<dd class="sl-info">
 						<p class="sl-date">服务时间：
@@ -115,7 +115,7 @@
 					item += '<p class="ch-icon"><img src="static/image/v.jpg" /></p>';
 				}
 				
-				item += '<p class="ch-name">'+data.ch_name+'</p>';
+				item += '<p class="ch-name"><a href="index.php?mod=channel&id='+data.ch_id+'">'+data.ch_name+'</a></p>';
 				item += '<p class="sl-subscribe" rel="'+ch_id+'">- 取消订阅</p>';
 				item += '</dd>';
 				item += '<dd class="sl-info">';

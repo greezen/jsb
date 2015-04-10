@@ -41,7 +41,7 @@ switch ($type){
 }
 
 function main(){
-	$sql = "SELECT * FROM ".DB::table('channel')." WHERE parent_id>0 AND channel_typeid = 3";
+	$sql = "SELECT * FROM ".DB::table('channel')." WHERE parent_id>0 AND channel_typeid = ".ORDER_MODEL_ID;
 	return DB::fetch_all($sql);
 }
 

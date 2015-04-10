@@ -34,7 +34,7 @@ function isOrder(){
 	$msg = array('state'=>false);
 	$chid = jpost('chid','int');
 	if ($chid>0) {
-		$sql = 'SELECT COUNT(*) FROM '.DB::table('channel').' WHERE `ch_id`='.$chid.' AND `channel_typeid`=3 AND `parent_id`>0';
+		$sql = 'SELECT COUNT(*) FROM '.DB::table('channel').' WHERE `ch_id`='.$chid.' AND `channel_typeid`='.ORDER_MODEL_ID.' AND `parent_id`>0';
 		if (DB::result_first($sql)) {
 			$msg['state'] = true;
 		}

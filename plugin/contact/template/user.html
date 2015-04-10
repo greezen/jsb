@@ -19,42 +19,61 @@
 		margin-left:10px;
 	}
 	.item-list .item-name{
-		font-size: 14px;
+		font-size: 15px;
 		font-weight: bold;
+	}
+	.item-list .item-name a{
+		color:black;
+		text-decoration:none;
 	}
 	.item-list .continue{
 		display:inline-block;
-		float:right;
-		background:#85C226;
-		padding:1px 12px;
+		background:#5cb85c;
+		padding:1px 21px;
 		border-radius:2px;
 		color:white;
 		cursor:pointer;
+		margin-top:8px;
 	}
 	.item-list .doing{
 		background:#C1C1C1;
 	}
 	.item-list .titem{
-		margin-top:10px;
+		margin-bottom:10px;
 		width:213px;
+	}
+	.must{
+		margin-left: 8px;
+		color: #ff3333;
+		font-size: 14px;
+	}
+	.msg{
+		color:#5cb85c;
+		margin-left: 8px;
+		font-size: 15px;
+		font-weight:bold;
 	}
 </style>
 <div class="Menulink">
   <ul>
-      <!--{eval if($op == '') $class="selected"}-->
-      <a href="index.php?mod=settings&code=plugin&id=contact:user" class="$class">我的订阅</a>
-      <a href="index.php?mod=settings&code=plugin&id=contact:apply" class="">我的申请</a>
+      <a href="index.php?mod=settings&code=plugin&id=contact:user" class="{if $_GET['id']=='contact:user'}selected{/if}">我的订阅</a>
+      <a href="index.php?mod=settings&code=plugin&id=contact:apply" class="{if $_GET['id']=='contact:apply'}selected{/if}">我的申请</a>
+      <a href="index.php?mod=settings&code=plugin&id=contact:publisher" class="{if $_GET['id']=='contact:publisher'}selected{/if}">设置联系方式</a>
   </ul>
 </div>
 <div class="item-list">
 	<ul>
 	<!--{loop $checkList['rows'] $ckl}-->
 		<li>
-			<div class="detail chimg"><img src="{if $ckl['picture']}$ckl['picture']{else}static/image/v.jpg{/if}" /></div>
+			<div class="detail chimg">
+				<img src="{if $ckl['picture']}$ckl['picture']{else}static/image/v.jpg{/if}" />
+				<p class="item-sub"><span rel="{$ckl['ch_id']}" class="continue {eval echo $ckl['end_time']>time()?'doing':'go'}">续时申请</span></p>
+			</div>
 			<div class="detail subinfo">
-				<div class="titem item-name">{$ckl['ch_name']}</div>
-				<div class="titem item-area">服务时间：{eval echo $ckl['start_time']>0?date('Y-m-d',$ckl['start_time']):'审核中'} {eval echo $ckl['end_time']>0?date('至 Y-m-d',$ckl['end_time']):''}</div>
-				<div class="titem item-remain">剩余时间：{eval echo $ckl['end_time']>time()?ceil(($ckl['end_time']-$ckl['start_time'])/86400):0} 天<span rel="{$ckl['ch_id']}" class="continue {eval echo $ckl['end_time']>time()?'doing':'go'}">续时申请</span></div>
+				<div class="titem item-name"><a href="index.php?mod=channel&id={$ckl['ch_id']}">{$ckl['ch_name']}</a></div>
+				<div class="titem item-area"><strong>开始时间：</strong>{eval echo $ckl['start_time']>0?date('Y-m-d',$ckl['start_time']):'<span class="must">审核中</span>'}</div>
+				<div class="titem item-area"><strong>结束时间：</strong>{eval echo $ckl['end_time']>0?date(' Y-m-d',$ckl['end_time']):''}</div>
+				<div class="titem item-remain"><strong>剩余时间：</strong><span class="msg">{eval echo $ckl['end_time']>time()?ceil(($ckl['end_time']-$ckl['start_time'])/86400):0}</span> 天</div>
 			</div>
 		</li>
 	<!--{/loop}-->
@@ -66,7 +85,7 @@
 </div>
 <script type="text/javascript">
 	$(function(){
-		$('.item-remain .go,.item-remain .doing').click(function(){
+		$('.item-sub .go,.item-sub .doing').click(function(){
 			var ch_id = $(this).attr('rel');
 			window.open('index.php?mod=other&code=buy&t=1&ch_id='+ch_id);
 		});

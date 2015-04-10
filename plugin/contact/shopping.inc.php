@@ -34,13 +34,16 @@ switch ($type){
 }
 
 function main(){
-	$sql = 'SELECT r.*,m.nickname FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.uid=m.uid WHERE `state` IN(0,3) GROUP BY r.uid';
-	return DB::fetch_all($sql);
+	$sql = 'SELECT r.*,m.nickname FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.uid=m.uid WHERE `state` = 0 GROUP BY r.uid ORDER BY r.`create_time` DESC';
+	$_sql = 'SELECT r.*,m.nickname FROM '.DB::table('channel_buy_history').' r LEFT JOIN '.DB::table('members').' m ON r.uid=m.uid WHERE `state` = 0 GROUP BY r.uid ORDER BY r.`create_time` DESC';
+	$list = DB::fetch_all($sql);
+	$_list = DB::fetch_all($_sql);
+	return array_merge($list, $_list);
 }
 
 function search(){
 	$nickname = jpost('nickname');
-	$sql = 'SELECT r.*,m.nickname FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.uid=m.uid WHERE m.nickname=\''.$nickname.'\' GROUP BY r.uid';
+	$sql = 'SELECT r.*,m.nickname FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('members').' m ON r.uid=m.uid WHERE m.nickname=\''.$nickname.'\' GROUP BY r.uid ORDER BY r.`create_time` DESC';
 	
 	return DB::fetch_all($sql);
 }
@@ -54,10 +57,10 @@ function check($that){
 	$del = jget('del');
 	$del_h = jget('del_h');
 	$userInfo = DB::fetch_first('SELECT m.`nickname`,m.`face`,c.* FROM '.DB::table('channel_buy_contact').' c LEFT JOIN '.DB::table('members').' m ON c.uid=m.uid WHERE c.`uid`='.$uid);
-	$channels = DB::fetch_all('SELECT * FROM '.DB::table('channel').' WHERE `parent_id`>0 AND `channel_typeid`=3');
+	$channels = DB::fetch_all('SELECT * FROM '.DB::table('channel').' WHERE `parent_id`>0 AND `channel_typeid`='.ORDER_MODEL_ID);
 	
-	$history = DB::fetch_all('SELECT r.*,f.`title` FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('channel_fee').' f ON r.`fid`=f.`fid` WHERE r.`uid`='.$uid);
-	$userChannel = DB::fetch_all('SELECT * FROM '.DB::table('channel_buy_history').' WHERE `uid`='.$uid.' AND `state` IN(0,1) ORDER BY `ch_id`,`end_time` DESC');
+	$history = DB::fetch_all('SELECT r.*,f.`title` FROM '.DB::table('channel_buy_record').' r LEFT JOIN '.DB::table('channel_fee').' f ON r.`fid`=f.`fid` WHERE r.`uid`='.$uid.'  ORDER BY r.`create_time` DESC');
+	$userChannel = DB::fetch_all('SELECT * FROM '.DB::table('channel_buy_history').' WHERE `uid`='.$uid.' AND `state` IN(0,1) ORDER BY `end_time` DESC');
 	
 	if($pass || $unpass || $del || $U || $del_h){
 		if ($U) {
