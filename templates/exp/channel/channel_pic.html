@@ -8,7 +8,7 @@
 .mainWrap{ background:none;}
 .channelTop { width: 940px; padding:20px; background:#fff; margin-top: 0;border-bottom: none; background:none; padding:0;}
 .channelnav ,.channelnav .navLeft{width: 940px;}
-.channelsubnav {width: 970px;margin: 10px 0 0;}
+.channelsubnav {width: 970px;}
 .s-newpic{ width:105%;}
 .topnew_pic_bg{ padding:10px 0;}
 .item_wrap{ margin-right:16px;}
@@ -17,6 +17,8 @@
 .item_list li{ margin-bottom:15px;}
 .item_list li .favorite{ padding:0 16px;}
 .nav-hd{ width:940px; padding:20px; background:#fff;margin-bottom: 10px; border-bottom: 1px solid #ccc;}
+.chdetail {width:77%!important;}
+.channelTop .chsubscribe {float:right;margin-right:-62px!important;padding:10px 0px 0px 0px;}
 </style>
 
 <script type="text/javascript">
@@ -80,17 +82,19 @@ listpic(defhtml,4);
 <!--{eval SetADV('channel','header');}-->
 <!--{/if}-->
 
-<div class="nav-hd">
+<div class="nav-hd" style="height: 130px;padding: 0px;width:980px">
+<!--{subtemplate channel/channel_header}-->
+</div>
+<div class="nav-hd" style="padding:0px 20px 5px 20px">
 <!--频道导航-->
 <div class="channelTop">
-<div class="channelnav">
-<div class="navLeft">{$channel_nav}</div>
-<div class="list_title"> 
+<div class="channelnav"  style="position: absolute;top: 146px;">
+<div class="list_title" style="z-index:2"> 
   <a class="listmod "href="index.php?mod=channel&id={$this->Channel}&list=txt"></a>
   <a class="picmod" href="index.php?mod=channel&id={$this->Channel}&list=pic"></a>
 </div>
 </div>
-<div class="channelsubnav">
+<div class="channelsubnav" style="margin-top:0px;">
 <!--{if $featurelist}-->
 <ul class="boxNav2">
   <li class="boxNavselect"><a href="index.php?mod=channel&id={$this->Channel}&list=pic">全部</a></li>
@@ -103,11 +107,11 @@ listpic(defhtml,4);
   <!--{eval if('top' == $filter_view) $top = 'boxNavselect';elseif('mark' == $filter_view) $mark = 'boxNavselect';elseif('dig' == $filter_view) $dig = 'boxNavselect';		elseif('ldig' == $filter_view) $ldig = 'boxNavselect';else $post = 'boxNavselect';}-->
   <li class="{$post}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=post">最新发布</a></li>
    <li>|</li>
-  <li class="{$dig}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=dig">最新{$this->Config[changeword][dig]}</a></li>
+  <li class="{$dig}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=dig">最新点{$this->Config[changeword][dig]}</a></li>
    <li>|</li>
   <li class="{$mark}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=mark">最新回应</a></li>
    <li>|</li>
-  <li class="{$ldig}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=ldig">热门{$this->Config[changeword][dig]}</a></li>
+  <li class="{$ldig}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=ldig">热门点{$this->Config[changeword][dig]}</a></li>
    <li>|</li>
   <li class="{$top}"><a href="index.php?mod=channel&id={$this->Channel}&list=pic&view=top">推荐置顶</a></li>
   </ul>

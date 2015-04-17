@@ -46,6 +46,7 @@ class ModuleObject extends MasterObject
 	function main()
 	{
 		$startNum = 100 ;
+		$startNum_1 = 170;
 		$member = jsg_member_info(MEMBER_ID);
 		if(!($this->Channel_enable && $this->Config['channel_enable'])){$this->Messager("网站没有开启频道功能",null);}
 		$channel_id = jget('id','int','G');
@@ -53,9 +54,10 @@ class ModuleObject extends MasterObject
 			$formchannel = true;
 			$channeltoptopic =  jlogic('channel')->getChannelTopTopic();
 			$channelrectopic =  jlogic('channel')->getChannelRecTopic();
-			$channellist =  jlogic('channel')->getChannelAll();//var_dump($channellist[13]['child']);exit;
+			$channellist =  jlogic('channel')->getChannelAll();
 			$userfanstop =  jlogic('channel')->getUserFansTop();
-			$userPublishTop = DB::fetch_all('SELECT * FROM '.DB::table('members').' ORDER BY `topic_count` DESC');
+			$userPublishOrderSql = 'SELECT m.* FROM '.DB::table('topic').' t LEFT JOIN '.DB::table('members').' m ON t.uid=m.uid WHERE t.item_id IN (SELECT ch_id FROM '.DB::table('channel').' WHERE channel_typeid=0) GROUP BY t.uid ORDER BY COUNT(t.tid) DESC';
+			$userPublishTop = DB::fetch_all($userPublishOrderSql);
 			$this->Title = '频道首页';
 			$this->MetaKeywords = '频道首页';
 			$this->MetaDescription = '微博频道,频道首页';
@@ -64,6 +66,8 @@ class ModuleObject extends MasterObject
 		$this->Channel = ($channel_id ==0) ? '' : $channel_id;
 				if(MEMBER_ID > 0) {
 			jlogic('member')->clean_new_remind('channel_new', MEMBER_ID);
+			
+			$isSub = DB::fetch_first('SELECT * FROM '.DB::table('channel_buy_history').' WHERE `ch_id`='.$channel_id.' AND `state`=1 AND `uid`='.MEMBER_ID);
 		}
 		
 		$theChannelTopicNum = DB::result_first("SELECT total_topic_num FROM ".DB::table('channel')." where recommend >0 and ch_id=".$channel_id);

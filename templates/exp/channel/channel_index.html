@@ -2,14 +2,18 @@
 <link href="static/style/channel.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 	.ch-img,.ch-info{float:left}
-	.ch-info{margin-left:9px;width:116px;word-break:break-all;}
-	.ch-img .ch-sub{background:#AACCEF;color:white;padding:0px 15px;margin-top:9px;}
-	.ch-img .ch-sub a{color:white;}
-	.ch-info .topic-num{background:url('../../static/image/ch.jpg') no-repeat;width:19px;display:inline-block;height:16px;}
-	.ch-info .publisher-num{background:url('../../static/image/ch.jpg') no-repeat;background-position-x:-18px;width:19px;display:inline-block;height:16px;}
-	.ch-info p{ margin-bottom:1px;}
+	.ch-info{margin-left:9px;width:168px;word-break:break-all;}
+	.ch-img .ch-sub{background:#C1C1C1;color:white;padding:0px 15px;margin-top:9px;text-align:center;}
+	.ch-img .ch-sub:hover{background:#28a0f4;color:white;padding:0px 15px;margin-top:9px;text-align:center;}
+	.ch-img .ch-sub a{color:white;text-decoration:none;font-weight:bold;}
+	.ch-img .ch-sub a:hover{color:white;text-decoration:none;font-weight:bold;}
+	.ch-info .topic-num{background:url('../../static/image/chg.jpg') no-repeat;width:20px;display:inline-block;height:22px;}
+	.ch-info .publisher-num{background:url('../../static/image/chg.jpg') no-repeat;background-position-x:-27px;width:20px;display:inline-block;height:22px;margin-left:16px;}
+	.ch-info p{ margin-bottom:7px;}
 	.ch-info .title em{background:#D82719;color:white;padding:0px 4px;margin-left:6px;font-size:12px;}
 	.sideul li{width:auto !important;}
+	.utinfo p{width:50px;}
+	.exp-wrap .toprecommend ul li{width:268px;}
 </style>
 <!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel_home][header]}-->
 <div class="a-h"><!--{eval SetADV('channel_home','header');}--></div>
@@ -33,14 +37,7 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 <!--{else}-->
 <div class="toprecommend" style="margin-top:-15px;">
 <!--{/if}-->
-<!--{if $channelrectopic}-->
-<ul>
-<!--{loop $channelrectopic $val}-->
-<li>
-<span>[<a href="index.php?mod=channel&id={$val[item_id]}">{$val[ch_name]}</a>]</span><a href="index.php?mod=topic&code={$val[tid]}">{$val[r_title]}</a></li>
-<!--{/loop}-->
-</ul>
-<!--{/if}-->
+
 <!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel_home][middle_center1]}-->
 <!--{eval SetADV('channel_home','middle_center1');}-->
 <!--{/if}-->
@@ -48,10 +45,9 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 <!--{if $channellist}-->
 <!--{loop $channellist $val}-->
 <div class="channelrecommendList">
-<h3><a href="index.php?mod=channel&id={$val['ch_id']}">{$val['ch_name']}</a>
-<span class="follow_c_{$val['ch_id']}" style="float:left; padding-top:2px;">{$val['channel_buddy']}</span>
+<h3><a href="index.php?mod=channel&id={$val['ch_id']}"><strong>{$val['ch_name']}</strong></a>
 <div class="mright">
-{$this->Config[changeword][n_weibo]}：{$val['topic_num']} 条 <em>|</em> 关注：<font class="follow_num_{$val['ch_id']}">{$val['buddy_numbers']}</font> 人
+总计发单：{eval echo $startNum*count($val['child']) + $val['all_topic']} 条 <em>|</em> 发单成员：<font class="follow_num_{$val['ch_id']}">{eval echo $startNum*count($val['child']) + $val['author']}</font> 人
 </div>
 </h3>
 <!--{if $val['child']}-->
@@ -63,12 +59,12 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 			<p class="ch-sub"><a href="index.php?mod=other&code=buy&t=1&ch_id={$v['ch_id']}">+ 订 阅</a></p>
 		</div>
 		<div class="ch-info">
-			<p class="title"><a href="index.php?mod=channel&id={$v['ch_id']}">{$v['ch_name']}</a>{if $v['new_num']>0}<em>{$v['new_num']}</em>{/if}</p>
-			<p>
+			<p class="title"><a href="index.php?mod=channel&id={$v['ch_id']}"><strong>{$v['ch_name']}</strong></a>{if $v['new_num']>0}<em>{$v['new_num']}</em>{/if}</p>
+			<p style="margin-top:10px;">
 			<span class="topic-num"></span><span class="num-txt">{eval echo $startNum+$v['topic_num']}</span>
-			<span class="publisher-num"></span><span class="num-txt follow_num_{$v['ch_id']}">{eval echo $startNum+$v['buddy_numbers']}</span>
+			<span class="publisher-num"></span><span class="num-txt follow_num_{$v['ch_id']}">{eval echo $startNum+$v['author']}</span>
 			</p>
-			<p><span>{eval echo cutstr($v['description'],35,'...')}</span></p>
+			<p style="margin-top:40px;"><span style="font-size:12px;line-height:29px;">{eval echo cutstr($v['description'],43,'...')}</span></p>
 		</div>
 	</li>
 	<!--{/loop}-->
@@ -96,7 +92,7 @@ function get_month_dig(){channel_right_show_ajax('month_dig','0','0','8');}
 <li> 
 <div class="utinfo">
 <p><a href="index.php?mod={$val[username]}" target="_blank"><img onerror="javascript:faceError(this);" src="{$val[face]}" class="manface" onmouseover="get_user_choose({$val[uid]},'_user',{$val[uid]})" onmouseout="clear_user_choose()"></a></p>
-<p><a href="index.php?mod={$val[username]}" target="_blank">{$val[nickname]}</a></p>
+<p style="height:74px;"><a href="index.php?mod={$val[username]}" target="_blank">{$val[nickname]}</a></p>
 </div> 
 <div id="user_{$val[uid]}_user"></div> 
 <div id="alert_follower_menu_{$val[uid]}"></div> 

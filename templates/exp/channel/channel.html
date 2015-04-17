@@ -6,39 +6,13 @@
 <!--{if $this->Config[ad_enable] && $this->Config[ad][ad_list][channel][header]}-->
 <div class="a-h"><!--{eval SetADV('channel','header');}--></div>
 <!--{/if}-->
-<style>
-	.main{ padding-top:100px;}
-	.exp-wrap .main{ padding-top:0;}
-	.channelTop .chitem{float:left;margin-right:20px;}
-	.channelTop .chsubscribe{float:right;margin-right:-7px;}
-	.chdetail .chtitle h2{font-size:16px;font-weight:bold;display:inline-block;}
-	.chdetail .chtitle .new-topic-num{background:#D82719;color:white;padding:0px 4px;margin-left:6px;}
-	.chdetail .chdata div{color:#7FC3EB;margin-right:26px;display:inline-block}
-	.chdetail .chdesc{font-size:14px;}
-	.chdetail{width:75%}
-	.chitem .chsub{background:#AACCEF;color:white;padding:0px 15px;margin-top:9px;}
-	.chitem .chsub a{color:white;}
-	.chdata .topic-num{background:url('../../static/image/ch.jpg') no-repeat;width:19px;display:inline-block;height:16px;}
-	.chdata .publisher-num{background:url('../../static/image/ch.jpg') no-repeat;background-position-x:-18px;width:19px;display:inline-block;height:16px;}
-	.chremain{background:#F8F8F8;border:1px solid #E1E1E1;padding:26px;text-align:center;margin-top:20px;font-size:14px;}
-</style>
+
 <div class="main">
 <!--频道导航-->
-<div class="channelTop n-hd" style="padding:10px 28px 10px 10px;">
-<div class="chitem chimg"><img src="{$thischannels['picture']}" width="90px" height="90px" /></div>
-<div class="chitem chdetail">
-	<div class="chtitle"><h2>{$thischannels['name']}</h2>{if $newNum}<span class="new-topic-num">{$newNum}</span>{/if}</div>
-	<div class="chdata"><div><span class="topic-num"></span><span class="num-txt">  {eval echo $startNum+$thischannels['topic_num']}</span></div><div><span class="publisher-num"></span><span class="num-txt">  {eval echo $startNum+$thischannels['publisher']}</span></div></div>
-	<div class="chdesc">{$thischannels['description']}</div>
-</div>
-<div class="chitem chsubscribe">
-	<div class="chindex"><a href="index.php?mod=channel">频道首页>></a></div>
-	<div class="chsub"><a href="index.php?mod=other&code=buy&t=1&ch_id={$channel_id}" target="_blank">+ 订 阅</a></div>
-</div>
-</div>
-<div class="channelTop n-hd">
+<!--{subtemplate channel/channel_header}-->
+<div class="channelTop n-hd" style="padding:0px 20px;">
 <div class="channelnav">
-<div class="list_title"> 
+<div class="list_title" style="z-index:2"> 
   <a class="listmod "href="index.php?mod=channel&id={$this->Channel}&list=txt"></a>
   <a class="picmod" href="index.php?mod=channel&id={$this->Channel}&list=pic"></a>
 </div>
@@ -95,16 +69,18 @@
           <!--{/if}-->
         </div>
       </div> 
+      <!--{if !isset($_GET['view']) || $_GET['view'] == 'post'}-->
 		<div class="chremain">
-			下列  {eval echo $startNum+$thischannels['topic_num']} 条订单信息已过期或已确定厂家，无需查看
+			下列  {eval echo $startNum_1+$thischannels['topic_num']} 条订单信息已过期或已确定厂家，无需查看
 		</div>
+	  <!--{/if}-->
         </div>
       </div> 
       <style type="text/css">
 		.sideBar{ padding-top:20px;}
 		.exp-wrap .sideBar{ padding-top:0;}
-		.ci_li .chgmanager li{float:left;margin-right:15px;}
-		.ci_li .chgmanager li .chgmangername{text-align:center;}
+		.ci_li .chgmanager li{float:left;margin-right:15px;width:41px;}
+		.ci_li .chgmanager li .chgmangername{text-align:center;height:17px;overflow:hidden;}
       </style>
       <div class="sideBar">
 	  <div class="column channel_info">
@@ -114,8 +90,8 @@
 		<ul class="chgmanager">
 		<!--{loop $channel_managers $val}-->
 			<li>
-				<p><img alt="{$val['nickname']}" width="50px" height="50px" src="{$val['face']}"></p>
-				<p class="chgmangername"><a href="index.php?mod={$val[uid]}">{$val[nickname]}</a></p>
+				<p><img alt="{$val[nickname]}" title="{$val[nickname]}" width="50px" height="50px" src="{$val['face']}"></p>
+				<p class="chgmangername"><a href="index.php?mod={$val[uid]}" alt="{$val[nickname]}" title="{$val[nickname]}">{$val[nickname]}</a></p>
 			</li>
 		<!--{/loop}-->
 		</ul>
@@ -134,8 +110,8 @@
 		<ul class="chgmanager">
 		<!--{loop $channel_publishers $val}-->
 			<li>
-				<p><img alt="{$val['nickname']}" width="50px" height="50px" src="{if $val['face']}$val['face']{else}./images/noavatar.gif{/if}"></p>
-				<p class="chgmangername"><a href="index.php?mod={$val[uid]}">{$val[nickname]}</a></p>
+				<p><img alt="{$val[nickname]}" title="{$val[nickname]}" width="50px" height="50px" src="{if $val['face']}$val['face']{else}./images/noavatar.gif{/if}"></p>
+				<p class="chgmangername"><a href="index.php?mod={$val[uid]}" alt="{$val[nickname]}" title="{$val[nickname]}">{$val[nickname]}</a></p>
 			</li>
 		<!--{/loop}-->
 		</ul>

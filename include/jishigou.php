@@ -272,8 +272,8 @@ class jishigou {
 		foreach($load_configs as $k) {
 			$config[$k] = jconf::get($k);
 		}
-		$config['changeword']['n_weibo'] || $config['changeword']['n_weibo'] = '微博';
-		$config['changeword']['p_weibo'] || $config['changeword']['p_weibo'] = '微博';
+		$config['changeword']['n_weibo'] || $config['changeword']['n_weibo'] = '订单';
+		$config['changeword']['p_weibo'] || $config['changeword']['p_weibo'] = '订单';
 		$config['changeword']['weiqun'] || $config['changeword']['weiqun'] = '微群';
 		$config['changeword']['dig'] || $config['changeword']['dig'] = '赞';
 		$config['changeword']['username'] || $config['changeword']['username'] = '昵称、Email、个性域名';

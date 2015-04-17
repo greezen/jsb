@@ -50,7 +50,7 @@ $(objStr1).mouseout(function(){$(objStr2).hide();});
 				<!--{eval $opstring = nlogic('feeds.app.jsg')->topic_comment_ajax_options($options, $val)}-->
 			<!--{/if}-->
 		<!--#endif#-->
-		<!--{eval $__rts=($reply_list_ajax_disable ? 0 : $val[replys]);}--> 
+		<!--{eval $not_allow_forward=1; $__rts=($reply_list_ajax_disable ? 0 : $val[replys]);}--> 
 		<a id="topic_list_reply_{$val[tid]}_aid" href="javascript:;" {if MEMBER_ID <1 } onclick="ShowLoginDialog();" {/if} onclick="replyTopic({$val[tid]},'{$talkanswerid}reply_area_{$val[tid]}','{$__rts}',{$not_allow_forward},{$allow_attach},{$allow_face},{$allow_pic},1,{$opstring});return false;">回应
 		<!--{if $val[replys]}-->({$val[replys]})<!--{/if}--></a>
 		</span>

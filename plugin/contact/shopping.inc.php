@@ -228,7 +228,7 @@ function follow_the_channel($cid, $uid, $action=1){
 			DB::query("INSERT INTO ".DB::table('buddy_channel')." (`uid`,`ch_id`) values ('".$uid."','{$cid}')");
 			DB::query("UPDATE ".DB::table('channel')." SET `buddy_numbers` = buddy_numbers+1 where `ch_id`='{$cid}'");
 		}else{
-			DB::query("DELETE FROM ".DB::table('buddy_channel')." WHERE uid = '".$uid."' AND ch_id IN ('$cid')");
+			DB::delete('buddy_channel', ' uid = '.$uid.' AND ch_id IN ('.$cid.')',0,false);
 			DB::query("UPDATE ".DB::table('channel')." SET `buddy_numbers` = buddy_numbers-1 where `ch_id` IN ('{$cid}')");
 		}
 	}

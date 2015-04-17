@@ -101,8 +101,7 @@
 		$('.required').blur(function(){
 			if($.trim($(this).val()).length<=0){
 				$(this).siblings('.need').remove();
-				$('<span class="need">必填</span>').insertAfter($(this).siblings('.must'));
-				$(this).focus();
+				$('<span class="need" style="font-size:12px;">必填</span>').insertAfter($(this).siblings('.must'));
 			}else{
 				$(this).siblings('.need').remove();
 				$(this).siblings('.must').remove();

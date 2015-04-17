@@ -558,13 +558,27 @@ class ChannelLogic
 			$channel_buddy = follow_channel($channel['ch_id'],in_array($channel['ch_id'],$my_channels_key));
 									$return['description'] = $channel['description'];
 			$return['name'] = $channel['ch_name'];
-			$return['publisher'] = DB::result_first('SELECT COUNT(*) FROM '.DB::table('topic').' WHERE `uid`='.MEMBER_ID.' AND `item_id`='.$ch_id.' GROUP BY `uid`');
+			$return['publisher'] = $channel['buddy_numbers'];
 			$return['picture'] = $channel['picture']?$channel['picture']:'./static/image/v.jpg';
 			$return['list'] = $channel['display_list'];
 			$return['view'] = $channel['display_view'];
 			$return['follow_num'] = '<font class="follow_num_'.$channel['ch_id'].'">'.$channel['buddy_numbers'].'</font>';
 			$return['topic_num'] = $channel['total_topic_num'];
 			$return['follow_button'] = '<span id="follow_channel" class="follow_c_'.$channel['ch_id'].'">'.$channel_buddy.'</span>';
+			$return['author'] = 0;
+			$child_chids = DB::fetch_all('SELECT ch_id FROM '.DB::table('channel').' WHERE parent_id='.$channel['ch_id']);
+			$cchids = array($channel['ch_id']);
+			if (count($child_chids)) {
+				foreach ($child_chids as $v){
+					if (!empty($v)) {
+						$cchids[] = $v['ch_id'];
+					}
+				}	
+			}
+			if (count($cchids)) {
+				$author = DB::fetch_all('SELECT * FROM '.DB::table('topic_channel').' WHERE item_id in('.implode(',', $cchids).') GROUP BY uid;');
+				$return['author'] = count($author);
+			}
 		}
 		$return['navhtml'] = $navhtml;
 		return $return;
@@ -637,12 +651,30 @@ class ChannelLogic
 			$value['new_num'] = $newNum;
 			unset($value['total_topic_num']);
 			$value['channel_buddy'] = follow_channel($value['ch_id'],in_array($value['ch_id'],$my_channels_key));
+			$value['author'] = 0;
 			if ($parent_id == 0) {
+				$all_topic = DB::result_first('SELECT SUM(total_topic_num) num FROM '.DB::table('channel').' WHERE parent_id='.$value['ch_id']);
+				$child_chids = DB::fetch_all('SELECT ch_id FROM '.DB::table('channel').' WHERE parent_id='.$value['ch_id']);
+				if (count($child_chids)) {
+					$cchids = array();
+					foreach ($child_chids as $v){
+						if (!empty($v)) {
+							$cchids[] = $v['ch_id'];
+						}
+					}
+					if (count($cchids)) {
+						$author = DB::fetch_all('SELECT * FROM '.DB::table('topic_channel').' WHERE item_id in('.implode(',', $cchids).') GROUP BY uid;');
+						$value['author'] = count($author);
+					}
+				}
+				$value['all_topic'] = $all_topic?$all_topic:0;
 				$channles[$value['ch_id']] = $value;
 			} else {
+				$author = DB::fetch_all('SELECT * FROM '.DB::table('topic_channel').' WHERE item_id = '.$value['ch_id'].'  GROUP BY uid');
+				$value['author'] = count($author);
 				$channles[$parent_id]['child'][$value['ch_id']] = $value;
 			}
-		}//var_dump($channles[9]['child']);exit;
+		}
 		return $channles;
 	}
 
